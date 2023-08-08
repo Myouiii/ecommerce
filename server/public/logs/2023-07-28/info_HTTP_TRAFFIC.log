@@ -1,0 +1,77 @@
+
+2023-07-28T02:21:52.117Z ::1 GET /api/v1/account
+2023-07-28T02:21:52.654Z ::1 GET / (200)
+2023-07-28T02:21:52.947Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-28T02:21:52.968Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-28T02:21:52.980Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-28T02:21:52.991Z ::1 POST /api/v1/cart
+2023-07-28T02:21:53.056Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-28T02:21:53.209Z ::1 GET /search/suggest?keyword= (200)
+2023-07-28T02:21:53.216Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-28T02:21:53.237Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (200)
+2023-07-28T02:21:53.319Z ::1 POST / (200)
+2023-07-28T02:21:53.323Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (200)
+2023-07-28T02:21:53.475Z ::1 GET /search/suggest?keyword= (304)
+2023-07-28T02:21:53.478Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-28T02:21:54.042Z ::1 GET /?fields=name%20slug%20image (200)
+2023-07-28T02:21:54.778Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-07-28T02:22:38.433Z ::1 GET /api/v1/products/op-lung-galaxy-s20-nhua-deo-slim-tpu-jm-01?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-28T02:22:38.985Z ::1 GET /op-lung-galaxy-s20-nhua-deo-slim-tpu-jm-01?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-28T02:22:39.122Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=&c=c00000000000000000000006
+2023-07-28T02:22:40.412Z ::1 GET /?search=&page=0&limit=5&b=&c=c00000000000000000000006 (200)
+2023-07-28T02:30:35.006Z ::1 POST /api/v1/cart/add
+2023-07-28T02:30:35.839Z ::1 POST /add (200)
+2023-07-28T02:30:40.161Z ::1 DELETE /api/v1/cart/d00000000000000000003342/0000000002868
+2023-07-28T02:30:40.953Z ::1 DELETE /d00000000000000000003342/0000000002868 (200)
+2023-07-28T02:30:44.376Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-28T02:30:45.672Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-07-28T02:30:47.982Z ::1 GET /api/v1/account
+2023-07-28T02:30:48.500Z ::1 GET / (200)
+2023-07-28T02:30:48.819Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-28T02:30:48.824Z ::1 POST /api/v1/cart
+2023-07-28T02:30:48.832Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-28T02:30:48.838Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-28T02:30:48.843Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-28T02:30:49.094Z ::1 GET /search/suggest?keyword= (200)
+2023-07-28T02:30:49.106Z ::1 POST / (200)
+2023-07-28T02:30:49.110Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (200)
+2023-07-28T02:30:49.117Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (200)
+2023-07-28T02:30:49.120Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-28T02:30:49.169Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-28T02:30:49.384Z ::1 GET /search/suggest?keyword= (304)
+2023-07-28T02:30:49.869Z ::1 GET /?fields=name%20slug%20image (200)
+2023-07-28T02:30:50.435Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-07-28T02:31:01.025Z ::1 GET /api/v1/products/op-lung-oppo-a15-a15s-nhua-deo-nake-slim-jm?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-28T02:31:01.542Z ::1 GET /op-lung-oppo-a15-a15s-nhua-deo-nake-slim-jm?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-28T02:31:01.701Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=&c=c00000000000000000000006
+2023-07-28T02:31:02.978Z ::1 GET /?search=&page=0&limit=5&b=&c=c00000000000000000000006 (200)
+2023-07-28T02:34:21.287Z ::1 POST /api/v1/cart/add
+2023-07-28T02:34:22.077Z ::1 POST /add (200)
+2023-07-28T02:34:27.082Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-28T02:34:28.366Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-07-28T02:34:29.216Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-07-28T02:34:29.223Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-07-28T02:34:30.249Z ::1 GET /?fields=_id%20name%20slug (200)
+2023-07-28T02:34:30.282Z ::1 GET /api/v1/brands?fields=_id%20name%20slug&isHidden=undefined
+2023-07-28T02:34:30.537Z ::1 GET /?fields=_id%20name%20slug&isHidden=undefined (200)
+2023-07-28T02:34:30.839Z ::1 GET /api/v1/products?search=&c=c00000000000000000000002&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-07-28T02:34:31.540Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-07-28T02:34:33.664Z ::1 GET /?search=&c=c00000000000000000000002&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-07-28T02:34:44.250Z ::1 GET /api/v1/products?search=&c=c00000000000000000000003&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-07-28T02:34:47.073Z ::1 GET /?search=&c=c00000000000000000000003&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-07-28T02:34:48.540Z ::1 GET /api/v1/products?search=&c=c00000000000000000000004&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-07-28T02:34:50.694Z ::1 GET /api/v1/products?search=&c=c00000000000000000000006&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-07-28T02:34:51.352Z ::1 GET /?search=&c=c00000000000000000000004&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-07-28T02:34:52.777Z ::1 GET /?search=&c=c00000000000000000000006&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-07-28T02:34:56.291Z ::1 GET /api/v1/products/op-lung-iphone-7-8-nhua-deo-liquid-silicone-b-jm-diu?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-28T02:34:56.300Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=&c=c00000000000000000000006
+2023-07-28T02:34:56.809Z ::1 GET /op-lung-iphone-7-8-nhua-deo-liquid-silicone-b-jm-diu?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-28T02:34:57.585Z ::1 GET /?search=&page=0&limit=5&b=&c=c00000000000000000000006 (304)
+2023-07-28T02:34:57.596Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=&c=c00000000000000000000006
+2023-07-28T02:34:58.630Z ::1 GET /?search=&page=0&limit=5&b=&c=c00000000000000000000006 (304)
+2023-07-28T02:35:04.553Z ::1 POST /api/v1/cart/add
+2023-07-28T02:35:05.333Z ::1 POST /add (200)
+2023-07-28T02:35:13.179Z ::1 GET /api/v1/account/addresses
+2023-07-28T02:35:13.435Z ::1 GET /addresses (200)
+2023-07-28T02:35:34.065Z ::1 POST /api/v1/orders
+2023-07-28T02:35:36.882Z ::1 POST /api/v1/orders (500)

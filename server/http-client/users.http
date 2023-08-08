@@ -1,0 +1,17 @@
+@BASE_URL = http://localhost:3001/api/v1
+@RESOURCE = users
+
+@TOKEN = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJhMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEiLCJpYXQiOjE2ODQ3MzY2NjcsImV4cCI6MTY4NTM0MTQ2N30.CsR0FtG-fXJy3I7hQ5bTsb_LX1nK-12ZsrlztCgYT0s
+
+POST {{BASE_URL}}/{{RESOURCE}}/customer
+authorization: Bearer {{TOKEN}}
+Content-Type: application/json
+
+{
+    "lastName": "John",
+    "firstName": "Dode",
+    "password": "123123",
+    "email": "user@example.com",
+    "status": "active",
+    "avata": "http://localhost:3001/public/uploads/categories/old/others.svg"
+}

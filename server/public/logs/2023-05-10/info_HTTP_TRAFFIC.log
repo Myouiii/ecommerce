@@ -1,0 +1,259 @@
+
+2023-05-10T08:44:24.058Z ::1 GET /api/v1/account
+2023-05-10T08:44:24.590Z ::1 GET / (304)
+2023-05-10T08:44:25.460Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-10T08:44:25.472Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-10T08:44:25.475Z ::1 POST /api/v1/cart
+2023-05-10T08:44:25.513Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-10T08:44:25.525Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-10T08:44:25.538Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-10T08:44:25.759Z ::1 POST / (200)
+2023-05-10T08:44:25.787Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-10T08:44:25.858Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-05-10T08:44:26.052Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-10T08:44:26.276Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-10T08:44:26.695Z ::1 GET /api/v1/products/best-seller
+2023-05-10T08:44:26.968Z ::1 GET /best-seller (304)
+2023-05-10T08:44:33.143Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-05-10T08:45:02.514Z ::1 POST /api/v1/auth/send-otp
+2023-05-10T08:45:02.520Z ::1 POST /api/v1/auth/send-otp (404)
+2023-05-10T08:47:46.154Z ::1 POST /api/v1/auth/send-otp
+2023-05-10T08:47:46.213Z ::1 POST /api/v1/auth/send-otp (404)
+2023-05-10T08:48:46.720Z ::1 POST /api/v1/auth/send-otp
+2023-05-10T08:48:48.432Z ::1 POST /api/v1/auth/send-otp (404)
+2023-05-10T08:49:08.761Z ::ffff:127.0.0.1 POST /api/v1/auth/register
+2023-05-10T08:49:09.727Z ::ffff:127.0.0.1 POST /api/v1/auth/register (500)
+2023-05-10T08:49:18.261Z ::ffff:127.0.0.1 POST /api/v1/auth/register
+2023-05-10T08:49:18.643Z ::ffff:127.0.0.1 POST /api/v1/auth/register (200)
+2023-05-10T08:49:23.638Z ::1 POST /api/v1/auth/send-otp
+2023-05-10T08:49:28.006Z ::1 POST /send-otp (200)
+2023-05-10T08:51:13.010Z ::1 POST /api/v1/auth/check-otp
+2023-05-10T08:51:14.766Z ::1 POST /check-otp (200)
+2023-05-10T09:02:33.358Z ::1 POST /api/v1/auth/reset-password
+2023-05-10T09:02:37.429Z ::1 POST /reset-password (200)
+2023-05-10T09:02:47.152Z ::1 POST /api/v1/auth/login
+2023-05-10T09:02:47.589Z ::1 POST /api/v1/auth/login (404)
+2023-05-10T09:07:14.496Z ::1 POST /api/v1/auth/login
+2023-05-10T09:07:15.186Z ::1 POST /login (200)
+2023-05-10T09:07:18.809Z ::1 POST /api/v1/cart
+2023-05-10T09:07:18.850Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-10T09:07:18.867Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-10T09:07:18.881Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-05-10T09:07:18.898Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-10T09:07:18.916Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-10T09:07:18.970Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-10T09:07:19.084Z ::1 POST / (200)
+2023-05-10T09:07:19.187Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-10T09:07:19.230Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-10T09:07:19.521Z ::1 GET /api/v1/products/best-seller
+2023-05-10T09:07:19.695Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-10T09:07:19.798Z ::1 GET /best-seller (304)
+2023-05-10T09:07:21.655Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-05-10T09:07:27.379Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-10T09:07:27.383Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:07:28.132Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-10T09:07:28.153Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-10T09:07:28.411Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-10T09:07:29.486Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:07:34.019Z ::1 GET /?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:07:39.883Z ::1 GET /?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:07:55.096Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:07:58.941Z ::1 GET /?search=&c=c00000000000000000000001&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:08:02.192Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:11:41.377Z ::ffff:127.0.0.1 GET /api/v1/products?search=&c=c00000000000000000000001
+2023-05-10T09:11:46.522Z ::ffff:127.0.0.1 GET /?search=&c=c00000000000000000000001 (200)
+2023-05-10T09:12:22.013Z ::ffff:127.0.0.1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:12:24.822Z ::ffff:127.0.0.1 GET /?search=&c=c00000000000000000000001&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:13:18.370Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001,c00000000000000000000002&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:13:18.375Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001,c00000000000000000000002&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:13:21.185Z ::1 GET /?search=&c=c00000000000000000000001,c00000000000000000000002&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:13:25.661Z ::1 GET /?search=&c=c00000000000000000000001,c00000000000000000000002&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:13:26.276Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001,c00000000000000000000002&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:13:29.095Z ::1 GET /?search=&c=c00000000000000000000001,c00000000000000000000002&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:13:31.864Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001,c00000000000000000000002&b=&page=3&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:13:34.709Z ::1 GET /?search=&c=c00000000000000000000001,c00000000000000000000002&b=&page=3&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:13:37.202Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001,c00000000000000000000002&b=&page=4&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:13:40.028Z ::1 GET /?search=&c=c00000000000000000000001,c00000000000000000000002&b=&page=4&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:13:49.923Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001,c00000000000000000000002,c00000000000000000000003&b=&page=4&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:13:49.926Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001,c00000000000000000000002,c00000000000000000000003&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:13:52.907Z ::1 GET /?search=&c=c00000000000000000000001,c00000000000000000000002,c00000000000000000000003&b=&page=4&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:13:54.132Z ::1 GET /?search=&c=c00000000000000000000001,c00000000000000000000002,c00000000000000000000003&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:13:56.979Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:14:02.974Z ::1 GET /?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:14:02.987Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:14:07.144Z ::1 GET /?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:14:12.529Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=b00000000000000000000024&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:14:14.295Z ::1 GET /?search=&c=c00000000000000000000001&b=b00000000000000000000024&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:14:14.302Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=b00000000000000000000024&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:14:16.048Z ::1 GET /?search=&c=c00000000000000000000001&b=b00000000000000000000024&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:14:47.762Z ::1 GET /api/v1/products?search=&c=c00000000000000000000005&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:14:50.548Z ::1 GET /?search=&c=c00000000000000000000005&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:14:50.999Z ::1 GET /api/v1/products?search=&c=c00000000000000000000005&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:14:53.610Z ::1 GET /?search=&c=c00000000000000000000005&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:14:53.711Z ::1 GET /api/v1/products?search=&c=c00000000000000000000005&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:14:56.013Z ::1 GET /?search=&c=c00000000000000000000005&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:14:58.158Z ::1 GET /api/v1/products/tai-nghe-bluetooth-airpods-2-apple-mv7n2?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-05-10T09:14:58.690Z ::1 GET /tai-nghe-bluetooth-airpods-2-apple-mv7n2?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-05-10T09:15:08.445Z ::1 POST /api/v1/cart/add
+2023-05-10T09:15:09.473Z ::1 POST /add (200)
+2023-05-10T09:15:12.595Z ::1 GET /api/v1/account
+2023-05-10T09:15:13.105Z ::1 GET / (200)
+2023-05-10T09:15:13.546Z ::1 POST /api/v1/cart
+2023-05-10T09:15:13.558Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-10T09:15:13.565Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-10T09:15:13.573Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-10T09:15:13.679Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-10T09:15:13.687Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-10T09:15:13.826Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-10T09:15:13.829Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-10T09:15:14.054Z ::1 POST / (200)
+2023-05-10T09:15:14.303Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-10T09:16:29.059Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-05-10T09:16:29.490Z ::1 GET /api/v1/products/best-seller
+2023-05-10T09:16:29.743Z ::1 GET /best-seller (304)
+2023-05-10T09:16:30.377Z ::1 GET /api/v1/products/search/suggest?keyword=d
+2023-05-10T09:16:30.382Z ::1 GET /api/v1/products/search/suggest?keyword=d (404)
+2023-05-10T09:16:31.654Z ::1 GET /api/v1/products?search=d&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:16:31.658Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-10T09:16:32.425Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-10T09:16:32.445Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-10T09:16:33.119Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-10T09:16:33.203Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-05-10T09:16:34.641Z ::1 GET /?search=d&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:16:34.648Z ::1 GET /api/v1/products?search=d&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:16:36.622Z ::1 GET /api/v1/products?search=d&c=c00000000000000000000002&b=b00000000000000000000048&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:16:37.281Z ::1 GET /?search=d&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:16:38.386Z ::1 GET /?search=d&c=c00000000000000000000002&b=b00000000000000000000048&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:16:38.397Z ::1 GET /api/v1/products?search=d&c=c00000000000000000000002&b=b00000000000000000000048&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:16:40.132Z ::1 GET /?search=d&c=c00000000000000000000002&b=b00000000000000000000048&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:16:40.260Z ::1 GET /api/v1/products?search=d&c=c00000000000000000000001&b=b00000000000000000000048&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:16:41.993Z ::1 GET /?search=d&c=c00000000000000000000001&b=b00000000000000000000048&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:16:42.010Z ::1 GET /api/v1/products?search=d&c=c00000000000000000000001&b=b00000000000000000000048&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:16:43.753Z ::1 GET /?search=d&c=c00000000000000000000001&b=b00000000000000000000048&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:18:56.930Z ::1 GET /api/v1/products?search=d&c=c00000000000000000000001&b=b00000000000000000000048&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:18:58.675Z ::1 GET /?search=d&c=c00000000000000000000001&b=b00000000000000000000048&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:19:01.953Z ::1 GET /api/v1/products?search=d&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:19:06.016Z ::1 GET /?search=d&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:19:06.029Z ::1 GET /api/v1/products?search=d&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:19:09.457Z ::1 GET /?search=d&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:19:14.636Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:19:18.600Z ::1 GET /?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:19:18.604Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:19:22.347Z ::1 GET /?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:19:22.354Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:19:25.743Z ::1 GET /api/v1/products/iphone-12-mini?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-05-10T09:19:26.532Z ::1 GET /iphone-12-mini?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-05-10T09:19:26.599Z ::1 GET /?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-10T09:19:56.401Z ::1 POST /api/v1/cart/add
+2023-05-10T09:19:57.890Z ::1 POST /add (200)
+2023-05-10T09:20:01.697Z ::1 GET /api/v1/comments/d00000000000000000000003
+2023-05-10T09:20:01.704Z ::1 GET /api/v1/account
+2023-05-10T09:20:02.068Z ::1 GET /d00000000000000000000003 (200)
+2023-05-10T09:20:02.077Z ::1 GET /api/v1/comments/d00000000000000000000003
+2023-05-10T09:20:02.445Z ::1 GET /d00000000000000000000003 (304)
+2023-05-10T09:20:02.879Z ::1 GET / (304)
+2023-05-10T09:20:30.483Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-10T09:20:30.487Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:20:31.969Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-10T09:20:32.005Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-10T09:20:32.639Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-10T09:20:35.986Z ::1 GET /api/v1/products/iphone-13-xanh-la?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-05-10T09:20:36.744Z ::1 GET /iphone-13-xanh-la?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-05-10T09:20:40.113Z ::1 GET /?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T09:20:50.766Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-10T09:20:50.791Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T09:20:51.538Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-10T09:20:51.597Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-10T09:20:51.856Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-10T09:20:56.518Z ::1 GET /api/v1/account
+2023-05-10T09:20:57.024Z ::1 GET / (304)
+2023-05-10T09:20:57.415Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-10T09:20:57.421Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-10T09:20:57.425Z ::1 POST /api/v1/cart
+2023-05-10T09:20:57.446Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-10T09:20:57.500Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-10T09:20:57.540Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-10T09:20:57.829Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-10T09:20:57.960Z ::1 POST / (200)
+2023-05-10T09:20:58.181Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-10T09:20:58.231Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-10T09:23:01.686Z ::1 POST /api/v1/auth/login
+2023-05-10T09:23:02.411Z ::1 POST /login (200)
+2023-05-10T09:23:03.096Z ::1 POST /api/v1/cart
+2023-05-10T09:23:03.106Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-10T09:23:03.111Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-10T09:23:03.113Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-10T09:23:03.118Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-10T09:23:03.123Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-10T09:23:03.428Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-05-10T09:23:03.442Z ::1 POST / (200)
+2023-05-10T09:23:03.447Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-10T09:23:03.734Z ::1 GET /api/v1/products/best-seller
+2023-05-10T09:23:03.783Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-10T09:23:04.044Z ::1 GET /best-seller (304)
+2023-05-10T09:23:04.049Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-10T09:23:06.551Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-05-10T09:23:10.250Z ::1 GET /api/v1/account
+2023-05-10T09:23:13.357Z ::1 GET / (200)
+2023-05-10T09:23:13.745Z ::1 POST /api/v1/cart
+2023-05-10T09:23:13.997Z ::1 POST / (200)
+2023-05-10T09:23:14.334Z ::1 GET /api/v1/products?search=&b=&c=
+2023-05-10T09:23:14.342Z ::1 GET /api/v1/products/all
+2023-05-10T09:23:14.350Z ::1 GET /api/v1/users/customer
+2023-05-10T09:23:14.359Z ::1 GET /api/v1/brands
+2023-05-10T09:23:14.362Z ::1 GET /api/v1/categories
+2023-05-10T09:23:14.383Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-05-10T09:23:15.150Z ::1 GET / (200)
+2023-05-10T09:23:15.962Z ::1 GET /customer (200)
+2023-05-10T09:23:17.619Z ::1 GET / (200)
+2023-05-10T09:23:17.755Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (200)
+2023-05-10T09:23:17.764Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-05-10T09:23:18.590Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (304)
+2023-05-10T09:23:19.656Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-05-10T09:23:20.491Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (304)
+2023-05-10T09:23:25.927Z ::1 GET /api/v1/categories
+2023-05-10T09:23:26.704Z ::1 GET / (304)
+2023-05-10T09:23:34.336Z ::1 GET /api/v1/products?search=&b=&c=
+2023-05-10T09:23:34.415Z ::1 GET /api/v1/products/all
+2023-05-10T09:23:34.419Z ::1 GET /api/v1/products/all
+2023-05-10T09:23:42.096Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-05-10T09:23:56.551Z ::1 GET /?search=&b=&c= (200)
+2023-05-10T09:24:22.331Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-05-10T09:24:22.400Z ::1 GET /?search=&b=&c= (200)
+2023-05-10T09:24:30.519Z ::1 GET /api/v1/categories
+2023-05-10T09:24:32.513Z ::1 GET / (304)
+2023-05-10T09:26:23.011Z ::1 GET /all (200)
+2023-05-10T09:26:37.715Z ::1 GET /all (200)
+2023-05-10T09:26:38.870Z ::1 GET /all (200)
+2023-05-10T09:28:23.963Z ::ffff:127.0.0.1 GET /api/v2/testing/insert
+2023-05-10T09:28:24.011Z ::ffff:127.0.0.1 GET /insert (200)
+2023-05-10T09:29:15.709Z ::ffff:127.0.0.1 GET /api/v2/testing/insert
+2023-05-10T09:29:15.744Z ::ffff:127.0.0.1 GET /insert (200)
+2023-05-10T09:31:41.190Z ::ffff:127.0.0.1 GET /api/v2/testing/insert
+2023-05-10T09:31:41.232Z ::ffff:127.0.0.1 GET /insert (200)
+2023-05-10T09:32:16.401Z ::ffff:127.0.0.1 GET /api/v2/testing/insert
+2023-05-10T09:32:16.430Z ::ffff:127.0.0.1 GET /insert (200)
+2023-05-10T09:34:34.714Z ::1 GET /api/v1/account
+2023-05-10T09:34:34.749Z ::1 GET / (200)
+2023-05-10T09:34:35.293Z ::1 POST /api/v1/cart
+2023-05-10T09:34:35.321Z ::1 POST / (200)
+2023-05-10T09:34:35.770Z ::1 GET /api/v1/categories
+2023-05-10T09:34:35.824Z ::1 GET / (200)
+2023-05-10T09:35:36.490Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-05-10T09:35:36.788Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-05-10T09:35:38.445Z ::1 GET /api/v1/brands
+2023-05-10T09:35:38.457Z ::1 GET / (200)
+2023-05-10T09:35:38.459Z ::1 GET /api/v1/categories
+2023-05-10T09:35:38.510Z ::1 GET / (304)
+2023-05-10T09:36:01.836Z ::1 GET /api/v1/brands
+2023-05-10T09:36:01.848Z ::1 GET / (304)
+2023-05-10T09:36:07.269Z ::1 GET /api/v1/categories
+2023-05-10T09:36:07.307Z ::1 GET / (304)
+2023-05-10T13:29:44.011Z ::ffff:127.0.0.1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T13:29:44.527Z ::ffff:127.0.0.1 GET /?search=&c=c00000000000000000000001&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T13:31:02.393Z ::ffff:127.0.0.1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T13:31:02.718Z ::ffff:127.0.0.1 GET /?search=&c=c00000000000000000000001&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T13:31:09.852Z ::ffff:127.0.0.1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T13:31:10.084Z ::ffff:127.0.0.1 GET /?search=&c=c00000000000000000000001&b=&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-10T13:31:34.083Z ::ffff:127.0.0.1 GET /api/v1/products?search=&c=c00000000000000000000001&b=1&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-10T13:31:34.100Z ::ffff:127.0.0.1 GET /api/v1/products?search=&c=c00000000000000000000001&b=1&page=2&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (500)

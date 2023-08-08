@@ -1,0 +1,293 @@
+
+2023-07-24T03:24:11.969Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T03:25:12.121Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T03:27:25.331Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T03:27:25.593Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T03:42:27.617Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T03:42:48.761Z ::ffff:127.0.0.1 POST /api/v1/payment/momo (500)
+2023-07-24T03:46:01.869Z ::ffff:127.0.0.1 POST /api/v1/orders
+2023-07-24T03:46:01.901Z ::ffff:127.0.0.1 POST / (200)
+2023-07-24T03:50:53.530Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay
+2023-07-24T03:50:53.581Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay (404)
+2023-07-24T03:51:20.196Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay
+2023-07-24T03:51:20.234Z ::ffff:127.0.0.1 POST /vnpay (200)
+2023-07-24T04:00:45.260Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T04:01:44.012Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T04:07:52.929Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay
+2023-07-24T04:07:52.980Z ::ffff:127.0.0.1 POST /vnpay (200)
+2023-07-24T04:08:56.356Z ::1 GET /api/v1/payment/vnpay/callback?vnp_Amount=10000000&vnp_BankCode=VNPAY&vnp_CardType=QRCODE&vnp_OrderInfo=%7B%22orderId%22%3A%22123123%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724110857&vnp_ResponseCode=24&vnp_TmnCode=UD2KZW06&vnp_TransactionNo=0&vnp_TransactionStatus=02&vnp_TxnRef=110752&vnp_SecureHash=394aa921ce8357c2995f60d0c41fe0751abf31c3bf0aaf493b8b213d25ba78647b1cf88a84d07c1d9fcd554db16facf455f99716b1161dd190c8af690c5b6409
+2023-07-24T04:08:56.363Z ::1 GET /vnpay/callback?vnp_Amount=10000000&vnp_BankCode=VNPAY&vnp_CardType=QRCODE&vnp_OrderInfo=%7B%22orderId%22%3A%22123123%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724110857&vnp_ResponseCode=24&vnp_TmnCode=UD2KZW06&vnp_TransactionNo=0&vnp_TransactionStatus=02&vnp_TxnRef=110752&vnp_SecureHash=394aa921ce8357c2995f60d0c41fe0751abf31c3bf0aaf493b8b213d25ba78647b1cf88a84d07c1d9fcd554db16facf455f99716b1161dd190c8af690c5b6409 (200)
+2023-07-24T04:08:57.707Z ::1 GET /order/123123
+2023-07-24T04:08:57.718Z ::1 GET /order/123123 (404)
+2023-07-24T04:10:35.618Z ::1 GET /api/v1/payment/vnpay/callback?vnp_Amount=10000000&vnp_BankCode=VNPAY&vnp_CardType=QRCODE&vnp_OrderInfo=%7B%22orderId%22%3A%22123123%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724111036&vnp_ResponseCode=24&vnp_TmnCode=UD2KZW06&vnp_TransactionNo=0&vnp_TransactionStatus=02&vnp_TxnRef=110752&vnp_SecureHash=009221666e77b0c6f8fed76a4829cc779f84574cd4c6caabcab6ec8cd6016dc7804be0f7b0b64c7cb4ed5414c2c7a0f9b940bf5e64d8858f66b263d485085db3
+2023-07-24T04:10:35.626Z ::1 GET /vnpay/callback?vnp_Amount=10000000&vnp_BankCode=VNPAY&vnp_CardType=QRCODE&vnp_OrderInfo=%7B%22orderId%22%3A%22123123%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724111036&vnp_ResponseCode=24&vnp_TmnCode=UD2KZW06&vnp_TransactionNo=0&vnp_TransactionStatus=02&vnp_TxnRef=110752&vnp_SecureHash=009221666e77b0c6f8fed76a4829cc779f84574cd4c6caabcab6ec8cd6016dc7804be0f7b0b64c7cb4ed5414c2c7a0f9b940bf5e64d8858f66b263d485085db3 (200)
+2023-07-24T04:10:36.976Z ::1 GET /order/123123
+2023-07-24T04:10:36.983Z ::1 GET /order/123123 (404)
+2023-07-24T04:16:20.337Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay
+2023-07-24T04:16:20.381Z ::ffff:127.0.0.1 POST /vnpay (200)
+2023-07-24T04:17:54.068Z ::1 GET /api/v1/payment/vnpay/callback?vnp_Amount=10000000&vnp_BankCode=VNPAY&vnp_CardType=QRCODE&vnp_OrderInfo=%7B%22orderId%22%3A%22123123%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724111755&vnp_ResponseCode=24&vnp_TmnCode=UD2KZW06&vnp_TransactionNo=0&vnp_TransactionStatus=02&vnp_TxnRef=110720&vnp_SecureHash=0a89c87779128bc393a03926b2f6e0654369443c93dd18ef6e33cf693accf7eb99f76f834da88b22979003f93d15941b9a4fd2fe418211a4de25b4f599f1faad
+2023-07-24T04:17:54.084Z ::1 GET /vnpay/callback?vnp_Amount=10000000&vnp_BankCode=VNPAY&vnp_CardType=QRCODE&vnp_OrderInfo=%7B%22orderId%22%3A%22123123%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724111755&vnp_ResponseCode=24&vnp_TmnCode=UD2KZW06&vnp_TransactionNo=0&vnp_TransactionStatus=02&vnp_TxnRef=110720&vnp_SecureHash=0a89c87779128bc393a03926b2f6e0654369443c93dd18ef6e33cf693accf7eb99f76f834da88b22979003f93d15941b9a4fd2fe418211a4de25b4f599f1faad (200)
+2023-07-24T04:17:57.304Z ::1 GET /order/123123
+2023-07-24T04:17:57.319Z ::1 GET /order/123123 (404)
+2023-07-24T04:20:11.501Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay
+2023-07-24T04:20:11.534Z ::ffff:127.0.0.1 POST /vnpay (200)
+2023-07-24T04:20:47.575Z ::1 GET /api/v1/payment/vnpay/callback?vnp_Amount=10000000&vnp_BankCode=NCB&vnp_BankTranNo=VNP14073390&vnp_CardType=ATM&vnp_OrderInfo=%7B%22orderId%22%3A%22123123%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724112040&vnp_ResponseCode=00&vnp_TmnCode=0W3XITK9&vnp_TransactionNo=14073390&vnp_TransactionStatus=00&vnp_TxnRef=110711&vnp_SecureHash=987fba29266271575548d84b467c2ee3e805d4c65ce8444472439c23ea2d8081780468c2b1a2f3b2b1646e30028f576599701754bd066a6af1dc261359350511
+2023-07-24T04:20:47.607Z ::1 GET /api/v1/payment/vnpay/callback?vnp_Amount=10000000&vnp_BankCode=NCB&vnp_BankTranNo=VNP14073390&vnp_CardType=ATM&vnp_OrderInfo=%7B%22orderId%22%3A%22123123%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724112040&vnp_ResponseCode=00&vnp_TmnCode=0W3XITK9&vnp_TransactionNo=14073390&vnp_TransactionStatus=00&vnp_TxnRef=110711&vnp_SecureHash=987fba29266271575548d84b467c2ee3e805d4c65ce8444472439c23ea2d8081780468c2b1a2f3b2b1646e30028f576599701754bd066a6af1dc261359350511 (500)
+2023-07-24T04:26:16.550Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay
+2023-07-24T04:26:16.607Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay (500)
+2023-07-24T04:27:15.866Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay
+2023-07-24T04:27:18.878Z ::ffff:127.0.0.1 POST /vnpay (200)
+2023-07-24T04:28:05.628Z ::1 GET /api/v1/payment/vnpay/callback?vnp_Amount=3898000000&vnp_BankCode=NCB&vnp_BankTranNo=VNP14073399&vnp_CardType=ATM&vnp_OrderInfo=%7B%22orderId%22%3A%2264bdfda32b409e9a829655ba%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724112749&vnp_ResponseCode=00&vnp_TmnCode=76XZ8FFK&vnp_TransactionNo=14073399&vnp_TransactionStatus=00&vnp_TxnRef=110718&vnp_SecureHash=58ccfa0672e60c58a26abbdc5d361b2e0a628e17a830a728ec123b22ceafdef71743f8854031ebf799f4f487777da4c0e7b9e0ea3052c617ddfd6e6a30de0194
+2023-07-24T04:28:06.473Z ::1 GET /vnpay/callback?vnp_Amount=3898000000&vnp_BankCode=NCB&vnp_BankTranNo=VNP14073399&vnp_CardType=ATM&vnp_OrderInfo=%7B%22orderId%22%3A%2264bdfda32b409e9a829655ba%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724112749&vnp_ResponseCode=00&vnp_TmnCode=76XZ8FFK&vnp_TransactionNo=14073399&vnp_TransactionStatus=00&vnp_TxnRef=110718&vnp_SecureHash=58ccfa0672e60c58a26abbdc5d361b2e0a628e17a830a728ec123b22ceafdef71743f8854031ebf799f4f487777da4c0e7b9e0ea3052c617ddfd6e6a30de0194 (200)
+2023-07-24T04:28:07.805Z ::1 GET /order/64bdfda32b409e9a829655ba
+2023-07-24T04:28:07.811Z ::1 GET /order/64bdfda32b409e9a829655ba (404)
+2023-07-24T04:47:10.975Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T04:47:11.170Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T04:56:50.940Z ::1 GET /api/v1/payment/momo
+2023-07-24T04:56:51.139Z ::1 GET /api/v1/payment/momo (500)
+2023-07-24T04:57:12.566Z ::1 GET /api/v1/payment/momo
+2023-07-24T04:57:12.791Z ::1 GET /api/v1/payment/momo (500)
+2023-07-24T05:15:38.460Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:15:40.204Z ::ffff:127.0.0.1 POST /api/v1/payment/momo (500)
+2023-07-24T05:16:34.799Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:16:36.823Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:20:09.611Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:20:10.483Z ::ffff:127.0.0.1 POST /api/v1/payment/momo (404)
+2023-07-24T05:21:25.842Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:21:27.857Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:22:28.637Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:22:30.717Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:24:41.040Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:24:43.988Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:25:44.758Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:25:46.940Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:27:36.340Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:27:38.528Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:29:19.863Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:29:22.709Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:31:00.816Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:31:02.871Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:31:31.502Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:31:34.087Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:32:51.230Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:32:54.381Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:37:55.988Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:37:58.597Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:39:07.420Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690177078421&requestId=MOMOBKUN201805291690177078421&amount=10000&orderInfo=paywithmomo&orderType=momo_wallet&transId=1690177148311&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690177148324&extraData=&signature=c1ca1aeb4a32336af975f610783c853c7488f803369f44a7f7712688acd40eec
+2023-07-24T05:39:07.597Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690177078421&requestId=MOMOBKUN201805291690177078421&amount=10000&orderInfo=paywithmomo&orderType=momo_wallet&transId=1690177148311&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690177148324&extraData=&signature=c1ca1aeb4a32336af975f610783c853c7488f803369f44a7f7712688acd40eec (500)
+2023-07-24T05:41:44.249Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:41:46.315Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:42:11.708Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay
+2023-07-24T05:42:12.478Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay (404)
+2023-07-24T05:42:28.699Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay
+2023-07-24T05:42:30.743Z ::ffff:127.0.0.1 POST /vnpay (200)
+2023-07-24T05:44:29.575Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:44:31.744Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:44:56.015Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690177471541&requestId=MOMOBKUN201805291690177471541&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be0fbd3a4dd84f742b56cc&orderType=momo_wallet&transId=1690177497169&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690177497181&extraData=&signature=bfabbfbb4d8d10065d01f057874ece301ff48996146ac83d69807035d39c73f5
+2023-07-24T05:44:56.305Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690177471541&requestId=MOMOBKUN201805291690177471541&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be0fbd3a4dd84f742b56cc&orderType=momo_wallet&transId=1690177497169&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690177497181&extraData=&signature=bfabbfbb4d8d10065d01f057874ece301ff48996146ac83d69807035d39c73f5 (500)
+2023-07-24T05:49:12.835Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:49:15.422Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:49:35.393Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690177754749&requestId=MOMOBKUN201805291690177754749&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be10d8e67e9776906d33d0&orderType=momo_wallet&transId=1690177776527&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690177776546&extraData=&signature=7dd5cdec46761b204d5fa852217da6262b8808bef62115d3aed24fcf6bd8adad
+2023-07-24T05:49:35.575Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690177754749&requestId=MOMOBKUN201805291690177754749&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be10d8e67e9776906d33d0&orderType=momo_wallet&transId=1690177776527&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690177776546&extraData=&signature=7dd5cdec46761b204d5fa852217da6262b8808bef62115d3aed24fcf6bd8adad (500)
+2023-07-24T05:51:19.075Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:51:22.557Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:51:36.479Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690177882406&requestId=MOMOBKUN201805291690177882406&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be11578db73ec82bfbd4c0&orderType=momo_wallet&transId=1690177897539&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690177897551&extraData=&signature=6069801b637cd4a1394c966ae2017268a0d31f17133d84583cff53fe7285a1e8
+2023-07-24T05:51:36.504Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690177882406&requestId=MOMOBKUN201805291690177882406&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be11578db73ec82bfbd4c0&orderType=momo_wallet&transId=1690177897539&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690177897551&extraData=&signature=6069801b637cd4a1394c966ae2017268a0d31f17133d84583cff53fe7285a1e8 (500)
+2023-07-24T05:53:33.684Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:53:38.639Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:53:52.762Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690178018518&requestId=MOMOBKUN201805291690178018518&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be11de321883ed5b7375f3&orderType=momo_wallet&transId=1690178033833&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690178033847&extraData=&signature=55a25c820f763d73ed59720d14c152c809f18c3cb23d778d5bea8889aa6fcc90
+2023-07-24T05:53:52.787Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690178018518&requestId=MOMOBKUN201805291690178018518&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be11de321883ed5b7375f3&orderType=momo_wallet&transId=1690178033833&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690178033847&extraData=&signature=55a25c820f763d73ed59720d14c152c809f18c3cb23d778d5bea8889aa6fcc90 (500)
+2023-07-24T05:54:51.013Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:54:54.566Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:55:06.492Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690178094413&requestId=MOMOBKUN201805291690178094413&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be122b5d655a4cb310783d&orderType=momo_wallet&transId=1690178107573&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690178107586&extraData=&signature=b168baa672c0a155d5bac2f9382986c8a113a72dfde8e51ae2429256a85d0619
+2023-07-24T05:55:06.512Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690178094413&requestId=MOMOBKUN201805291690178094413&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be122b5d655a4cb310783d&orderType=momo_wallet&transId=1690178107573&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690178107586&extraData=&signature=b168baa672c0a155d5bac2f9382986c8a113a72dfde8e51ae2429256a85d0619 (500)
+2023-07-24T05:57:10.950Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T05:57:13.097Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T05:57:27.314Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690178232952&requestId=MOMOBKUN201805291690178232952&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be12b6b7d64dddc27c954b&orderType=momo_wallet&transId=1690178247806&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690178247820&extraData=&signature=54b4ab208a9f8324fbd02e72741ca506559c0298497fa9cbd28a54178d2f454e
+2023-07-24T05:57:27.331Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690178232952&requestId=MOMOBKUN201805291690178232952&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be12b6b7d64dddc27c954b&orderType=momo_wallet&transId=1690178247806&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690178247820&extraData=&signature=54b4ab208a9f8324fbd02e72741ca506559c0298497fa9cbd28a54178d2f454e (500)
+2023-07-24T06:00:43.881Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T06:00:45.942Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T06:00:57.938Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690178445798&requestId=MOMOBKUN201805291690178445798&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be138b509b0d0e22209a25&orderType=momo_wallet&transId=1690178459062&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690178459074&extraData=&signature=15311754dd1e06f55ddd62c69a95ead6400650fa74649b9e342cfe536b6aac5d
+2023-07-24T06:00:57.951Z ::1 GET /momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690178445798&requestId=MOMOBKUN201805291690178445798&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be138b509b0d0e22209a25&orderType=momo_wallet&transId=1690178459062&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690178459074&extraData=&signature=15311754dd1e06f55ddd62c69a95ead6400650fa74649b9e342cfe536b6aac5d (200)
+2023-07-24T06:00:59.516Z ::1 GET /order/undefined
+2023-07-24T06:00:59.524Z ::1 GET /order/undefined (404)
+2023-07-24T06:03:06.948Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T06:03:09.112Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T06:03:38.832Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T06:04:09.357Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T06:04:11.434Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T06:04:27.997Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690178651286&requestId=MOMOBKUN201805291690178651286&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be1459f5245351824ece3f&orderType=momo_wallet&transId=1690178668977&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690178669056&extraData=&signature=23d61497778711d5fc1fcae8b53da68e02b23c7bb62907e08cb1c4b4aeb2aa5e
+2023-07-24T06:04:28.012Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690178651286&requestId=MOMOBKUN201805291690178651286&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be1459f5245351824ece3f&orderType=momo_wallet&transId=1690178668977&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690178669056&extraData=&signature=23d61497778711d5fc1fcae8b53da68e02b23c7bb62907e08cb1c4b4aeb2aa5e (500)
+2023-07-24T06:05:06.246Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690178651286&requestId=MOMOBKUN201805291690178651286&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be1459f5245351824ece3f&orderType=momo_wallet&transId=1690178668977&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690178707353&extraData=&signature=7117844d97fa27e68c540b8fa09b8cff29f8c22de97f97ff19f5fe7e2488e87e
+2023-07-24T06:05:06.261Z ::1 GET /momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690178651286&requestId=MOMOBKUN201805291690178651286&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be1459f5245351824ece3f&orderType=momo_wallet&transId=1690178668977&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690178707353&extraData=&signature=7117844d97fa27e68c540b8fa09b8cff29f8c22de97f97ff19f5fe7e2488e87e (200)
+2023-07-24T06:26:26.142Z ::1 GET /api/v1/account
+2023-07-24T06:26:26.603Z ::1 GET /api/v1/account (401)
+2023-07-24T06:26:26.617Z ::1 POST /api/v1/auth/refresh-token
+2023-07-24T06:26:26.968Z ::1 POST /api/v1/auth/refresh-token (404)
+2023-07-24T06:26:27.315Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-24T06:26:27.329Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-24T06:26:27.348Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-24T06:26:27.358Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-24T06:26:27.591Z ::1 GET /search/suggest?keyword= (200)
+2023-07-24T06:26:27.620Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-24T06:26:27.630Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (200)
+2023-07-24T06:26:27.638Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (200)
+2023-07-24T06:26:27.674Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-24T06:26:27.884Z ::1 GET /search/suggest?keyword= (304)
+2023-07-24T06:26:28.438Z ::1 GET /?fields=name%20slug%20image (200)
+2023-07-24T06:26:29.071Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-07-24T06:26:31.783Z ::1 GET /api/v1/products/op-lung-iphone-7-8-nhua-deo-glossy-imd-printing-jm-19e116?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-24T06:26:32.356Z ::1 GET /op-lung-iphone-7-8-nhua-deo-glossy-imd-printing-jm-19e116?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-24T06:26:32.537Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=&c=c00000000000000000000006
+2023-07-24T06:26:33.872Z ::1 GET /?search=&page=0&limit=5&b=&c=c00000000000000000000006 (200)
+2023-07-24T06:26:35.989Z ::1 POST /api/v1/user-behavior
+2023-07-24T06:26:36.000Z ::1 POST / (200)
+2023-07-24T06:26:41.407Z ::1 GET /api/v1/account/addresses
+2023-07-24T06:26:41.697Z ::1 GET /api/v1/account/addresses (404)
+2023-07-24T06:26:45.902Z ::1 POST /api/v1/user-behavior
+2023-07-24T06:26:45.908Z ::1 POST / (200)
+2023-07-24T06:26:55.729Z ::1 POST /api/v1/orders
+2023-07-24T06:26:57.636Z ::1 POST / (200)
+2023-07-24T06:26:58.849Z ::1 GET /api/v1/account
+2023-07-24T06:26:59.120Z ::1 GET /api/v1/account (401)
+2023-07-24T06:26:59.139Z ::1 POST /api/v1/auth/refresh-token
+2023-07-24T06:26:59.411Z ::1 POST /api/v1/auth/refresh-token (404)
+2023-07-24T06:26:59.614Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-24T06:26:59.630Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-24T06:26:59.634Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-24T06:26:59.639Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-24T06:26:59.840Z ::1 GET /api/v1/orders/64be19af94e2e4acd7f61243
+2023-07-24T06:26:59.879Z ::1 GET /search/suggest?keyword= (304)
+2023-07-24T06:26:59.884Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-24T06:26:59.897Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-24T06:26:59.906Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-24T06:27:00.100Z ::1 GET /64be19af94e2e4acd7f61243 (200)
+2023-07-24T06:27:00.146Z ::1 GET /search/suggest?keyword= (304)
+2023-07-24T06:27:00.702Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-24T06:27:33.991Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-24T06:27:34.252Z ::1 GET /search/suggest?keyword= (304)
+2023-07-24T06:27:39.756Z ::1 GET /api/v1/account
+2023-07-24T06:27:40.024Z ::1 GET /api/v1/account (401)
+2023-07-24T06:27:40.114Z ::1 POST /api/v1/auth/refresh-token
+2023-07-24T06:27:40.379Z ::1 POST /api/v1/auth/refresh-token (404)
+2023-07-24T06:27:41.022Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-24T06:27:41.030Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-24T06:27:41.038Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-24T06:27:41.041Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-24T06:27:41.286Z ::1 GET /search/suggest?keyword= (304)
+2023-07-24T06:27:41.299Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-24T06:27:41.310Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-24T06:27:41.326Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-24T06:27:41.587Z ::1 GET /search/suggest?keyword= (304)
+2023-07-24T06:27:41.668Z ::1 GET /api/v1/products/op-lung-iphone-7-8-nhua-deo-glossy-imd-printing-jm-19e116?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-24T06:27:42.101Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-24T06:27:42.207Z ::1 GET /op-lung-iphone-7-8-nhua-deo-glossy-imd-printing-jm-19e116?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-24T06:27:42.908Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=&c=c00000000000000000000006
+2023-07-24T06:27:44.225Z ::1 GET /?search=&page=0&limit=5&b=&c=c00000000000000000000006 (304)
+2023-07-24T06:27:45.254Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-24T06:27:45.526Z ::1 GET /search/suggest?keyword= (304)
+2023-07-24T06:27:49.758Z ::1 POST /api/v1/user-behavior
+2023-07-24T06:27:49.763Z ::1 POST / (200)
+2023-07-24T06:27:51.754Z ::1 GET /api/v1/account/addresses
+2023-07-24T06:27:52.784Z ::1 GET /api/v1/account/addresses (404)
+2023-07-24T06:31:16.179Z ::1 POST /api/v1/orders
+2023-07-24T06:31:18.321Z ::1 POST / (200)
+2023-07-24T06:31:20.784Z ::1 GET /api/v1/account
+2023-07-24T06:31:21.045Z ::1 GET /api/v1/account (401)
+2023-07-24T06:31:21.100Z ::1 POST /api/v1/auth/refresh-token
+2023-07-24T06:31:21.363Z ::1 POST /api/v1/auth/refresh-token (404)
+2023-07-24T06:32:41.789Z ::1 GET /api/v1/account
+2023-07-24T06:32:42.083Z ::1 GET /api/v1/account (401)
+2023-07-24T06:32:42.178Z ::1 POST /api/v1/auth/refresh-token
+2023-07-24T06:32:42.485Z ::1 POST /api/v1/auth/refresh-token (404)
+2023-07-24T06:32:43.127Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-24T06:32:43.138Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-24T06:32:43.157Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-24T06:32:43.161Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-24T06:32:43.406Z ::1 GET /search/suggest?keyword= (304)
+2023-07-24T06:32:43.433Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-24T06:32:43.455Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-24T06:32:43.465Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-24T06:32:43.712Z ::1 GET /search/suggest?keyword= (304)
+2023-07-24T06:32:43.736Z ::1 GET /api/v1/products/op-lung-iphone-7-8-nhua-deo-glossy-imd-printing-jm-19e116?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-24T06:32:44.224Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-24T06:32:44.365Z ::1 GET /op-lung-iphone-7-8-nhua-deo-glossy-imd-printing-jm-19e116?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-24T06:32:44.736Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=&c=c00000000000000000000006
+2023-07-24T06:32:46.063Z ::1 GET /?search=&page=0&limit=5&b=&c=c00000000000000000000006 (304)
+2023-07-24T06:32:51.747Z ::1 POST /api/v1/user-behavior
+2023-07-24T06:32:51.754Z ::1 POST / (200)
+2023-07-24T06:32:54.391Z ::1 GET /api/v1/account/addresses
+2023-07-24T06:32:54.685Z ::1 GET /api/v1/account/addresses (404)
+2023-07-24T06:33:23.032Z ::1 POST /api/v1/orders
+2023-07-24T06:33:25.189Z ::1 POST / (200)
+2023-07-24T06:33:40.340Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690180404448&requestId=MOMOBKUN201805291690180404448&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3000%26orderId%3D64be1b33a1f6433a0e9f6b76&orderType=momo_wallet&transId=1690180421455&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690180421466&extraData=&signature=d16bcc1d83527a2248cc5de9da3cff587027c07491e664a147f8784adad3f5cf
+2023-07-24T06:33:40.352Z ::1 GET /momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690180404448&requestId=MOMOBKUN201805291690180404448&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3000%26orderId%3D64be1b33a1f6433a0e9f6b76&orderType=momo_wallet&transId=1690180421455&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690180421466&extraData=&signature=d16bcc1d83527a2248cc5de9da3cff587027c07491e664a147f8784adad3f5cf (200)
+2023-07-24T06:33:43.019Z ::1 GET /api/v1/account
+2023-07-24T06:33:43.283Z ::1 GET /api/v1/account (401)
+2023-07-24T06:33:43.332Z ::1 POST /api/v1/auth/refresh-token
+2023-07-24T06:33:43.603Z ::1 POST /api/v1/auth/refresh-token (404)
+2023-07-24T06:33:43.850Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-24T06:33:43.862Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-24T06:33:43.869Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-24T06:33:43.873Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-24T06:33:44.114Z ::1 GET /search/suggest?keyword= (304)
+2023-07-24T06:33:44.126Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-24T06:33:44.136Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-24T06:33:44.140Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-24T06:33:44.166Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-24T06:33:44.399Z ::1 GET /search/suggest?keyword= (304)
+2023-07-24T06:33:44.900Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-24T06:33:45.606Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-07-24T11:41:42.872Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T11:41:44.962Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T11:42:41.907Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690198904799&requestId=MOMOBKUN201805291690198904799&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be63769f32c64f355ab59d&orderType=momo_wallet&transId=3056101018&resultCode=0&message=Successful.&payType=napas&responseTime=1690198963383&extraData=&signature=6d9083d27e4f235aa00a5f4d66b339a252ea469b0c68e18783970b4b9525b5f6
+2023-07-24T11:42:41.917Z ::1 GET /momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690198904799&requestId=MOMOBKUN201805291690198904799&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be63769f32c64f355ab59d&orderType=momo_wallet&transId=3056101018&resultCode=0&message=Successful.&payType=napas&responseTime=1690198963383&extraData=&signature=6d9083d27e4f235aa00a5f4d66b339a252ea469b0c68e18783970b4b9525b5f6 (200)
+2023-07-24T11:51:34.553Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T11:51:36.589Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T11:52:49.301Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690199496444&requestId=MOMOBKUN201805291690199496444&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be65c61638bf9e426ffdb3&orderType=momo_wallet&transId=3056102258&resultCode=0&message=Successful.&payType=napas&responseTime=1690199570488&extraData=&signature=917f1fd33feabe766e300cedc4cfb747fc5e55abc420cdbe2a7860c81fcebeaf
+2023-07-24T11:52:49.334Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690199496444&requestId=MOMOBKUN201805291690199496444&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be65c61638bf9e426ffdb3&orderType=momo_wallet&transId=3056102258&resultCode=0&message=Successful.&payType=napas&responseTime=1690199570488&extraData=&signature=917f1fd33feabe766e300cedc4cfb747fc5e55abc420cdbe2a7860c81fcebeaf (500)
+2023-07-24T14:56:54.311Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T14:57:21.574Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T14:59:09.158Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T14:59:12.157Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T15:02:15.167Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T15:02:17.258Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T15:03:47.953Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690210937108&requestId=MOMOBKUN201805291690210937108&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be92775407ef443618f5a2&orderType=momo_wallet&transId=1690211020211&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690211029670&extraData=&signature=bc586804b64279b1cff4c56ce9a17f88c403871a7ebdd360e38f0a0c470eb4e3
+2023-07-24T15:03:47.965Z ::1 GET /momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690210937108&requestId=MOMOBKUN201805291690210937108&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be92775407ef443618f5a2&orderType=momo_wallet&transId=1690211020211&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690211029670&extraData=&signature=bc586804b64279b1cff4c56ce9a17f88c403871a7ebdd360e38f0a0c470eb4e3 (200)
+2023-07-24T15:03:51.881Z ::1 GET /api/v1/payment/undefined/
+2023-07-24T15:03:51.890Z ::1 GET /api/v1/payment/undefined/ (404)
+2023-07-24T15:07:40.145Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T15:07:42.306Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T15:07:57.730Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690211262018&requestId=MOMOBKUN201805291690211262018&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be93bc447ce08164c5c9f9&orderType=momo_wallet&transId=1690211278378&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690211279490&extraData=&signature=53f5626d1d3b0960b65ccc46eb6c9331aec394cf1301fc6f60fb79d9ba771882
+2023-07-24T15:07:57.753Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690211262018&requestId=MOMOBKUN201805291690211262018&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be93bc447ce08164c5c9f9&orderType=momo_wallet&transId=1690211278378&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690211279490&extraData=&signature=53f5626d1d3b0960b65ccc46eb6c9331aec394cf1301fc6f60fb79d9ba771882 (500)
+2023-07-24T15:08:43.190Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T15:08:45.379Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T15:09:02.022Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690211325029&requestId=MOMOBKUN201805291690211325029&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be93fb58c9e671967be7a0&orderType=momo_wallet&transId=1690211341814&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690211343825&extraData=&signature=611ee639696cc44aecde4a10e7fac2d1cd393164da52386b5749f1a49393029a
+2023-07-24T15:09:02.036Z ::1 GET /momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690211325029&requestId=MOMOBKUN201805291690211325029&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64be93fb58c9e671967be7a0&orderType=momo_wallet&transId=1690211341814&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690211343825&extraData=&signature=611ee639696cc44aecde4a10e7fac2d1cd393164da52386b5749f1a49393029a (200)
+2023-07-24T15:13:03.500Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay
+2023-07-24T15:13:05.357Z ::ffff:127.0.0.1 POST /vnpay (200)
+2023-07-24T15:13:19.375Z ::1 GET /api/v1/payment/vnpay/callback?vnp_Amount=3898000000&vnp_BankCode=VNPAY&vnp_CardType=QRCODE&vnp_OrderInfo=%7B%22orderId%22%3A%2264be94ffbbdab7565650f3fb%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724221321&vnp_ResponseCode=24&vnp_TmnCode=76XZ8FFK&vnp_TransactionNo=0&vnp_TransactionStatus=02&vnp_TxnRef=220705&vnp_SecureHash=88551f4722ce93e138673dac60e326e2986ff653abb4aba93d08bcbbdc2fcae29e887edde7fc6a6c902525b35392e3c7498721f3ccdcf6109b4bb49e086753fb
+2023-07-24T15:13:19.385Z ::1 GET /vnpay/callback?vnp_Amount=3898000000&vnp_BankCode=VNPAY&vnp_CardType=QRCODE&vnp_OrderInfo=%7B%22orderId%22%3A%2264be94ffbbdab7565650f3fb%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724221321&vnp_ResponseCode=24&vnp_TmnCode=76XZ8FFK&vnp_TransactionNo=0&vnp_TransactionStatus=02&vnp_TxnRef=220705&vnp_SecureHash=88551f4722ce93e138673dac60e326e2986ff653abb4aba93d08bcbbdc2fcae29e887edde7fc6a6c902525b35392e3c7498721f3ccdcf6109b4bb49e086753fb (200)
+2023-07-24T15:13:21.804Z ::1 GET /order/64be94ffbbdab7565650f3fb
+2023-07-24T15:13:21.819Z ::1 GET /order/64be94ffbbdab7565650f3fb (404)
+2023-07-24T15:14:27.495Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay
+2023-07-24T15:14:30.070Z ::ffff:127.0.0.1 POST /vnpay (200)
+2023-07-24T15:14:41.057Z ::1 GET /api/v1/payment/vnpay/callback?vnp_Amount=1949000000&vnp_BankCode=VNPAY&vnp_CardType=QRCODE&vnp_OrderInfo=%7B%22orderId%22%3A%2264be9553b920aff117be9923%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724221443&vnp_ResponseCode=24&vnp_TmnCode=76XZ8FFK&vnp_TransactionNo=0&vnp_TransactionStatus=02&vnp_TxnRef=220730&vnp_SecureHash=03c419a5c5b263d036a97c46c6d339342e540b62afb28045655d85198413cb3ac29293745f4c3cf06a33d203bea7f30a0b86372041cc58359494dfe76fb19c24
+2023-07-24T15:14:41.081Z ::1 GET /vnpay/callback?vnp_Amount=1949000000&vnp_BankCode=VNPAY&vnp_CardType=QRCODE&vnp_OrderInfo=%7B%22orderId%22%3A%2264be9553b920aff117be9923%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724221443&vnp_ResponseCode=24&vnp_TmnCode=76XZ8FFK&vnp_TransactionNo=0&vnp_TransactionStatus=02&vnp_TxnRef=220730&vnp_SecureHash=03c419a5c5b263d036a97c46c6d339342e540b62afb28045655d85198413cb3ac29293745f4c3cf06a33d203bea7f30a0b86372041cc58359494dfe76fb19c24 (200)
+2023-07-24T15:14:42.883Z ::1 GET /order/64be9553b920aff117be9923
+2023-07-24T15:14:42.891Z ::1 GET /order/64be9553b920aff117be9923 (404)
+2023-07-24T15:15:49.805Z ::ffff:127.0.0.1 POST /api/v1/payment/vnpay
+2023-07-24T15:15:52.966Z ::ffff:127.0.0.1 POST /vnpay (200)
+2023-07-24T15:16:22.716Z ::1 GET /api/v1/payment/vnpay/callback?vnp_Amount=1949000000&vnp_BankCode=VNPAY&vnp_CardType=QRCODE&vnp_OrderInfo=%7B%22orderId%22%3A%2264be95a558d311821c2e38b8%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724221624&vnp_ResponseCode=24&vnp_TmnCode=76XZ8FFK&vnp_TransactionNo=0&vnp_TransactionStatus=02&vnp_TxnRef=220752&vnp_SecureHash=bdccf273bc3dda95468d5a2e26525591450af099e3e0ed803c59bc84de078ebc761fa89b40ca1cd5dd1e2a27596416377703279aed4bd700c47c4eadac55b3fb
+2023-07-24T15:16:22.741Z ::1 GET /vnpay/callback?vnp_Amount=1949000000&vnp_BankCode=VNPAY&vnp_CardType=QRCODE&vnp_OrderInfo=%7B%22orderId%22%3A%2264be95a558d311821c2e38b8%22%2C%22clientUrl%22%3A%22http%3A%2F%2Flocalhost%3A3001%22%7D&vnp_PayDate=20230724221624&vnp_ResponseCode=24&vnp_TmnCode=76XZ8FFK&vnp_TransactionNo=0&vnp_TransactionStatus=02&vnp_TxnRef=220752&vnp_SecureHash=bdccf273bc3dda95468d5a2e26525591450af099e3e0ed803c59bc84de078ebc761fa89b40ca1cd5dd1e2a27596416377703279aed4bd700c47c4eadac55b3fb (200)
+2023-07-24T15:28:06.154Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T15:28:08.146Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-24T15:31:24.446Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T15:33:32.295Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T15:36:40.043Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T15:37:35.002Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T15:37:57.352Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T15:42:24.488Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T15:44:11.406Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T15:45:56.606Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-24T15:48:29.370Z ::ffff:127.0.0.1 POST /api/v1/payment/momo

@@ -1,0 +1,41 @@
+@BASE_URL = http://localhost:3001/api/v1
+@RESOURCE = categories
+
+GET {{BASE_URL}}/{{RESOURCE}}
+
+###
+
+@TOKEN = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJhMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEiLCJpYXQiOjE2ODQ3MzM3MDksImV4cCI6MTY4NTMzODUwOX0.NIwXo1flEUvZiO9zxeJ2fBHvis0X4oqPCukVbnVffX0
+
+### ADD CATEGORY
+POST {{BASE_URL}}/{{RESOURCE}}
+authorization: Bearer {{TOKEN}}
+content-type: application/json
+
+{
+   "name": "Danh mục test1",
+   "desc": "test12345",
+   "image": "http://localhost:3001/public/uploads/categories/old/others.svg",
+   "countProduct": 100
+}
+### EDIT CATEGORY
+POST {{BASE_URL}}/{{RESOURCE}}/646b05123b5c43e955f403e0
+authorization: Bearer {{TOKEN}}
+content-type: application/json
+
+{
+   "name": "Danh mục test1",
+   "desc": "test12345",
+   "image": "http://localhost:3001/public/uploads/categories/old/others.svg",
+   "countProduct": 100
+}
+
+#### DELETE CATEGORY
+
+DELETE {{BASE_URL}}/{{RESOURCE}}/646b05123b5c43e955f403e0
+authorization: Bearer {{TOKEN}}
+content-type: application/json
+
+{
+
+}

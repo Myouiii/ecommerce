@@ -1,0 +1,1142 @@
+
+2023-07-23T03:29:57.090Z ::1 GET /api/v1/account
+2023-07-23T03:29:57.654Z ::1 GET / (200)
+2023-07-23T03:29:57.988Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T03:29:58.001Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-23T03:29:58.007Z ::1 POST /api/v1/cart
+2023-07-23T03:29:58.084Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-23T03:29:58.105Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-23T03:29:58.254Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T03:29:58.259Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T03:29:58.270Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-23T03:29:58.299Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-23T03:29:58.353Z ::1 POST / (200)
+2023-07-23T03:29:58.361Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-23T03:29:58.520Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T03:29:59.140Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-23T03:30:00.457Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-07-23T03:30:07.076Z ::1 POST /api/v1/auth/login
+2023-07-23T03:30:07.740Z ::1 POST /login (200)
+2023-07-23T03:30:08.126Z ::1 POST /api/v1/cart
+2023-07-23T03:30:08.665Z ::1 POST / (200)
+2023-07-23T03:30:09.040Z ::1 GET /api/v1/statistic/products
+2023-07-23T03:30:09.070Z ::1 GET /api/v1/users/customer
+2023-07-23T03:30:09.075Z ::1 GET /api/v1/categories
+2023-07-23T03:30:09.083Z ::1 GET /api/v1/brands
+2023-07-23T03:30:09.090Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-23T03:30:09.101Z ::1 GET /api/v1/statistic/monthly-revenue?year=2023
+2023-07-23T03:30:09.332Z ::1 GET /customer (200)
+2023-07-23T03:30:09.383Z ::1 GET /api/v1/statistic/products/best-seller
+2023-07-23T03:30:09.606Z ::1 GET / (304)
+2023-07-23T03:30:09.892Z ::1 GET /products/best-seller (200)
+2023-07-23T03:30:10.134Z ::1 GET / (304)
+2023-07-23T03:30:10.151Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (200)
+2023-07-23T03:30:10.155Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-23T03:30:10.954Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (304)
+2023-07-23T03:30:11.025Z ::1 GET /products (200)
+2023-07-23T03:30:11.052Z ::1 GET /api/v1/statistic/products
+2023-07-23T03:30:11.332Z ::1 GET /monthly-revenue?year=2023 (200)
+2023-07-23T03:30:12.465Z ::1 GET /products (304)
+2023-07-23T03:30:12.611Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-07-23T03:30:14.759Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-07-23T03:30:17.261Z ::1 GET /api/v1/statistic/products
+2023-07-23T03:30:17.266Z ::1 GET /api/v1/brands
+2023-07-23T03:30:17.270Z ::1 GET /api/v1/categories
+2023-07-23T03:30:17.278Z ::1 GET /api/v1/users/customer
+2023-07-23T03:30:17.282Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-23T03:30:17.286Z ::1 GET /api/v1/statistic/monthly-revenue?year=2023
+2023-07-23T03:30:17.552Z ::1 GET /customer (304)
+2023-07-23T03:30:17.557Z ::1 GET /api/v1/statistic/products/best-seller
+2023-07-23T03:30:17.777Z ::1 GET / (304)
+2023-07-23T03:30:18.069Z ::1 GET /monthly-revenue?year=2023 (304)
+2023-07-23T03:30:18.085Z ::1 GET /products/best-seller (304)
+2023-07-23T03:30:18.274Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (304)
+2023-07-23T03:30:18.282Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-23T03:30:18.331Z ::1 GET / (304)
+2023-07-23T03:30:19.024Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (304)
+2023-07-23T03:30:19.186Z ::1 GET /products (304)
+2023-07-23T03:30:19.195Z ::1 GET /api/v1/statistic/products
+2023-07-23T03:30:20.602Z ::1 GET /products (304)
+2023-07-23T03:33:55.960Z ::1 GET /api/v1/account
+2023-07-23T03:33:56.489Z ::1 GET / (200)
+2023-07-23T03:33:57.030Z ::1 POST /api/v1/cart
+2023-07-23T03:33:57.563Z ::1 POST / (200)
+2023-07-23T03:33:57.919Z ::1 GET /api/v1/statistic/products
+2023-07-23T03:33:57.923Z ::1 GET /api/v1/brands
+2023-07-23T03:33:57.929Z ::1 GET /api/v1/categories
+2023-07-23T03:33:57.935Z ::1 GET /api/v1/users/customer
+2023-07-23T03:33:57.939Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-23T03:33:57.943Z ::1 GET /api/v1/statistic/monthly-revenue?year=2023
+2023-07-23T03:33:58.091Z undefined GET /api/v1/statistic/products/best-seller
+2023-07-23T03:34:20.407Z ::1 GET /api/v1/account
+2023-07-23T03:34:20.914Z ::1 GET / (304)
+2023-07-23T03:34:21.247Z ::1 POST /api/v1/cart
+2023-07-23T03:34:21.750Z ::1 POST / (200)
+2023-07-23T03:34:22.565Z ::1 GET /api/v1/statistic/products
+2023-07-23T03:34:22.575Z ::1 GET /api/v1/brands
+2023-07-23T03:34:22.579Z ::1 GET /api/v1/categories
+2023-07-23T03:34:22.585Z ::1 GET /api/v1/users/customer
+2023-07-23T03:34:22.590Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-23T03:34:22.594Z ::1 GET /api/v1/statistic/monthly-revenue?year=2023
+2023-07-23T03:34:22.849Z ::1 GET /customer (200)
+2023-07-23T03:34:22.897Z ::1 GET /api/v1/statistic/products/best-seller
+2023-07-23T03:34:23.104Z ::1 GET / (200)
+2023-07-23T03:34:23.336Z ::1 GET /monthly-revenue?year=2023 (200)
+2023-07-23T03:34:23.426Z ::1 GET /products/best-seller (200)
+2023-07-23T03:34:23.636Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (200)
+2023-07-23T03:34:23.643Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-23T03:34:23.659Z ::1 GET / (200)
+2023-07-23T03:34:24.414Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (304)
+2023-07-23T03:34:24.663Z ::1 GET /products (200)
+2023-07-23T03:34:24.669Z ::1 GET /api/v1/statistic/products
+2023-07-23T03:34:26.263Z ::1 GET /products (304)
+2023-07-23T03:39:06.994Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-07-23T03:39:09.813Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-07-23T03:39:13.573Z ::1 GET /api/v1/brands
+2023-07-23T03:39:13.577Z ::1 GET /api/v1/categories
+2023-07-23T03:39:13.581Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:39:14.092Z ::1 GET / (304)
+2023-07-23T03:39:14.412Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:39:14.415Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:39:14.598Z ::1 GET / (304)
+2023-07-23T03:39:14.949Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:39:15.712Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:39:16.512Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:40:01.181Z ::1 GET /api/v1/account
+2023-07-23T03:40:01.718Z ::1 GET / (304)
+2023-07-23T03:40:02.508Z ::1 POST /api/v1/cart
+2023-07-23T03:40:03.035Z ::1 POST / (200)
+2023-07-23T03:40:03.309Z ::1 GET /api/v1/brands
+2023-07-23T03:40:03.315Z ::1 GET /api/v1/categories
+2023-07-23T03:40:03.320Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:40:03.839Z ::1 GET / (304)
+2023-07-23T03:40:04.117Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:40:04.161Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:40:04.325Z ::1 GET / (304)
+2023-07-23T03:40:04.954Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:40:05.124Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:40:05.664Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:40:29.024Z ::1 GET /api/v1/brands
+2023-07-23T03:40:29.570Z ::1 GET / (304)
+2023-07-23T03:40:31.850Z ::1 GET /api/v1/brands
+2023-07-23T03:40:31.858Z ::1 GET /api/v1/categories
+2023-07-23T03:40:31.865Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:40:32.385Z ::1 GET / (304)
+2023-07-23T03:40:32.653Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:40:32.664Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:40:32.880Z ::1 GET / (304)
+2023-07-23T03:40:33.459Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:40:36.254Z ::1 GET /api/v1/account
+2023-07-23T03:40:36.783Z ::1 GET / (304)
+2023-07-23T03:40:37.212Z ::1 POST /api/v1/cart
+2023-07-23T03:40:37.784Z ::1 POST / (200)
+2023-07-23T03:40:37.917Z ::1 GET /api/v1/brands
+2023-07-23T03:40:37.921Z ::1 GET /api/v1/categories
+2023-07-23T03:40:37.928Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:40:38.441Z ::1 GET / (304)
+2023-07-23T03:40:38.723Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:40:38.754Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:40:38.953Z ::1 GET / (304)
+2023-07-23T03:40:39.547Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:40:39.742Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:40:40.302Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:41:22.209Z ::1 GET /api/v1/account
+2023-07-23T03:41:22.730Z ::1 GET / (304)
+2023-07-23T03:41:23.157Z ::1 POST /api/v1/cart
+2023-07-23T03:41:23.680Z ::1 POST / (200)
+2023-07-23T03:41:23.794Z ::1 GET /api/v1/brands
+2023-07-23T03:41:23.802Z ::1 GET /api/v1/categories
+2023-07-23T03:41:23.808Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:41:24.319Z ::1 GET / (304)
+2023-07-23T03:41:24.615Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:41:24.631Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:41:24.813Z ::1 GET / (304)
+2023-07-23T03:41:25.428Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:41:25.553Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:41:26.092Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:43:09.560Z ::1 GET /api/v1/account
+2023-07-23T03:43:10.091Z ::1 GET / (304)
+2023-07-23T03:43:10.607Z ::1 POST /api/v1/cart
+2023-07-23T03:43:11.138Z ::1 POST / (200)
+2023-07-23T03:43:11.403Z ::1 GET /api/v1/brands
+2023-07-23T03:43:11.461Z ::1 GET /api/v1/categories
+2023-07-23T03:43:11.466Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:43:11.936Z ::1 GET / (304)
+2023-07-23T03:43:12.256Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:43:12.265Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:43:12.476Z ::1 GET / (304)
+2023-07-23T03:43:13.056Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:43:13.245Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:43:13.786Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:43:58.992Z ::1 GET /api/v1/account
+2023-07-23T03:43:59.528Z ::1 GET / (304)
+2023-07-23T03:44:00.084Z ::1 POST /api/v1/cart
+2023-07-23T03:44:00.655Z ::1 POST / (200)
+2023-07-23T03:44:00.925Z ::1 GET /api/v1/brands
+2023-07-23T03:44:00.932Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:44:00.940Z ::1 GET /api/v1/categories
+2023-07-23T03:44:01.752Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:44:01.765Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:44:02.773Z ::1 GET / (304)
+2023-07-23T03:44:03.045Z ::1 GET / (304)
+2023-07-23T03:44:06.030Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:44:06.034Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:44:07.336Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:45:58.618Z ::1 GET /api/v1/account
+2023-07-23T03:45:59.141Z ::1 GET / (304)
+2023-07-23T03:45:59.728Z ::1 POST /api/v1/cart
+2023-07-23T03:46:00.254Z ::1 POST / (200)
+2023-07-23T03:46:00.629Z ::1 GET /api/v1/brands
+2023-07-23T03:46:00.633Z ::1 GET /api/v1/categories
+2023-07-23T03:46:00.637Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:46:01.154Z ::1 GET / (304)
+2023-07-23T03:46:01.684Z ::1 GET / (304)
+2023-07-23T03:46:01.943Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:46:01.954Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:46:03.005Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:46:03.028Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:46:04.073Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:47:08.353Z ::1 GET /api/v1/account
+2023-07-23T03:47:08.877Z ::1 GET / (304)
+2023-07-23T03:47:09.456Z ::1 POST /api/v1/cart
+2023-07-23T03:47:09.982Z ::1 POST / (200)
+2023-07-23T03:47:10.119Z ::1 GET /api/v1/brands
+2023-07-23T03:47:10.124Z ::1 GET /api/v1/categories
+2023-07-23T03:47:10.129Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:47:10.649Z ::1 GET / (304)
+2023-07-23T03:47:11.181Z ::1 GET / (304)
+2023-07-23T03:47:11.682Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:47:11.687Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:47:12.728Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:47:12.992Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:47:14.280Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:47:50.986Z ::1 GET /api/v1/account
+2023-07-23T03:47:51.512Z ::1 GET / (304)
+2023-07-23T03:47:51.917Z ::1 POST /api/v1/cart
+2023-07-23T03:47:52.444Z ::1 POST / (200)
+2023-07-23T03:47:52.497Z ::1 GET /api/v1/brands
+2023-07-23T03:47:52.501Z ::1 GET /api/v1/categories
+2023-07-23T03:47:52.507Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:47:53.020Z ::1 GET / (304)
+2023-07-23T03:47:53.558Z ::1 GET / (304)
+2023-07-23T03:47:53.569Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:47:53.592Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:47:54.638Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:47:54.641Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:47:56.949Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:48:17.370Z ::1 GET /api/v1/brands
+2023-07-23T03:48:17.896Z ::1 GET / (304)
+2023-07-23T03:48:20.431Z ::1 GET /api/v1/brands
+2023-07-23T03:48:20.453Z ::1 GET /api/v1/categories
+2023-07-23T03:48:20.457Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:48:20.979Z ::1 GET / (304)
+2023-07-23T03:48:21.515Z ::1 GET / (304)
+2023-07-23T03:48:21.523Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:48:21.601Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:48:22.688Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:48:25.352Z ::1 GET /api/v1/account
+2023-07-23T03:48:25.875Z ::1 GET / (304)
+2023-07-23T03:48:26.347Z ::1 POST /api/v1/cart
+2023-07-23T03:48:26.878Z ::1 POST / (200)
+2023-07-23T03:48:27.063Z ::1 GET /api/v1/brands
+2023-07-23T03:48:27.075Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:48:27.080Z ::1 GET /api/v1/categories
+2023-07-23T03:48:27.590Z ::1 GET / (304)
+2023-07-23T03:48:28.120Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:48:28.128Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:48:28.145Z ::1 GET / (304)
+2023-07-23T03:48:29.185Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:48:29.208Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:48:30.003Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:49:17.435Z ::1 GET /api/v1/account
+2023-07-23T03:49:17.996Z ::1 GET / (304)
+2023-07-23T03:49:18.565Z ::1 POST /api/v1/cart
+2023-07-23T03:49:19.105Z ::1 POST / (200)
+2023-07-23T03:49:19.380Z ::1 GET /api/v1/brands
+2023-07-23T03:49:19.385Z ::1 GET /api/v1/categories
+2023-07-23T03:49:19.392Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:49:19.908Z ::1 GET / (304)
+2023-07-23T03:49:20.444Z ::1 GET / (304)
+2023-07-23T03:49:20.450Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:49:20.465Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:49:21.510Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:49:21.528Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:49:22.325Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:51:00.422Z ::1 GET /api/v1/account
+2023-07-23T03:51:00.952Z ::1 GET / (304)
+2023-07-23T03:51:01.575Z ::1 POST /api/v1/cart
+2023-07-23T03:51:02.102Z ::1 POST / (200)
+2023-07-23T03:51:02.377Z ::1 GET /api/v1/brands
+2023-07-23T03:51:02.400Z ::1 GET /api/v1/categories
+2023-07-23T03:51:02.415Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:51:02.901Z ::1 GET / (304)
+2023-07-23T03:51:04.733Z ::1 GET / (304)
+2023-07-23T03:51:04.985Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:51:05.012Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:51:05.803Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:51:05.819Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:51:06.618Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:51:11.018Z ::1 GET /api/v1/brands
+2023-07-23T03:51:11.551Z ::1 GET / (304)
+2023-07-23T03:51:14.936Z ::1 GET /api/v1/brands
+2023-07-23T03:51:14.946Z ::1 GET /api/v1/categories
+2023-07-23T03:51:14.951Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:51:15.473Z ::1 GET / (304)
+2023-07-23T03:51:16.032Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:51:16.047Z ::1 GET / (304)
+2023-07-23T03:51:16.077Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:51:17.157Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:51:31.825Z ::1 PATCH /api/v1/products/d00000000000000000000001
+2023-07-23T03:51:33.455Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-07-23T03:51:34.260Z ::1 PATCH /d00000000000000000000001 (200)
+2023-07-23T03:51:37.070Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-07-23T03:51:41.834Z ::1 GET /api/v1/brands
+2023-07-23T03:51:41.839Z ::1 GET /api/v1/categories
+2023-07-23T03:51:41.845Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:51:42.356Z ::1 GET / (304)
+2023-07-23T03:51:42.639Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:51:42.643Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:51:42.882Z ::1 GET / (304)
+2023-07-23T03:51:43.436Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:51:48.155Z ::1 PATCH /api/v1/products/d00000000000000000000001
+2023-07-23T03:51:48.172Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-07-23T03:51:50.047Z ::1 PATCH /d00000000000000000000001 (200)
+2023-07-23T03:51:51.595Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-07-23T03:51:56.277Z ::1 GET /api/v1/brands
+2023-07-23T03:51:56.282Z ::1 GET /api/v1/categories
+2023-07-23T03:51:56.288Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:51:56.817Z ::1 GET / (304)
+2023-07-23T03:51:57.324Z ::1 GET / (304)
+2023-07-23T03:51:57.335Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:51:57.366Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:51:58.157Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:52:38.787Z ::1 GET /api/v1/account
+2023-07-23T03:52:39.365Z ::1 GET / (304)
+2023-07-23T03:52:40.039Z ::1 POST /api/v1/cart
+2023-07-23T03:52:40.571Z ::1 POST / (200)
+2023-07-23T03:52:40.988Z ::1 GET /api/v1/brands
+2023-07-23T03:52:40.993Z ::1 GET /api/v1/categories
+2023-07-23T03:52:40.997Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:52:41.512Z ::1 GET / (304)
+2023-07-23T03:52:41.789Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:52:41.801Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:52:42.047Z ::1 GET / (304)
+2023-07-23T03:52:42.592Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:52:42.810Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:52:43.615Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:53:06.792Z ::1 GET /api/v1/account
+2023-07-23T03:53:07.316Z ::1 GET / (304)
+2023-07-23T03:53:07.729Z ::1 POST /api/v1/cart
+2023-07-23T03:53:08.260Z ::1 POST / (200)
+2023-07-23T03:53:08.468Z ::1 GET /api/v1/brands
+2023-07-23T03:53:08.472Z ::1 GET /api/v1/categories
+2023-07-23T03:53:08.477Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:53:08.993Z ::1 GET / (304)
+2023-07-23T03:53:09.287Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:53:09.308Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:53:09.529Z ::1 GET / (304)
+2023-07-23T03:53:10.106Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:53:10.109Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:53:10.953Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:53:28.250Z ::1 PATCH /api/v1/products/d00000000000000000000001
+2023-07-23T03:53:29.527Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-07-23T03:53:29.879Z ::1 PATCH /d00000000000000000000001 (200)
+2023-07-23T03:53:33.028Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-07-23T03:53:37.334Z ::1 GET /api/v1/brands
+2023-07-23T03:53:37.338Z ::1 GET /api/v1/categories
+2023-07-23T03:53:37.343Z ::1 GET /api/v1/products/d00000000000000000000002?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:53:37.857Z ::1 GET / (304)
+2023-07-23T03:53:38.137Z ::1 GET /d00000000000000000000002?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:53:38.152Z ::1 GET /api/v1/products/d00000000000000000000002?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:53:38.394Z ::1 GET / (304)
+2023-07-23T03:53:38.954Z ::1 GET /d00000000000000000000002?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:53:39.453Z ::1 GET /api/v1/products/d00000000000000000000002?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:53:40.241Z ::1 GET /d00000000000000000000002?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:53:43.178Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-07-23T03:53:46.182Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-07-23T03:53:49.592Z ::1 GET /api/v1/brands
+2023-07-23T03:53:49.597Z ::1 GET /api/v1/categories
+2023-07-23T03:53:49.602Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:53:50.119Z ::1 GET / (304)
+2023-07-23T03:53:50.402Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:53:50.408Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:53:50.649Z ::1 GET / (304)
+2023-07-23T03:53:51.202Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:53:51.217Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:53:51.753Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:53:58.409Z ::1 GET /api/v1/brands
+2023-07-23T03:53:58.940Z ::1 GET / (304)
+2023-07-23T03:54:02.255Z ::1 GET /api/v1/brands
+2023-07-23T03:54:02.272Z ::1 GET /api/v1/categories
+2023-07-23T03:54:02.276Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:54:02.783Z ::1 GET / (304)
+2023-07-23T03:54:03.065Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:54:03.093Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:54:03.317Z ::1 GET / (304)
+2023-07-23T03:54:03.891Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:54:36.078Z ::1 GET /api/v1/account
+2023-07-23T03:54:36.603Z ::1 GET / (304)
+2023-07-23T03:54:37.268Z ::1 POST /api/v1/cart
+2023-07-23T03:54:37.800Z ::1 POST / (200)
+2023-07-23T03:54:38.109Z ::1 GET /api/v1/brands
+2023-07-23T03:54:38.112Z ::1 GET /api/v1/categories
+2023-07-23T03:54:38.118Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:54:38.636Z ::1 GET / (304)
+2023-07-23T03:54:38.919Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:54:38.934Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:54:39.164Z ::1 GET / (304)
+2023-07-23T03:54:39.744Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:54:39.763Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:54:40.298Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:55:15.938Z ::1 GET /api/v1/account
+2023-07-23T03:55:16.467Z ::1 GET / (304)
+2023-07-23T03:55:16.968Z ::1 POST /api/v1/cart
+2023-07-23T03:55:17.497Z ::1 POST / (200)
+2023-07-23T03:55:17.629Z ::1 GET /api/v1/brands
+2023-07-23T03:55:17.659Z ::1 GET /api/v1/categories
+2023-07-23T03:55:17.664Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:55:18.174Z ::1 GET / (304)
+2023-07-23T03:55:18.466Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:55:18.479Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:55:18.720Z ::1 GET / (304)
+2023-07-23T03:55:19.296Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:55:19.326Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:55:19.869Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:55:36.951Z ::1 GET /api/v1/account
+2023-07-23T03:55:37.478Z ::1 GET / (304)
+2023-07-23T03:55:38.034Z ::1 POST /api/v1/cart
+2023-07-23T03:55:38.559Z ::1 POST / (200)
+2023-07-23T03:55:38.728Z ::1 GET /api/v1/brands
+2023-07-23T03:55:38.735Z ::1 GET /api/v1/categories
+2023-07-23T03:55:38.740Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:55:39.258Z ::1 GET / (304)
+2023-07-23T03:55:39.537Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:55:39.549Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:55:39.783Z ::1 GET / (304)
+2023-07-23T03:55:40.343Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:55:40.348Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:55:40.886Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:56:11.559Z ::1 GET /api/v1/account
+2023-07-23T03:56:12.085Z ::1 GET / (304)
+2023-07-23T03:56:12.997Z ::1 POST /api/v1/cart
+2023-07-23T03:56:13.527Z ::1 POST / (200)
+2023-07-23T03:56:13.836Z ::1 GET /api/v1/brands
+2023-07-23T03:56:13.842Z ::1 GET /api/v1/categories
+2023-07-23T03:56:13.881Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:56:14.359Z ::1 GET / (304)
+2023-07-23T03:56:14.667Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:56:14.715Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:56:14.888Z ::1 GET / (304)
+2023-07-23T03:56:15.515Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:56:15.610Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:56:16.147Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:56:20.649Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-07-23T03:56:23.594Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-07-23T03:56:27.460Z ::1 GET /api/v1/account
+2023-07-23T03:56:28.459Z ::1 GET / (304)
+2023-07-23T03:56:28.882Z ::1 POST /api/v1/cart
+2023-07-23T03:56:29.657Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-07-23T03:56:29.910Z ::1 POST / (200)
+2023-07-23T03:56:35.378Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-07-23T03:56:39.023Z ::1 GET /api/v1/brands
+2023-07-23T03:56:39.027Z ::1 GET /api/v1/categories
+2023-07-23T03:56:39.033Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:56:39.555Z ::1 GET / (304)
+2023-07-23T03:56:39.571Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:56:39.623Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:56:40.283Z ::1 GET / (304)
+2023-07-23T03:56:40.289Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:56:40.301Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:56:40.851Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:56:45.780Z ::1 PATCH /api/v1/products/64b9f780495f96ea30010af9
+2023-07-23T03:56:45.786Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-07-23T03:56:47.082Z ::1 PATCH /64b9f780495f96ea30010af9 (200)
+2023-07-23T03:56:49.162Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-07-23T03:56:54.166Z ::1 GET /api/v1/brands
+2023-07-23T03:56:54.170Z ::1 GET /api/v1/categories
+2023-07-23T03:56:54.176Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:56:54.684Z ::1 GET / (304)
+2023-07-23T03:56:54.706Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:56:54.718Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:56:55.229Z ::1 GET / (304)
+2023-07-23T03:56:55.262Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:56:59.029Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:56:59.569Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:57:22.964Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:57:23.504Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:57:45.718Z ::1 GET /api/v1/account
+2023-07-23T03:57:46.243Z ::1 GET / (304)
+2023-07-23T03:57:46.870Z ::1 POST /api/v1/cart
+2023-07-23T03:57:47.405Z ::1 POST / (200)
+2023-07-23T03:57:48.743Z ::1 GET /api/v1/brands
+2023-07-23T03:57:48.747Z ::1 GET /api/v1/categories
+2023-07-23T03:57:48.750Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:57:49.282Z ::1 GET / (304)
+2023-07-23T03:57:49.286Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:57:49.334Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:57:49.762Z ::1 GET / (304)
+2023-07-23T03:57:49.867Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:57:50.224Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:57:50.763Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T03:57:53.009Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T03:57:53.536Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:00:15.029Z ::1 GET /api/v1/account
+2023-07-23T04:00:15.548Z ::1 GET / (304)
+2023-07-23T04:00:17.399Z ::1 POST /api/v1/cart
+2023-07-23T04:00:17.940Z ::1 POST / (200)
+2023-07-23T04:00:19.010Z ::1 GET /api/v1/brands
+2023-07-23T04:00:19.014Z ::1 GET /api/v1/categories
+2023-07-23T04:00:19.019Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:00:19.540Z ::1 GET / (304)
+2023-07-23T04:00:19.552Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:00:19.614Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:00:20.076Z ::1 GET / (304)
+2023-07-23T04:00:20.155Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:00:20.488Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:00:21.018Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:00:28.042Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:00:28.582Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:01:52.548Z ::1 GET /api/v1/account
+2023-07-23T04:01:53.072Z ::1 GET / (304)
+2023-07-23T04:01:53.734Z ::1 POST /api/v1/cart
+2023-07-23T04:01:54.283Z ::1 POST / (200)
+2023-07-23T04:01:55.311Z ::1 GET /api/v1/brands
+2023-07-23T04:01:55.315Z ::1 GET /api/v1/categories
+2023-07-23T04:01:55.323Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:01:55.844Z ::1 GET / (304)
+2023-07-23T04:01:55.860Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:01:55.880Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:01:56.340Z ::1 GET / (304)
+2023-07-23T04:01:56.415Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:01:56.454Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:01:56.995Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:01:57.548Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:01:58.080Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:02:37.654Z ::1 GET /api/v1/account
+2023-07-23T04:02:38.184Z ::1 GET / (304)
+2023-07-23T04:02:38.906Z ::1 POST /api/v1/cart
+2023-07-23T04:02:39.432Z ::1 POST / (200)
+2023-07-23T04:02:39.835Z ::1 GET /api/v1/brands
+2023-07-23T04:02:39.842Z ::1 GET /api/v1/categories
+2023-07-23T04:02:39.847Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:02:40.356Z ::1 GET / (304)
+2023-07-23T04:02:40.379Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:02:40.391Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:02:40.889Z ::1 GET / (304)
+2023-07-23T04:02:40.934Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:02:40.985Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:02:41.521Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:02:43.639Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:02:44.185Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:03:02.992Z ::1 GET /api/v1/account
+2023-07-23T04:03:03.514Z ::1 GET / (304)
+2023-07-23T04:03:04.216Z ::1 POST /api/v1/cart
+2023-07-23T04:03:04.750Z ::1 POST / (200)
+2023-07-23T04:03:05.281Z ::1 GET /api/v1/brands
+2023-07-23T04:03:05.287Z ::1 GET /api/v1/categories
+2023-07-23T04:03:05.294Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:03:05.807Z ::1 GET / (304)
+2023-07-23T04:03:05.821Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:03:05.836Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:03:06.311Z ::1 GET / (304)
+2023-07-23T04:03:06.378Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:03:06.441Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:03:06.981Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:03:09.890Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:03:10.419Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:04:12.797Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:04:13.333Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:04:27.247Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:04:27.778Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:05:32.068Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:05:32.598Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:06:08.499Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:06:09.045Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:06:11.468Z ::1 GET /api/v1/account
+2023-07-23T04:06:11.985Z ::1 GET / (304)
+2023-07-23T04:06:12.608Z ::1 POST /api/v1/cart
+2023-07-23T04:06:13.135Z ::1 POST / (200)
+2023-07-23T04:06:13.695Z ::1 GET /api/v1/brands
+2023-07-23T04:06:13.699Z ::1 GET /api/v1/categories
+2023-07-23T04:06:13.705Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:06:14.212Z ::1 GET / (304)
+2023-07-23T04:06:14.229Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:06:14.239Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:06:14.749Z ::1 GET / (304)
+2023-07-23T04:06:14.789Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:06:14.839Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:06:15.376Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:06:16.279Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:06:16.812Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:06:56.239Z ::1 POST /api/v1/products/64b9f780495f96ea30010af9/variants
+2023-07-23T04:06:57.265Z ::1 POST /api/v1/products/64b9f780495f96ea30010af9/variants (500)
+2023-07-23T04:07:36.376Z ::1 GET /api/v1/account
+2023-07-23T04:07:36.905Z ::1 GET / (304)
+2023-07-23T04:07:38.591Z ::1 POST /api/v1/cart
+2023-07-23T04:07:39.132Z ::1 POST / (200)
+2023-07-23T04:07:39.827Z ::1 GET /api/v1/brands
+2023-07-23T04:07:39.832Z ::1 GET /api/v1/categories
+2023-07-23T04:07:39.836Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:07:40.364Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:07:40.369Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:07:41.009Z ::1 GET / (304)
+2023-07-23T04:07:41.020Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:07:41.023Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:07:41.544Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:07:41.847Z ::1 GET / (304)
+2023-07-23T04:07:50.616Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:07:51.147Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:08:15.636Z ::1 GET /api/v1/account
+2023-07-23T04:08:16.170Z ::1 GET / (304)
+2023-07-23T04:08:16.882Z ::1 POST /api/v1/cart
+2023-07-23T04:08:17.417Z ::1 POST / (200)
+2023-07-23T04:08:18.214Z ::1 GET /api/v1/brands
+2023-07-23T04:08:18.220Z ::1 GET /api/v1/categories
+2023-07-23T04:08:18.228Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:08:18.755Z ::1 GET / (304)
+2023-07-23T04:08:18.760Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:08:18.770Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:08:19.281Z ::1 GET / (304)
+2023-07-23T04:08:19.308Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:08:20.317Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:08:20.864Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:08:26.316Z ::1 GET /api/v1/account
+2023-07-23T04:08:26.861Z ::1 GET / (304)
+2023-07-23T04:08:27.484Z ::1 POST /api/v1/cart
+2023-07-23T04:08:28.024Z ::1 POST / (200)
+2023-07-23T04:08:28.638Z ::1 GET /api/v1/brands
+2023-07-23T04:08:28.642Z ::1 GET /api/v1/categories
+2023-07-23T04:08:28.646Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:08:29.161Z ::1 GET / (304)
+2023-07-23T04:08:29.183Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:08:29.195Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:08:29.701Z ::1 GET / (304)
+2023-07-23T04:08:29.719Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:08:29.732Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:08:30.266Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:08:31.144Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:08:31.676Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:09:00.563Z ::1 POST /api/v1/products/64b9f780495f96ea30010af9/variants
+2023-07-23T04:09:01.834Z ::1 POST /64b9f780495f96ea30010af9/variants (201)
+2023-07-23T04:09:01.942Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:09:02.477Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:09:13.992Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:09:14.519Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:09:20.836Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:09:21.373Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:09:42.511Z ::1 PATCH /api/v1/products/64b9f780495f96ea30010af9/variants/123
+2023-07-23T04:09:43.802Z ::1 PATCH /64b9f780495f96ea30010af9/variants/123 (200)
+2023-07-23T04:09:59.854Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:10:00.386Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:10:32.007Z ::1 GET /api/v1/account
+2023-07-23T04:10:32.519Z ::1 GET / (304)
+2023-07-23T04:10:33.125Z ::1 POST /api/v1/cart
+2023-07-23T04:10:33.645Z ::1 POST / (200)
+2023-07-23T04:10:34.422Z ::1 GET /api/v1/brands
+2023-07-23T04:10:34.426Z ::1 GET /api/v1/categories
+2023-07-23T04:10:34.431Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:10:34.963Z ::1 GET / (304)
+2023-07-23T04:10:34.978Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:10:34.987Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:10:35.577Z ::1 GET / (304)
+2023-07-23T04:10:35.602Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:10:35.609Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:10:36.138Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:10:42.212Z ::1 GET /api/v1/products/64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:10:42.744Z ::1 GET /64b9f780495f96ea30010af9?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:13:36.850Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-07-23T04:13:41.092Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-07-23T04:13:44.798Z ::1 GET /api/v1/brands
+2023-07-23T04:13:44.802Z ::1 GET /api/v1/categories
+2023-07-23T04:13:44.807Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:13:45.327Z ::1 GET / (304)
+2023-07-23T04:13:45.609Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:13:45.626Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:13:45.883Z ::1 GET / (304)
+2023-07-23T04:13:46.427Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:13:46.594Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:13:47.389Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:18:10.041Z ::1 GET /api/v1/account
+2023-07-23T04:18:10.570Z ::1 GET / (304)
+2023-07-23T04:18:11.082Z ::1 POST /api/v1/cart
+2023-07-23T04:18:11.614Z ::1 POST / (200)
+2023-07-23T04:18:13.567Z ::1 GET /api/v1/brands
+2023-07-23T04:18:13.574Z ::1 GET /api/v1/categories
+2023-07-23T04:18:13.588Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:18:14.084Z ::1 GET / (304)
+2023-07-23T04:18:14.364Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:18:14.391Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:18:14.647Z ::1 GET / (304)
+2023-07-23T04:18:15.175Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:18:16.457Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:18:17.255Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:20:05.923Z ::1 GET /api/v1/account
+2023-07-23T04:20:06.450Z ::1 GET / (304)
+2023-07-23T04:20:06.868Z ::1 POST /api/v1/cart
+2023-07-23T04:20:07.408Z ::1 POST / (200)
+2023-07-23T04:20:35.667Z ::1 GET /api/v1/account
+2023-07-23T04:20:36.201Z ::1 GET / (304)
+2023-07-23T04:20:37.078Z ::1 POST /api/v1/cart
+2023-07-23T04:20:37.608Z ::1 POST / (200)
+2023-07-23T04:20:38.283Z ::1 GET /api/v1/brands
+2023-07-23T04:20:38.289Z ::1 GET /api/v1/categories
+2023-07-23T04:20:38.294Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:20:38.821Z ::1 GET / (304)
+2023-07-23T04:20:39.105Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:20:39.163Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:20:39.364Z ::1 GET / (304)
+2023-07-23T04:20:39.977Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:20:40.745Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:20:41.541Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:20:49.728Z ::1 GET /api/v1/account
+2023-07-23T04:20:50.272Z ::1 GET / (304)
+2023-07-23T04:20:50.667Z ::1 POST /api/v1/cart
+2023-07-23T04:20:51.201Z ::1 POST / (200)
+2023-07-23T04:20:51.448Z ::1 GET /api/v1/brands
+2023-07-23T04:20:51.464Z ::1 GET /api/v1/categories
+2023-07-23T04:20:51.470Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:20:51.975Z ::1 GET / (304)
+2023-07-23T04:20:52.243Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:20:52.252Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:20:52.523Z ::1 GET / (304)
+2023-07-23T04:20:53.044Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:20:53.296Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:20:54.094Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:21:15.241Z ::1 GET /api/v1/account
+2023-07-23T04:21:15.776Z ::1 GET / (304)
+2023-07-23T04:21:16.875Z ::1 POST /api/v1/cart
+2023-07-23T04:21:17.409Z ::1 POST / (200)
+2023-07-23T04:21:26.365Z ::1 GET /api/v1/account
+2023-07-23T04:21:26.902Z ::1 GET / (304)
+2023-07-23T04:21:27.410Z ::1 POST /api/v1/cart
+2023-07-23T04:21:27.943Z ::1 POST / (200)
+2023-07-23T04:21:28.345Z ::1 GET /api/v1/categories
+2023-07-23T04:21:28.363Z ::1 GET /api/v1/brands
+2023-07-23T04:21:28.367Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:21:28.891Z ::1 GET / (304)
+2023-07-23T04:21:29.146Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:21:29.168Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:21:29.445Z ::1 GET / (304)
+2023-07-23T04:21:29.976Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:21:30.151Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:21:30.941Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:22:17.497Z ::1 GET /api/v1/account
+2023-07-23T04:22:18.024Z ::1 GET / (304)
+2023-07-23T04:22:18.642Z ::1 POST /api/v1/cart
+2023-07-23T04:22:19.177Z ::1 POST / (200)
+2023-07-23T04:22:19.743Z ::1 GET /api/v1/brands
+2023-07-23T04:22:19.747Z ::1 GET /api/v1/categories
+2023-07-23T04:22:19.751Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:22:20.274Z ::1 GET / (304)
+2023-07-23T04:22:20.521Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:22:20.532Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:22:20.805Z ::1 GET / (304)
+2023-07-23T04:22:21.314Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:22:21.449Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:22:22.247Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:24:34.704Z ::1 GET /api/v1/account
+2023-07-23T04:24:35.225Z ::1 GET / (304)
+2023-07-23T04:24:35.692Z ::1 POST /api/v1/cart
+2023-07-23T04:24:36.210Z ::1 POST / (200)
+2023-07-23T04:24:36.509Z ::1 GET /api/v1/brands
+2023-07-23T04:24:36.512Z ::1 GET /api/v1/categories
+2023-07-23T04:24:36.523Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:24:37.024Z ::1 GET / (304)
+2023-07-23T04:24:37.299Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:24:37.310Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:24:37.561Z ::1 GET / (304)
+2023-07-23T04:24:38.099Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:24:38.777Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:24:39.568Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:24:47.590Z ::1 GET /api/v1/account
+2023-07-23T04:24:48.106Z ::1 GET / (304)
+2023-07-23T04:24:48.411Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:24:48.436Z ::1 POST /api/v1/cart
+2023-07-23T04:24:48.443Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-23T04:24:48.451Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-23T04:24:48.456Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-23T04:24:48.627Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-23T04:24:48.680Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:24:48.693Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:24:48.723Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-23T04:24:48.727Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-23T04:24:48.952Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:24:48.963Z ::1 POST / (200)
+2023-07-23T04:24:49.468Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-23T04:24:50.498Z ::1 GET /api/v1/products/search/suggest?keyword=i
+2023-07-23T04:24:50.768Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-07-23T04:24:50.771Z ::1 GET /search/suggest?keyword=i (200)
+2023-07-23T04:24:51.401Z ::1 GET /api/v1/products/search/suggest?keyword=iP
+2023-07-23T04:24:51.424Z ::1 GET /api/v1/products/search/suggest?keyword=iPh
+2023-07-23T04:24:51.472Z ::1 GET /api/v1/products/search/suggest?keyword=iPho
+2023-07-23T04:24:51.581Z ::1 GET /api/v1/products/search/suggest?keyword=iPhon
+2023-07-23T04:24:51.623Z ::1 GET /api/v1/products/search/suggest?keyword=iPhone
+2023-07-23T04:24:51.664Z ::1 GET /search/suggest?keyword=iP (200)
+2023-07-23T04:24:51.691Z ::1 GET /search/suggest?keyword=iPh (200)
+2023-07-23T04:24:51.724Z ::1 GET /search/suggest?keyword=iPho (200)
+2023-07-23T04:24:51.850Z ::1 GET /search/suggest?keyword=iPhon (200)
+2023-07-23T04:24:51.886Z ::1 GET /search/suggest?keyword=iPhone (200)
+2023-07-23T04:24:51.976Z ::1 GET /api/v1/products/search/suggest?keyword=iPhone+1
+2023-07-23T04:24:52.225Z ::1 GET /api/v1/products/search/suggest?keyword=iPhone+11
+2023-07-23T04:24:52.486Z ::1 GET /search/suggest?keyword=iPhone+1 (200)
+2023-07-23T04:24:53.128Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-07-23T04:24:53.134Z ::1 GET /api/v1/products?search=iPhone+11&c=&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-07-23T04:24:53.736Z ::1 GET /search/suggest?keyword=iPhone+11 (200)
+2023-07-23T04:24:54.119Z ::1 GET /?fields=_id%20name%20slug (200)
+2023-07-23T04:24:54.135Z ::1 GET /api/v1/brands?fields=_id%20name%20slug&isHidden=undefined
+2023-07-23T04:24:54.385Z ::1 GET /?fields=_id%20name%20slug&isHidden=undefined (200)
+2023-07-23T04:24:55.670Z ::1 GET /?search=iPhone+11&c=&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-07-23T04:24:55.708Z ::1 GET /api/v1/products?search=iPhone+11&c=&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-07-23T04:24:57.754Z ::1 GET /?search=iPhone+11&c=&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-07-23T04:25:01.532Z ::1 GET /api/v1/products/iphone-11?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:25:02.299Z ::1 GET /iphone-11?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:25:02.598Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=b00000000000000000000001&c=c00000000000000000000001
+2023-07-23T04:25:04.148Z ::1 GET /?search=&page=0&limit=5&b=b00000000000000000000001&c=c00000000000000000000001 (200)
+2023-07-23T04:25:07.584Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:25:07.594Z ::1 POST / (200)
+2023-07-23T04:27:47.384Z ::1 GET /api/v1/comments/d00000000000000000000001
+2023-07-23T04:27:47.639Z ::1 GET /d00000000000000000000001 (404)
+2023-07-23T04:27:47.649Z ::1 GET /api/v1/comments/d00000000000000000000001
+2023-07-23T04:27:47.903Z ::1 GET /d00000000000000000000001 (404)
+2023-07-23T04:28:00.458Z ::1 POST /api/v1/comments
+2023-07-23T04:28:00.727Z ::1 POST / (201)
+2023-07-23T04:28:00.974Z ::1 GET /api/v1/comments/d00000000000000000000001
+2023-07-23T04:28:01.471Z ::1 GET /d00000000000000000000001 (200)
+2023-07-23T04:28:29.868Z ::1 GET /api/v1/comments/d00000000000000000000001
+2023-07-23T04:28:30.368Z ::1 GET /d00000000000000000000001 (304)
+2023-07-23T04:28:30.371Z ::1 GET /api/v1/comments/d00000000000000000000001
+2023-07-23T04:28:30.869Z ::1 GET /d00000000000000000000001 (304)
+2023-07-23T04:28:31.832Z ::1 POST /api/v1/cart/add
+2023-07-23T04:28:32.614Z ::1 POST /add (200)
+2023-07-23T04:28:37.589Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:28:37.592Z ::1 POST / (200)
+2023-07-23T04:28:42.343Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:28:42.389Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=b00000000000000000000001&c=c00000000000000000000001
+2023-07-23T04:28:43.114Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:28:44.630Z ::1 GET /?search=&page=0&limit=5&b=b00000000000000000000001&c=c00000000000000000000001 (304)
+2023-07-23T04:28:47.734Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:28:47.737Z ::1 POST / (200)
+2023-07-23T04:29:25.623Z ::1 POST /api/v1/cart/add
+2023-07-23T04:29:26.424Z ::1 POST /add (200)
+2023-07-23T04:29:27.578Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:29:27.583Z ::1 POST / (200)
+2023-07-23T04:30:17.701Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-23T04:30:24.668Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-07-23T04:30:28.235Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:30:28.244Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-23T04:30:28.266Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-23T04:30:28.270Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-23T04:30:28.499Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:30:28.525Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-23T04:30:28.530Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:30:28.542Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-23T04:30:28.807Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-23T04:30:28.820Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:30:29.318Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-23T04:30:31.171Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-07-23T04:30:35.568Z ::1 GET /api/v1/products/xiaomi-redmi-note-11-6gb?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:30:36.364Z ::1 GET /xiaomi-redmi-note-11-6gb?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:30:36.626Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=b00000000000000000000008&c=c00000000000000000000001
+2023-07-23T04:30:37.769Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:30:37.773Z ::1 POST / (200)
+2023-07-23T04:30:38.224Z ::1 GET /?search=&page=0&limit=5&b=b00000000000000000000008&c=c00000000000000000000001 (200)
+2023-07-23T04:30:47.766Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:30:47.770Z ::1 POST / (200)
+2023-07-23T04:31:31.270Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:31:31.287Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-23T04:31:31.303Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-23T04:31:31.320Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-23T04:31:31.563Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:31:31.569Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-23T04:31:31.581Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:31:31.590Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-23T04:31:31.833Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:31:32.374Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-23T04:33:20.130Z ::1 POST /api/v1/auth/login
+2023-07-23T04:33:20.434Z ::1 POST /api/v1/auth/login (404)
+2023-07-23T04:33:23.923Z ::1 POST /api/v1/auth/login
+2023-07-23T04:33:24.640Z ::1 POST /login (200)
+2023-07-23T04:33:25.401Z ::1 POST /api/v1/cart
+2023-07-23T04:33:25.969Z ::1 POST / (200)
+2023-07-23T04:33:27.629Z ::1 GET /api/v1/statistic/products
+2023-07-23T04:33:27.643Z ::1 GET /api/v1/brands
+2023-07-23T04:33:27.655Z ::1 GET /api/v1/users/customer
+2023-07-23T04:33:27.661Z ::1 GET /api/v1/categories
+2023-07-23T04:33:27.685Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-23T04:33:27.698Z ::1 GET /api/v1/statistic/monthly-revenue?year=2023
+2023-07-23T04:33:27.969Z ::1 GET /customer (200)
+2023-07-23T04:33:27.986Z ::1 GET /api/v1/statistic/products/best-seller
+2023-07-23T04:33:28.264Z ::1 GET / (304)
+2023-07-23T04:33:28.581Z ::1 GET /products/best-seller (200)
+2023-07-23T04:33:28.601Z ::1 GET /monthly-revenue?year=2023 (200)
+2023-07-23T04:33:28.823Z ::1 GET / (304)
+2023-07-23T04:33:28.865Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (200)
+2023-07-23T04:33:28.904Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-23T04:33:29.785Z ::1 GET /products (200)
+2023-07-23T04:33:29.790Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (304)
+2023-07-23T04:33:29.823Z ::1 GET /api/v1/statistic/products
+2023-07-23T04:33:30.519Z ::1 GET /api/v1/account
+2023-07-23T04:33:31.044Z ::1 GET / (304)
+2023-07-23T04:33:31.722Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:33:31.728Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-23T04:33:31.733Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-23T04:33:31.744Z ::1 POST /api/v1/cart
+2023-07-23T04:33:31.756Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-23T04:33:32.007Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-23T04:33:32.013Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:33:32.018Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-23T04:33:32.035Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:33:32.285Z ::1 POST / (200)
+2023-07-23T04:33:32.294Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:33:32.404Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-23T04:33:32.729Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-23T04:33:34.447Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-07-23T04:33:38.218Z ::1 GET /api/v1/account
+2023-07-23T04:33:38.716Z ::1 GET / (304)
+2023-07-23T04:33:39.411Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:33:39.416Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-23T04:33:39.425Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-23T04:33:39.429Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-23T04:33:39.436Z ::1 POST /api/v1/cart
+2023-07-23T04:33:39.676Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:33:39.692Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-23T04:33:39.707Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:33:39.718Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-23T04:33:39.966Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:33:40.001Z ::1 POST / (200)
+2023-07-23T04:33:40.455Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-23T04:33:42.105Z ::1 DELETE /api/v1/cart/d00000000000000000000001/0000000000310
+2023-07-23T04:33:42.864Z ::1 DELETE /d00000000000000000000001/0000000000310 (200)
+2023-07-23T04:33:44.031Z ::1 DELETE /api/v1/cart/d00000000000000000000001/0000000000297
+2023-07-23T04:33:44.788Z ::1 DELETE /d00000000000000000000001/0000000000297 (200)
+2023-07-23T04:33:48.202Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:33:48.207Z ::1 POST / (200)
+2023-07-23T04:33:49.160Z ::1 GET /api/v1/account/addresses
+2023-07-23T04:33:49.409Z ::1 GET /addresses (200)
+2023-07-23T04:34:33.131Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-23T04:34:34.244Z ::1 GET /api/v1/account
+2023-07-23T04:34:34.798Z ::1 GET / (304)
+2023-07-23T04:34:35.133Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:34:35.142Z ::1 POST /api/v1/cart
+2023-07-23T04:34:35.147Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-23T04:34:35.154Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-23T04:34:35.158Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-23T04:34:35.358Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-23T04:34:35.392Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:34:35.398Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:34:35.421Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-23T04:34:35.429Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-23T04:34:35.678Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:34:35.715Z ::1 POST / (200)
+2023-07-23T04:34:36.300Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-23T04:34:37.690Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-07-23T04:34:39.744Z ::1 GET /api/v1/products/vivo-y21?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:34:40.288Z ::1 GET /vivo-y21?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:34:40.507Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=b00000000000000000000007&c=c00000000000000000000001
+2023-07-23T04:34:42.101Z ::1 GET /?search=&page=0&limit=5&b=b00000000000000000000007&c=c00000000000000000000001 (200)
+2023-07-23T04:34:44.278Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:34:44.283Z ::1 POST / (200)
+2023-07-23T04:34:48.699Z ::1 POST /api/v1/cart/add
+2023-07-23T04:34:50.356Z ::1 POST /add (200)
+2023-07-23T04:34:54.250Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:34:54.253Z ::1 POST / (200)
+2023-07-23T04:35:01.175Z ::1 DELETE /api/v1/cart/d00000000000000000000105/0000000000747
+2023-07-23T04:35:01.971Z ::1 DELETE /d00000000000000000000105/0000000000747 (200)
+2023-07-23T04:35:04.237Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:35:04.240Z ::1 POST / (200)
+2023-07-23T04:35:53.952Z ::1 GET /api/v1/account
+2023-07-23T04:35:54.528Z ::1 GET / (304)
+2023-07-23T04:35:55.438Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:35:55.445Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-23T04:35:55.451Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-23T04:35:55.466Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-23T04:35:55.476Z ::1 POST /api/v1/cart
+2023-07-23T04:35:55.709Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:35:55.725Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-23T04:35:55.734Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:35:55.740Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-23T04:35:55.999Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:35:56.006Z ::1 POST / (200)
+2023-07-23T04:35:56.466Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-23T04:35:57.854Z ::1 GET /api/v1/products/vivo-y21?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:35:58.647Z ::1 GET /vivo-y21?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:35:59.635Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=b00000000000000000000007&c=c00000000000000000000001
+2023-07-23T04:36:01.201Z ::1 GET /?search=&page=0&limit=5&b=b00000000000000000000007&c=c00000000000000000000001 (200)
+2023-07-23T04:36:05.938Z ::1 GET /api/v1/account
+2023-07-23T04:36:06.461Z ::1 GET / (304)
+2023-07-23T04:36:07.446Z ::1 POST /api/v1/cart
+2023-07-23T04:36:07.991Z ::1 POST / (200)
+2023-07-23T04:36:09.100Z ::1 GET /api/v1/brands
+2023-07-23T04:36:09.105Z ::1 GET /api/v1/categories
+2023-07-23T04:36:09.114Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:36:09.626Z ::1 GET / (304)
+2023-07-23T04:36:09.906Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:36:09.912Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:36:10.111Z ::1 GET / (304)
+2023-07-23T04:36:10.458Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:36:11.338Z ::1 GET /api/v1/products/d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:36:12.133Z ::1 GET /d00000000000000000000001?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:37:11.101Z ::1 GET /api/v1/account
+2023-07-23T04:37:11.617Z ::1 GET / (304)
+2023-07-23T04:37:12.491Z ::1 POST /api/v1/cart
+2023-07-23T04:37:12.500Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:37:12.504Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-23T04:37:12.510Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-23T04:37:12.515Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-23T04:37:12.754Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:37:12.761Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:37:12.777Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-23T04:37:12.785Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-23T04:37:13.014Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:37:13.019Z ::1 POST / (200)
+2023-07-23T04:37:13.114Z ::1 GET /api/v1/products/vivo-y21?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:37:13.559Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-23T04:37:13.910Z ::1 GET /vivo-y21?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:37:14.762Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=b00000000000000000000007&c=c00000000000000000000001
+2023-07-23T04:37:16.333Z ::1 GET /?search=&page=0&limit=5&b=b00000000000000000000007&c=c00000000000000000000001 (200)
+2023-07-23T04:37:19.715Z ::1 POST /api/v1/cart/add
+2023-07-23T04:37:20.516Z ::1 POST /add (200)
+2023-07-23T04:37:21.080Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:37:21.085Z ::1 POST / (200)
+2023-07-23T04:37:23.871Z ::1 DELETE /api/v1/cart/d00000000000000000000105/0000000000747
+2023-07-23T04:37:24.651Z ::1 DELETE /d00000000000000000000105/0000000000747 (200)
+2023-07-23T04:37:31.738Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:37:31.740Z ::1 POST / (200)
+2023-07-23T04:38:36.223Z ::1 GET /api/v1/account
+2023-07-23T04:38:36.893Z ::1 GET / (304)
+2023-07-23T04:38:38.011Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:38:38.014Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-23T04:38:38.022Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-23T04:38:38.026Z ::1 POST /api/v1/cart
+2023-07-23T04:38:38.046Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-23T04:38:38.275Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:38:38.280Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-23T04:38:38.306Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-23T04:38:38.315Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-23T04:38:38.554Z ::1 POST / (200)
+2023-07-23T04:38:38.578Z ::1 GET /search/suggest?keyword= (304)
+2023-07-23T04:38:38.692Z ::1 GET /api/v1/products/vivo-y21?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:38:39.070Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-23T04:38:39.533Z ::1 GET /vivo-y21?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:38:40.128Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=b00000000000000000000007&c=c00000000000000000000001
+2023-07-23T04:38:41.683Z ::1 GET /?search=&page=0&limit=5&b=b00000000000000000000007&c=c00000000000000000000001 (200)
+2023-07-23T04:38:45.316Z ::1 POST /api/v1/cart/add
+2023-07-23T04:38:46.122Z ::1 POST /add (200)
+2023-07-23T04:38:46.278Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:38:46.281Z ::1 POST / (200)
+2023-07-23T04:38:51.133Z ::1 GET /api/v1/products/vivo-y21?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-23T04:38:51.141Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=b00000000000000000000007&c=c00000000000000000000001
+2023-07-23T04:38:51.929Z ::1 GET /vivo-y21?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-23T04:38:52.724Z ::1 GET /?search=&page=0&limit=5&b=b00000000000000000000007&c=c00000000000000000000001 (200)
+2023-07-23T04:38:54.966Z ::1 POST /api/v1/cart/add
+2023-07-23T04:38:55.815Z ::1 POST /add (200)
+2023-07-23T04:38:56.881Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:38:56.896Z ::1 POST / (200)
+2023-07-23T04:39:04.859Z ::1 DELETE /api/v1/cart/d00000000000000000000105/0000000000748
+2023-07-23T04:39:05.662Z ::1 DELETE /d00000000000000000000105/0000000000748 (200)
+2023-07-23T04:39:06.175Z ::1 POST /api/v1/user-behavior
+2023-07-23T04:39:06.182Z ::1 POST / (200)
+2023-07-23T04:39:07.151Z ::1 DELETE /api/v1/cart/d00000000000000000000105/0000000000747
+2023-07-23T04:39:07.943Z ::1 DELETE /d00000000000000000000105/0000000000747 (200)
+2023-07-23T17:17:56.153Z ::ffff:127.0.0.1 GET /api/v1/payment/momo
+2023-07-23T17:17:56.202Z ::ffff:127.0.0.1 GET /api/v1/payment/momo (404)
+2023-07-23T17:18:05.775Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T17:18:05.789Z ::ffff:127.0.0.1 POST /api/v1/payment/momo (500)
+2023-07-23T17:18:52.707Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T17:18:52.751Z ::ffff:127.0.0.1 POST /api/v1/payment/momo (500)
+2023-07-23T17:20:58.053Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T17:20:58.109Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T17:26:28.336Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T17:26:28.376Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T17:34:27.724Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T17:34:27.778Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T17:40:44.586Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T17:40:44.636Z ::ffff:127.0.0.1 POST /api/v1/payment/momo (500)
+2023-07-23T17:41:44.958Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T17:41:45.002Z ::ffff:127.0.0.1 POST /api/v1/payment/momo (500)
+2023-07-23T17:42:57.269Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T17:42:57.311Z ::ffff:127.0.0.1 POST /api/v1/payment/momo (500)
+2023-07-23T17:43:31.605Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T17:43:31.649Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T17:48:19.355Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T17:48:19.392Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T17:53:04.699Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T17:53:04.744Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T17:59:57.393Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T17:59:57.448Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T18:03:42.964Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T18:03:43.005Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T18:09:31.794Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T18:09:31.854Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T18:11:18.415Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T18:11:18.463Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T18:13:05.477Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T18:13:05.530Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T18:18:48.569Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T18:18:48.615Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T18:20:31.347Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T18:20:31.388Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T18:29:08.874Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T18:29:08.935Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T18:32:27.634Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T18:32:27.692Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T18:37:27.021Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T18:37:27.080Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T19:04:16.239Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T19:04:16.319Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T19:09:05.342Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T19:09:05.400Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T19:12:42.748Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T19:12:42.798Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T19:15:44.226Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T19:15:44.281Z ::ffff:127.0.0.1 POST /api/v1/payment/momo (500)
+2023-07-23T19:16:35.037Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T19:16:35.076Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T19:18:45.576Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T19:18:45.647Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T19:20:09.601Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T19:20:09.660Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T19:20:48.527Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T19:20:48.565Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T19:21:17.623Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T19:21:17.667Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T19:24:50.608Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T19:24:50.684Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T19:34:38.421Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T19:34:38.473Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T19:38:23.291Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T19:38:23.337Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:11:37.693Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:11:37.738Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:20:24.461Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:20:24.522Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:26:49.955Z ::1 GET /api/v1/payment/momo
+2023-07-23T20:26:49.973Z ::1 GET /api/v1/payment/momo (404)
+2023-07-23T20:31:02.532Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:31:02.583Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:32:06.397Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:32:06.441Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:33:32.259Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:33:32.317Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:34:50.476Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:34:50.517Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:39:29.469Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:39:29.646Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:41:19.767Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:41:19.808Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:42:05.214Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:42:05.256Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:43:48.469Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:43:48.538Z ::ffff:127.0.0.1 POST /api/v1/payment/momo (500)
+2023-07-23T20:44:27.224Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:44:27.260Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:49:52.268Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:49:52.321Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:52:17.242Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:52:17.309Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:52:37.469Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:52:37.508Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T20:53:28.052Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T20:53:28.094Z ::ffff:127.0.0.1 POST /momo (400)
+2023-07-23T21:00:28.611Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-23T21:00:28.863Z ::ffff:127.0.0.1 POST /momo (200)

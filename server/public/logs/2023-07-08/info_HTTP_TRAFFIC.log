@@ -1,0 +1,538 @@
+
+2023-07-08T16:58:21.863Z ::1 GET /api/v1/account
+2023-07-08T16:58:22.223Z ::1 GET / (200)
+2023-07-08T16:58:23.009Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T16:58:23.033Z ::1 POST /api/v1/cart
+2023-07-08T16:58:23.133Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-08T16:58:23.154Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-08T16:58:23.167Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-08T16:58:23.537Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (200)
+2023-07-08T16:58:23.547Z ::1 GET /search/suggest?keyword= (200)
+2023-07-08T16:58:23.552Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (200)
+2023-07-08T16:58:23.584Z ::1 POST / (200)
+2023-07-08T16:58:23.602Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T16:58:24.163Z ::1 GET /?fields=name%20slug%20image (200)
+2023-07-08T16:58:24.173Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T16:58:25.226Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-08T16:58:28.755Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-07-08T17:00:59.226Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T17:00:59.351Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-08T17:00:59.360Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-08T17:00:59.413Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-08T17:00:59.968Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-08T17:00:59.977Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T17:00:59.993Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T17:01:00.036Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T17:01:00.184Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-08T17:01:01.144Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-08T17:01:04.246Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-08T17:01:14.562Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-07-08T17:01:20.379Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T17:01:20.393Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-08T17:01:20.398Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-08T17:01:20.405Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-08T17:01:20.659Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-08T17:01:20.676Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T17:01:20.822Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T17:01:21.143Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-08T17:01:21.158Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T17:01:21.757Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-08T17:01:24.598Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-08T17:01:26.634Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-07-08T17:08:19.493Z ::1 POST /api/v1/auth/register
+2023-07-08T17:08:19.616Z ::1 POST /register (400)
+2023-07-08T17:11:19.940Z ::1 POST /api/v1/auth/register
+2023-07-08T17:11:20.045Z ::1 POST /register (400)
+2023-07-08T17:11:38.772Z ::1 POST /api/v1/auth/register
+2023-07-08T17:11:38.805Z ::1 POST /register (400)
+2023-07-08T17:15:39.779Z ::1 POST /api/v1/auth/register
+2023-07-08T17:15:39.888Z ::1 POST /register (400)
+2023-07-08T17:19:00.984Z ::1 POST /api/v1/auth/register
+2023-07-08T17:19:01.105Z ::1 POST /register (400)
+2023-07-08T17:19:01.330Z ::1 POST /api/v1/auth/send-otp
+2023-07-08T17:19:04.685Z ::1 POST /send-otp (200)
+2023-07-08T17:20:53.153Z ::1 POST /api/v1/auth/register
+2023-07-08T17:20:53.375Z ::1 POST /register (400)
+2023-07-08T17:23:21.498Z ::1 POST /api/v1/auth/register
+2023-07-08T17:23:21.697Z ::1 POST /register (400)
+2023-07-08T17:23:37.820Z ::1 POST /api/v1/auth/register
+2023-07-08T17:23:37.843Z ::1 POST /register (400)
+2023-07-08T17:24:30.659Z ::1 POST /api/v1/auth/register
+2023-07-08T17:24:30.723Z ::1 POST /register (400)
+2023-07-08T17:25:32.894Z ::1 POST /api/v1/auth/register
+2023-07-08T17:25:33.151Z ::1 POST /register (400)
+2023-07-08T17:25:48.530Z ::1 POST /api/v1/auth/register
+2023-07-08T17:25:48.555Z ::1 POST /register (400)
+2023-07-08T17:27:11.098Z ::1 POST /api/v1/auth/register
+2023-07-08T17:27:11.176Z ::1 POST /register (400)
+2023-07-08T17:31:09.491Z ::1 POST /api/v1/auth/register
+2023-07-08T17:31:09.730Z ::1 POST /register (400)
+2023-07-08T17:33:31.893Z ::1 POST /api/v1/auth/register
+2023-07-08T17:33:32.111Z ::1 POST /register (200)
+2023-07-08T17:33:32.436Z ::1 POST /api/v1/auth/send-otp
+2023-07-08T17:33:35.890Z ::1 POST /send-otp (200)
+2023-07-08T17:33:48.155Z ::1 POST /api/v1/auth/send-otp
+2023-07-08T17:33:48.435Z ::1 POST /api/v1/auth/send-otp
+2023-07-08T17:33:51.780Z ::1 POST /send-otp (200)
+2023-07-08T17:33:51.925Z ::1 POST /send-otp (200)
+2023-07-08T17:34:00.056Z ::1 POST /api/v1/auth/check-otp
+2023-07-08T17:34:00.190Z ::1 POST /api/v1/auth/check-otp (401)
+2023-07-08T17:37:36.023Z ::1 POST /api/v1/auth/register
+2023-07-08T17:37:36.103Z ::1 POST /register (400)
+2023-07-08T17:39:41.420Z ::1 POST /api/v1/auth/register
+2023-07-08T17:39:41.760Z ::1 POST /api/v1/auth/register (500)
+2023-07-08T17:40:06.516Z ::1 POST /api/v1/auth/register
+2023-07-08T17:40:06.819Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T17:40:16.699Z ::1 POST /api/v1/auth/register
+2023-07-08T17:40:16.736Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T17:41:03.049Z ::1 POST /api/v1/auth/register
+2023-07-08T17:41:03.209Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T17:41:14.928Z ::1 POST /api/v1/auth/register
+2023-07-08T17:41:14.955Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T17:42:07.825Z ::1 POST /api/v1/auth/register
+2023-07-08T17:42:08.085Z ::1 POST /register (201)
+2023-07-08T17:42:08.362Z ::1 POST /api/v1/auth/send-otp
+2023-07-08T17:42:10.911Z ::1 POST /send-otp (200)
+2023-07-08T17:42:17.289Z ::1 POST /api/v1/auth/login
+2023-07-08T17:42:17.430Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T17:45:06.037Z ::1 POST /api/v1/auth/register
+2023-07-08T17:45:06.426Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T17:45:07.090Z ::1 POST /api/v1/auth/send-otp
+2023-07-08T17:45:10.391Z ::1 POST /send-otp (200)
+2023-07-08T17:49:54.484Z ::1 POST /api/v1/auth/register
+2023-07-08T17:49:54.538Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T17:49:55.013Z ::1 POST /api/v1/auth/send-otp
+2023-07-08T17:49:57.346Z ::1 POST /send-otp (200)
+2023-07-08T17:52:55.664Z ::1 POST /api/v1/auth/register
+2023-07-08T17:52:55.745Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T17:52:56.125Z ::1 POST /api/v1/auth/send-otp
+2023-07-08T17:52:59.189Z ::1 POST /send-otp (200)
+2023-07-08T17:54:17.023Z ::1 POST /api/v1/auth/register
+2023-07-08T17:54:17.051Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T17:54:17.411Z ::1 POST /api/v1/auth/send-otp
+2023-07-08T17:54:19.679Z ::1 POST /send-otp (200)
+2023-07-08T17:56:22.735Z ::1 POST /api/v1/auth/register
+2023-07-08T17:56:22.823Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T17:57:18.405Z ::1 POST /api/v1/auth/register
+2023-07-08T17:57:18.441Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T17:59:31.810Z ::1 POST /api/v1/auth/register
+2023-07-08T17:59:31.859Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:00:22.083Z ::1 POST /api/v1/auth/register
+2023-07-08T18:00:22.114Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:01:52.532Z ::1 POST /api/v1/auth/register
+2023-07-08T18:01:52.584Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:03:47.950Z ::1 POST /api/v1/auth/register
+2023-07-08T18:03:48.042Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:07:39.620Z ::1 POST /api/v1/auth/register
+2023-07-08T18:07:39.845Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:08:48.876Z ::1 POST /api/v1/auth/register
+2023-07-08T18:08:48.999Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:10:08.136Z ::1 POST /api/v1/auth/register
+2023-07-08T18:10:08.158Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:10:52.107Z ::1 POST /api/v1/auth/register
+2023-07-08T18:10:52.145Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:16:13.585Z ::1 POST /api/v1/auth/register
+2023-07-08T18:16:13.714Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:17:38.794Z ::1 POST /api/v1/auth/register
+2023-07-08T18:17:38.902Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:20:41.040Z ::1 POST /api/v1/auth/register
+2023-07-08T18:20:41.117Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:23:14.934Z ::1 POST /api/v1/auth/register
+2023-07-08T18:23:15.036Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:26:03.072Z ::1 POST /api/v1/auth/register
+2023-07-08T18:26:03.132Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:28:20.741Z ::1 POST /api/v1/auth/register
+2023-07-08T18:28:20.790Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:29:44.374Z ::1 POST /api/v1/auth/register
+2023-07-08T18:29:44.450Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:29:59.120Z ::1 POST /api/v1/auth/register
+2023-07-08T18:29:59.149Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:30:32.963Z ::1 POST /api/v1/auth/register
+2023-07-08T18:30:33.066Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:31:46.219Z ::1 POST /api/v1/auth/register
+2023-07-08T18:31:46.272Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:46:44.134Z ::1 POST /api/v1/auth/register
+2023-07-08T18:46:44.278Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:48:31.357Z ::1 POST /api/v1/auth/register
+2023-07-08T18:48:31.558Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:54:12.932Z ::1 POST /api/v1/auth/login
+2023-07-08T18:54:13.163Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T18:55:29.587Z ::1 POST /api/v1/auth/register
+2023-07-08T18:55:29.635Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:57:05.937Z ::1 POST /api/v1/auth/register
+2023-07-08T18:57:05.979Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T18:57:39.180Z ::1 POST /api/v1/auth/login
+2023-07-08T18:57:39.358Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T18:57:42.844Z ::1 POST /api/v1/auth/login
+2023-07-08T18:57:42.971Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T18:58:55.123Z ::1 POST /api/v1/auth/login
+2023-07-08T18:58:55.141Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T18:58:59.913Z ::1 POST /api/v1/auth/login
+2023-07-08T18:59:00.065Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T18:59:02.739Z ::1 POST /api/v1/auth/login
+2023-07-08T18:59:02.853Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:02:59.400Z ::1 POST /api/v1/auth/login
+2023-07-08T19:02:59.624Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:03:43.164Z ::1 POST /api/v1/auth/login
+2023-07-08T19:03:43.288Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:05:03.678Z ::1 POST /api/v1/auth/login
+2023-07-08T19:05:03.944Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:05:10.052Z ::1 POST /api/v1/auth/login
+2023-07-08T19:05:10.194Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:07:41.841Z ::1 POST /api/v1/auth/login
+2023-07-08T19:07:41.966Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:07:45.895Z ::1 POST /api/v1/auth/login
+2023-07-08T19:07:46.091Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:11:45.078Z ::1 POST /api/v1/auth/login
+2023-07-08T19:11:45.328Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:11:49.885Z ::1 POST /api/v1/auth/login
+2023-07-08T19:11:50.013Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:13:31.116Z ::1 POST /api/v1/auth/login
+2023-07-08T19:13:31.474Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:14:01.511Z ::1 POST /api/v1/auth/login
+2023-07-08T19:14:01.674Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:15:09.322Z ::1 POST /api/v1/auth/login
+2023-07-08T19:15:09.410Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:15:11.241Z ::1 POST /api/v1/auth/login
+2023-07-08T19:15:11.262Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:15:16.680Z ::1 POST /api/v1/auth/login
+2023-07-08T19:15:16.695Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:15:22.386Z ::1 POST /api/v1/auth/login
+2023-07-08T19:15:22.512Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:16:52.957Z ::1 POST /api/v1/auth/login
+2023-07-08T19:16:53.112Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:17:02.061Z ::1 POST /api/v1/auth/login
+2023-07-08T19:17:02.118Z ::1 POST /api/v1/auth/login (500)
+2023-07-08T19:19:01.970Z ::1 POST /api/v1/auth/login
+2023-07-08T19:19:02.168Z ::1 POST /api/v1/auth/login (500)
+2023-07-08T19:20:54.072Z ::1 POST /api/v1/auth/login
+2023-07-08T19:20:54.223Z ::1 POST /api/v1/auth/login (400)
+2023-07-08T19:21:10.429Z ::1 POST /api/v1/auth/login
+2023-07-08T19:21:10.468Z ::1 POST /api/v1/auth/login (400)
+2023-07-08T19:21:12.924Z ::1 POST /api/v1/auth/login
+2023-07-08T19:21:12.951Z ::1 POST /api/v1/auth/login (400)
+2023-07-08T19:21:18.013Z ::1 POST /api/v1/auth/login
+2023-07-08T19:21:18.061Z ::1 POST /api/v1/auth/login (400)
+2023-07-08T19:22:19.115Z ::1 POST /api/v1/auth/login
+2023-07-08T19:22:19.625Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:23:27.319Z ::1 POST /api/v1/auth/login
+2023-07-08T19:23:27.861Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:27:54.734Z ::1 POST /api/v1/auth/login
+2023-07-08T19:27:55.026Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:29:32.529Z ::1 POST /api/v1/auth/login
+2023-07-08T19:29:32.584Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:29:58.870Z ::1 POST /api/v1/auth/login
+2023-07-08T19:29:59.049Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:32:13.768Z ::1 POST /api/v1/auth/login
+2023-07-08T19:32:13.970Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:32:34.784Z ::1 POST /api/v1/auth/login
+2023-07-08T19:32:34.944Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:33:00.929Z ::1 POST /api/v1/auth/login
+2023-07-08T19:33:01.171Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:34:13.348Z ::1 POST /api/v1/auth/login
+2023-07-08T19:34:13.562Z ::1 POST /api/v1/auth/login (401)
+2023-07-08T19:37:37.308Z ::1 POST /api/v1/auth/login
+2023-07-08T19:37:37.488Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:38:16.834Z ::1 POST /api/v1/auth/login
+2023-07-08T19:38:18.113Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:38:24.725Z ::1 POST /api/v1/auth/login
+2023-07-08T19:38:24.810Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:38:32.262Z ::1 POST /api/v1/auth/login
+2023-07-08T19:38:32.434Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:41:13.562Z ::1 POST /api/v1/auth/login
+2023-07-08T19:41:13.928Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:41:25.754Z ::1 POST /api/v1/auth/register
+2023-07-08T19:41:25.871Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:41:34.725Z ::1 POST /api/v1/auth/register
+2023-07-08T19:41:34.795Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:41:39.456Z ::1 POST /api/v1/auth/register
+2023-07-08T19:41:39.480Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:41:41.348Z ::1 POST /api/v1/auth/register
+2023-07-08T19:41:41.381Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:43:51.676Z ::1 POST /api/v1/auth/register
+2023-07-08T19:43:51.921Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:45:03.711Z ::1 POST /api/v1/auth/register
+2023-07-08T19:45:03.763Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:46:35.899Z ::1 POST /api/v1/auth/register
+2023-07-08T19:46:35.989Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:48:22.586Z ::1 POST /api/v1/auth/register
+2023-07-08T19:48:22.660Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:48:45.129Z ::1 POST /api/v1/auth/register
+2023-07-08T19:48:45.159Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:49:04.810Z ::1 POST /api/v1/auth/register
+2023-07-08T19:49:05.209Z ::1 POST /register (201)
+2023-07-08T19:53:16.057Z ::1 POST /api/v1/auth/register
+2023-07-08T19:53:16.235Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:53:16.848Z ::1 POST /api/v1/auth/send-otp
+2023-07-08T19:53:20.626Z ::1 POST /send-otp (200)
+2023-07-08T19:53:59.946Z ::1 POST /api/v1/auth/register
+2023-07-08T19:53:59.984Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:54:47.096Z ::1 POST /api/v1/auth/register
+2023-07-08T19:54:47.184Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:55:07.761Z ::1 POST /api/v1/auth/register
+2023-07-08T19:55:07.801Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:55:43.406Z ::1 POST /api/v1/auth/register
+2023-07-08T19:55:43.428Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:56:13.731Z ::1 POST /api/v1/auth/register
+2023-07-08T19:56:13.760Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:56:17.059Z ::1 POST /api/v1/auth/register
+2023-07-08T19:56:17.086Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:56:25.538Z ::1 POST /api/v1/auth/register
+2023-07-08T19:56:25.566Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:56:30.397Z ::1 POST /api/v1/auth/register
+2023-07-08T19:56:30.418Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:56:45.031Z ::1 POST /api/v1/auth/login
+2023-07-08T19:56:45.189Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:56:48.574Z ::1 POST /api/v1/auth/login
+2023-07-08T19:56:48.719Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T19:56:57.687Z ::1 POST /api/v1/auth/register
+2023-07-08T19:56:57.713Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:57:55.165Z ::1 POST /api/v1/auth/register
+2023-07-08T19:57:55.188Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:58:45.621Z ::1 POST /api/v1/auth/register
+2023-07-08T19:58:45.672Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:58:50.153Z ::1 POST /api/v1/auth/register
+2023-07-08T19:58:50.188Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:58:51.722Z ::1 POST /api/v1/auth/register
+2023-07-08T19:58:51.745Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:58:52.882Z ::1 POST /api/v1/auth/register
+2023-07-08T19:58:52.901Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:58:55.381Z ::1 POST /api/v1/auth/register
+2023-07-08T19:58:55.407Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T19:59:23.517Z ::1 POST /api/v1/auth/register
+2023-07-08T19:59:23.545Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:00:53.980Z ::1 POST /api/v1/auth/register
+2023-07-08T20:00:54.026Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:01:37.097Z ::1 POST /api/v1/auth/register
+2023-07-08T20:01:37.172Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:03:13.210Z ::1 POST /api/v1/auth/login
+2023-07-08T20:03:13.770Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T20:03:22.831Z ::1 POST /api/v1/auth/login
+2023-07-08T20:03:22.989Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T20:03:35.056Z ::1 POST /api/v1/auth/login
+2023-07-08T20:03:35.235Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T20:05:48.347Z ::1 POST /api/v1/auth/register
+2023-07-08T20:05:48.417Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:05:56.054Z ::1 POST /api/v1/auth/register
+2023-07-08T20:05:56.079Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:06:02.287Z ::1 POST /api/v1/auth/register
+2023-07-08T20:06:02.312Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:08:13.328Z ::1 POST /api/v1/auth/register
+2023-07-08T20:08:13.564Z ::1 POST /register (201)
+2023-07-08T20:10:05.417Z ::1 POST /api/v1/auth/register
+2023-07-08T20:10:05.730Z ::1 POST /register (201)
+2023-07-08T20:10:31.640Z ::1 POST /api/v1/auth/login
+2023-07-08T20:10:31.806Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T20:11:59.713Z ::1 POST /api/v1/auth/login
+2023-07-08T20:11:59.857Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T20:12:04.191Z ::1 POST /api/v1/auth/login
+2023-07-08T20:12:04.380Z ::1 POST /login (200)
+2023-07-08T20:12:05.226Z ::1 POST /api/v1/cart
+2023-07-08T20:12:05.314Z ::1 POST / (200)
+2023-07-08T20:12:08.508Z ::1 GET /api/v1/products?search=&b=&c=
+2023-07-08T20:12:08.529Z ::1 GET /api/v1/products/all
+2023-07-08T20:12:08.611Z ::1 GET /api/v1/brands
+2023-07-08T20:12:08.666Z ::1 GET /api/v1/categories
+2023-07-08T20:12:08.690Z ::1 GET /api/v1/users/customer
+2023-07-08T20:12:08.708Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-08T20:12:08.897Z ::1 GET /customer (200)
+2023-07-08T20:12:08.935Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (200)
+2023-07-08T20:12:09.494Z ::1 GET / (200)
+2023-07-08T20:12:09.521Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-08T20:12:09.836Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (304)
+2023-07-08T20:12:11.009Z ::1 GET / (200)
+2023-07-08T20:12:12.315Z ::1 GET /?search=&b=&c= (200)
+2023-07-08T20:12:12.964Z ::1 GET /api/v1/products?search=&b=&c=
+2023-07-08T20:12:14.454Z ::1 GET /?search=&b=&c= (304)
+2023-07-08T20:13:41.497Z ::1 GET /all (200)
+2023-07-08T20:16:10.389Z ::1 POST /api/v1/auth/register
+2023-07-08T20:16:10.596Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:16:24.378Z ::1 POST /api/v1/auth/register
+2023-07-08T20:16:25.028Z ::1 POST /register (201)
+2023-07-08T20:18:26.330Z ::1 POST /api/v1/auth/register
+2023-07-08T20:18:26.494Z ::1 POST /register (201)
+2023-07-08T20:20:30.345Z ::1 POST /api/v1/auth/register
+2023-07-08T20:20:30.590Z ::1 POST /register (201)
+2023-07-08T20:21:41.067Z ::1 POST /api/v1/auth/register
+2023-07-08T20:21:41.231Z ::1 POST /register (201)
+2023-07-08T20:23:03.927Z ::1 POST /api/v1/auth/register
+2023-07-08T20:23:03.994Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:23:59.605Z ::1 POST /api/v1/auth/register
+2023-07-08T20:23:59.678Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:25:22.794Z ::1 POST /api/v1/auth/register
+2023-07-08T20:25:22.954Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:25:40.846Z ::1 POST /api/v1/auth/register
+2023-07-08T20:25:41.038Z ::1 POST /register (201)
+2023-07-08T20:25:41.676Z ::1 POST /api/v1/cart
+2023-07-08T20:25:41.869Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T20:25:42.043Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-08T20:25:42.074Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-08T20:25:42.093Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-08T20:25:42.143Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T20:25:42.154Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T20:25:42.181Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-08T20:25:42.185Z ::1 POST / (200)
+2023-07-08T20:25:42.193Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T20:25:42.820Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-08T20:25:43.843Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-08T20:25:43.857Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-08T20:25:48.160Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-07-08T20:27:06.156Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T20:27:06.171Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-08T20:27:06.180Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-08T20:27:06.185Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-08T20:27:08.056Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-08T20:27:11.606Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-08T20:27:11.673Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T20:27:11.742Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T20:27:11.846Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T20:27:12.742Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-08T20:27:12.970Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-08T20:27:18.272Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-07-08T20:27:35.869Z ::1 POST /api/v1/auth/register
+2023-07-08T20:27:36.038Z ::1 POST /register (201)
+2023-07-08T20:29:50.780Z ::1 POST /api/v1/auth/register
+2023-07-08T20:29:51.019Z ::1 POST /register (201)
+2023-07-08T20:30:25.533Z ::1 POST /api/v1/auth/register
+2023-07-08T20:30:25.562Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:31:26.724Z ::1 POST /api/v1/auth/register
+2023-07-08T20:31:26.782Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:31:34.696Z ::1 POST /api/v1/auth/register
+2023-07-08T20:31:34.722Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:31:42.335Z ::1 POST /api/v1/auth/register
+2023-07-08T20:31:42.533Z ::1 POST /register (201)
+2023-07-08T20:31:54.346Z ::1 POST /api/v1/auth/register
+2023-07-08T20:31:54.525Z ::1 POST /register (201)
+2023-07-08T20:33:51.753Z ::1 POST /api/v1/auth/register
+2023-07-08T20:33:51.823Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:34:07.172Z ::1 POST /api/v1/auth/register
+2023-07-08T20:34:07.208Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:34:16.908Z ::1 POST /api/v1/auth/register
+2023-07-08T20:34:17.070Z ::1 POST /register (201)
+2023-07-08T20:37:44.425Z ::1 POST /api/v1/auth/register
+2023-07-08T20:37:44.606Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:37:55.009Z ::1 POST /api/v1/auth/register
+2023-07-08T20:37:55.408Z ::1 POST /register (201)
+2023-07-08T20:39:06.519Z ::1 POST /api/v1/auth/register
+2023-07-08T20:39:06.623Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:39:14.644Z ::1 POST /api/v1/auth/register
+2023-07-08T20:39:14.820Z ::1 POST /register (201)
+2023-07-08T20:39:39.857Z ::1 POST /api/v1/auth/register
+2023-07-08T20:39:40.031Z ::1 POST /register (201)
+2023-07-08T20:39:50.171Z ::1 POST /api/v1/auth/register
+2023-07-08T20:39:50.216Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:40:02.501Z ::1 POST /api/v1/auth/register
+2023-07-08T20:40:02.557Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:40:07.838Z ::1 POST /api/v1/auth/register
+2023-07-08T20:40:07.945Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:43:44.686Z ::1 POST /api/v1/auth/register
+2023-07-08T20:43:44.893Z ::1 POST /register (201)
+2023-07-08T20:45:11.879Z ::1 POST /api/v1/auth/register
+2023-07-08T20:45:12.136Z ::1 POST /register (201)
+2023-07-08T20:49:01.681Z ::1 POST /api/v1/auth/login
+2023-07-08T20:49:01.928Z ::1 POST /api/v1/auth/login (404)
+2023-07-08T20:49:18.914Z ::1 POST /api/v1/auth/login
+2023-07-08T20:49:19.097Z ::1 POST /login (200)
+2023-07-08T20:49:19.973Z ::1 POST /api/v1/cart
+2023-07-08T20:49:20.020Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T20:49:20.044Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-08T20:49:20.113Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-08T20:49:20.128Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-08T20:49:20.230Z ::1 POST / (200)
+2023-07-08T20:49:20.298Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-08T20:49:20.445Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-08T20:49:21.059Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-08T20:49:21.062Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T20:49:21.159Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T20:49:21.239Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T20:49:21.581Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-08T20:49:26.632Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-07-08T20:51:12.009Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-08T20:51:12.020Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-08T20:51:12.024Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-08T20:51:12.124Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T20:51:15.973Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-08T20:51:16.344Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-08T20:51:16.518Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T20:51:16.617Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-08T20:51:24.056Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-08T20:51:24.098Z ::1 GET /search/suggest?keyword= (304)
+2023-07-08T20:51:24.373Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-08T20:53:18.711Z ::1 POST /api/v1/auth/register
+2023-07-08T20:53:18.818Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:53:28.641Z ::1 POST /api/v1/auth/register
+2023-07-08T20:53:28.959Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:55:43.221Z ::1 POST /api/v1/auth/register
+2023-07-08T20:55:43.378Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T20:56:04.666Z ::1 POST /api/v1/auth/register
+2023-07-08T20:56:04.696Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:00:02.522Z ::1 POST /api/v1/auth/register
+2023-07-08T21:00:02.711Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:00:11.793Z ::1 POST /api/v1/auth/register
+2023-07-08T21:00:11.816Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:03:02.037Z ::1 POST /api/v1/auth/register
+2023-07-08T21:03:02.239Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:04:12.954Z ::1 POST /api/v1/auth/register
+2023-07-08T21:04:13.263Z ::1 POST /register (201)
+2023-07-08T21:05:03.911Z ::1 POST /api/v1/auth/register
+2023-07-08T21:05:03.944Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:05:17.917Z ::1 POST /api/v1/auth/register
+2023-07-08T21:05:17.936Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:07:24.604Z ::1 POST /api/v1/auth/register
+2023-07-08T21:07:24.726Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:07:30.126Z ::1 POST /api/v1/auth/register
+2023-07-08T21:07:30.147Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:08:26.288Z ::1 POST /api/v1/auth/register
+2023-07-08T21:08:26.308Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:08:31.578Z ::1 POST /api/v1/auth/register
+2023-07-08T21:08:31.597Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:08:37.564Z ::1 POST /api/v1/auth/register
+2023-07-08T21:08:37.583Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:12:15.427Z ::1 POST /api/v1/auth/register
+2023-07-08T21:12:15.615Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:13:37.479Z ::1 POST /api/v1/auth/register
+2023-07-08T21:13:37.600Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:13:48.918Z ::1 POST /api/v1/auth/register
+2023-07-08T21:13:48.939Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:14:49.758Z ::1 POST /api/v1/auth/register
+2023-07-08T21:14:49.797Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:15:03.083Z ::1 POST /api/v1/auth/register
+2023-07-08T21:15:03.105Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:17:28.920Z ::1 POST /api/v1/auth/register
+2023-07-08T21:17:29.022Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:18:38.895Z ::1 POST /api/v1/auth/register
+2023-07-08T21:18:38.967Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:21:03.689Z ::1 POST /api/v1/auth/register
+2023-07-08T21:21:03.853Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:27:58.319Z ::1 POST /api/v1/auth/register
+2023-07-08T21:27:58.516Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:29:24.490Z ::1 POST /api/v1/auth/register
+2023-07-08T21:29:24.567Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:30:22.923Z ::1 POST /api/v1/auth/register
+2023-07-08T21:30:23.045Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:31:31.034Z ::1 POST /api/v1/auth/register
+2023-07-08T21:31:31.267Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:32:11.804Z ::1 POST /api/v1/auth/register
+2023-07-08T21:32:12.081Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:32:40.826Z ::1 POST /api/v1/auth/register
+2023-07-08T21:32:41.262Z ::1 POST /register (201)
+2023-07-08T21:36:24.110Z ::1 POST /api/v1/auth/register
+2023-07-08T21:36:24.497Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:36:57.319Z ::1 POST /api/v1/auth/register
+2023-07-08T21:36:58.093Z ::1 POST /register (201)
+2023-07-08T21:38:15.193Z ::1 POST /api/v1/auth/register
+2023-07-08T21:38:15.716Z ::1 POST /register (201)
+2023-07-08T21:40:33.841Z ::1 POST /api/v1/auth/register
+2023-07-08T21:40:34.372Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:40:47.577Z ::1 POST /api/v1/auth/register
+2023-07-08T21:40:47.853Z ::1 POST /register (201)
+2023-07-08T21:41:05.168Z ::1 POST /api/v1/auth/register
+2023-07-08T21:41:05.203Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:42:46.829Z ::1 POST /api/v1/auth/register
+2023-07-08T21:42:47.245Z ::1 POST /register (201)
+2023-07-08T21:44:05.948Z ::1 POST /api/v1/auth/register
+2023-07-08T21:44:06.671Z ::1 POST /register (201)
+2023-07-08T21:44:13.154Z ::1 POST /api/v1/auth/register
+2023-07-08T21:44:13.193Z ::1 POST /api/v1/auth/register (400)
+2023-07-08T21:44:18.635Z ::1 POST /api/v1/auth/register
+2023-07-08T21:44:18.676Z ::1 POST /api/v1/auth/register (400)

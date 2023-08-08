@@ -1,0 +1,267 @@
+
+2023-05-22T04:58:08.384Z ::ffff:127.0.0.1 POST /api/v1/auth/login
+2023-05-22T04:58:08.831Z ::ffff:127.0.0.1 POST /api/v1/auth/login (401)
+2023-05-22T04:58:15.435Z ::ffff:127.0.0.1 POST /api/v1/auth/login
+2023-05-22T04:58:16.090Z ::ffff:127.0.0.1 POST /login (200)
+2023-05-22T04:58:40.492Z ::ffff:127.0.0.1 GET /api/v1/me
+2023-05-22T04:58:40.500Z ::ffff:127.0.0.1 GET /api/v1/me (404)
+2023-05-22T04:58:59.093Z ::ffff:127.0.0.1 GET /api/v1/auth/me
+2023-05-22T04:58:59.099Z ::ffff:127.0.0.1 GET /api/v1/auth/me (404)
+2023-05-22T04:59:30.595Z ::ffff:127.0.0.1 GET /api/v1/account
+2023-05-22T04:59:30.605Z ::ffff:127.0.0.1 GET /api/v1/account (500)
+2023-05-22T04:59:42.626Z ::ffff:127.0.0.1 GET /api/v1/account
+2023-05-22T04:59:43.164Z ::ffff:127.0.0.1 GET / (200)
+2023-05-22T05:00:18.904Z ::ffff:127.0.0.1 POST /api/v1/auth/refresh-token
+2023-05-22T05:00:20.617Z ::ffff:127.0.0.1 POST /refresh-token (200)
+2023-05-22T05:00:27.467Z ::ffff:127.0.0.1 POST /api/v1/auth/logout
+2023-05-22T05:00:28.253Z ::ffff:127.0.0.1 POST /logout (200)
+2023-05-22T05:13:58.004Z ::ffff:127.0.0.1 POST /api/v1/auth/login
+2023-05-22T05:13:58.619Z ::ffff:127.0.0.1 POST /login (200)
+2023-05-22T05:14:25.700Z ::ffff:127.0.0.1 POST /api/v1/categories
+2023-05-22T05:14:26.768Z ::ffff:127.0.0.1 POST / (200)
+2023-05-22T05:34:59.647Z ::ffff:127.0.0.1 POST /api/v1/categories
+2023-05-22T05:34:59.696Z ::ffff:127.0.0.1 POST /api/v1/categories (500)
+2023-05-22T05:35:08.390Z ::ffff:127.0.0.1 POST /api/v1/auth/login
+2023-05-22T05:35:09.213Z ::ffff:127.0.0.1 POST /login (200)
+2023-05-22T05:35:09.384Z ::ffff:127.0.0.1 POST /api/v1/auth/login
+2023-05-22T05:35:10.015Z ::ffff:127.0.0.1 POST /login (200)
+2023-05-22T05:35:19.120Z ::ffff:127.0.0.1 POST /api/v1/categories
+2023-05-22T05:35:20.446Z ::ffff:127.0.0.1 POST / (200)
+2023-05-22T05:51:16.258Z ::ffff:127.0.0.1 POST /api/v1/categories
+2023-05-22T05:51:17.498Z ::ffff:127.0.0.1 POST / (200)
+2023-05-22T05:51:21.253Z ::1 GET /public/uploads/categories/old/orders.svg
+2023-05-22T05:51:21.259Z ::1 GET /public/uploads/categories/old/orders.svg (404)
+2023-05-22T05:53:10.904Z ::ffff:127.0.0.1 POST /api/v1/categories
+2023-05-22T05:53:12.800Z ::ffff:127.0.0.1 POST / (200)
+2023-05-22T05:59:37.844Z ::ffff:127.0.0.1 DELETE /api/v1/categories/646b03487aa3d165b800a761
+2023-05-22T05:59:39.062Z ::ffff:127.0.0.1 DELETE /646b03487aa3d165b800a761 (200)
+2023-05-22T05:59:46.510Z ::ffff:127.0.0.1 POST /api/v1/categories
+2023-05-22T05:59:47.585Z ::ffff:127.0.0.1 POST / (200)
+2023-05-22T06:00:11.003Z ::ffff:127.0.0.1 DELETE /api/v1/categories/646b03487aa3d165b800a761
+2023-05-22T06:00:11.547Z ::ffff:127.0.0.1 DELETE /api/v1/categories/646b03487aa3d165b800a761 (404)
+2023-05-22T06:00:44.333Z ::ffff:127.0.0.1 DELETE /api/v1/categories/646b04d33b5c43e955f403d5
+2023-05-22T06:00:45.521Z ::ffff:127.0.0.1 DELETE /646b04d33b5c43e955f403d5 (200)
+2023-05-22T06:00:49.662Z ::ffff:127.0.0.1 POST /api/v1/categories
+2023-05-22T06:00:50.732Z ::ffff:127.0.0.1 POST / (200)
+2023-05-22T06:00:59.839Z ::ffff:127.0.0.1 DELETE /api/v1/categories/646b05123b5c43e955f403e0
+2023-05-22T06:01:01.547Z ::ffff:127.0.0.1 DELETE /646b05123b5c43e955f403e0 (200)
+2023-05-22T06:08:58.296Z ::ffff:127.0.0.1 POST /api/v1/brands
+2023-05-22T06:08:58.352Z ::ffff:127.0.0.1 POST /api/v1/brands (400)
+2023-05-22T06:09:17.659Z ::ffff:127.0.0.1 POST /api/v1/auth/login
+2023-05-22T06:09:18.303Z ::ffff:127.0.0.1 POST /login (200)
+2023-05-22T06:11:47.845Z ::ffff:127.0.0.1 POST /api/v1/brands
+2023-05-22T06:11:49.009Z ::ffff:127.0.0.1 POST / (200)
+2023-05-22T06:12:27.881Z ::ffff:127.0.0.1 POST /api/v1/auth/login
+2023-05-22T06:12:28.553Z ::ffff:127.0.0.1 POST /login (200)
+2023-05-22T06:12:53.553Z ::ffff:127.0.0.1 POST /api/v1/brands
+2023-05-22T06:12:54.581Z ::ffff:127.0.0.1 POST / (200)
+2023-05-22T06:23:59.386Z ::ffff:127.0.0.1 POST /api/v1/users/customer
+2023-05-22T06:23:59.440Z ::ffff:127.0.0.1 POST /api/v1/users/customer (401)
+2023-05-22T06:24:15.312Z ::ffff:127.0.0.1 POST /api/v1/users/customer
+2023-05-22T06:24:15.324Z ::ffff:127.0.0.1 POST /api/v1/users/customer (401)
+2023-05-22T06:24:27.048Z ::ffff:127.0.0.1 POST /api/v1/auth/login
+2023-05-22T06:24:27.813Z ::ffff:127.0.0.1 POST /login (200)
+2023-05-22T06:24:43.380Z ::ffff:127.0.0.1 POST /api/v1/users/customer
+2023-05-22T06:24:43.389Z ::ffff:127.0.0.1 POST /api/v1/users/customer (401)
+2023-05-22T06:25:51.099Z ::ffff:127.0.0.1 POST /api/v1/users/customer
+2023-05-22T06:25:51.411Z ::ffff:127.0.0.1 POST /api/v1/users/customer (500)
+2023-05-22T06:28:41.794Z ::ffff:127.0.0.1 POST /api/v1/users/customer
+2023-05-22T06:28:42.112Z ::ffff:127.0.0.1 POST /api/v1/users/customer (500)
+2023-05-22T06:29:08.374Z ::ffff:127.0.0.1 POST /api/v1/users/customer
+2023-05-22T06:29:09.306Z ::ffff:127.0.0.1 POST /customer (200)
+2023-05-22T06:29:37.800Z ::ffff:127.0.0.1 POST /api/v1/users/customer
+2023-05-22T06:29:38.662Z ::ffff:127.0.0.1 POST /customer (200)
+2023-05-22T06:29:57.999Z ::ffff:127.0.0.1 POST /api/v1/auth/login
+2023-05-22T06:29:58.646Z ::ffff:127.0.0.1 POST /login (200)
+2023-05-22T06:47:01.621Z ::ffff:127.0.0.1 POST /api/v1/account/addresses
+2023-05-22T06:47:02.530Z ::ffff:127.0.0.1 POST /addresses (200)
+2023-05-22T06:47:53.747Z ::ffff:127.0.0.1 GET /api/v1/account/addresses
+2023-05-22T06:47:54.675Z ::ffff:127.0.0.1 GET /addresses (200)
+2023-05-22T15:08:33.114Z ::1 POST /api/v1/auth
+2023-05-22T15:08:33.207Z ::1 POST /api/v1/auth (404)
+2023-05-22T15:09:04.913Z ::1 POST /api/v1/auth/register
+2023-05-22T15:09:05.163Z ::1 POST /register (200)
+2023-05-22T15:14:29.015Z ::1 POST /api/v1/auth/register
+2023-05-22T15:14:29.150Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:15:24.527Z ::1 POST /api/v1/auth/register
+2023-05-22T15:15:24.617Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:17:16.101Z ::1 POST /api/v1/auth/register
+2023-05-22T15:17:16.221Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:17:40.395Z ::1 POST /api/v1/auth/register
+2023-05-22T15:17:40.792Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:18:49.961Z ::1 POST /api/v1/auth/register
+2023-05-22T15:18:50.642Z ::1 POST /register (200)
+2023-05-22T15:20:40.569Z ::1 POST /api/v1/auth/register
+2023-05-22T15:20:40.940Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:20:56.691Z ::1 POST /api/v1/auth/register
+2023-05-22T15:20:56.923Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:21:29.415Z ::1 POST /api/v1/auth/register
+2023-05-22T15:21:29.895Z ::1 POST /register (200)
+2023-05-22T15:22:50.767Z ::1 POST /api/v1/auth/register
+2023-05-22T15:22:51.245Z ::1 POST /register (200)
+2023-05-22T15:25:01.515Z ::1 POST /api/v1/auth/register
+2023-05-22T15:25:02.070Z ::1 POST /register (200)
+2023-05-22T15:26:50.633Z ::1 POST /api/v1/auth/register
+2023-05-22T15:26:51.045Z ::1 POST /register (200)
+2023-05-22T15:28:37.010Z ::1 POST /api/v1/auth/register
+2023-05-22T15:28:37.283Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:28:50.371Z ::1 POST /api/v1/auth/register
+2023-05-22T15:28:50.763Z ::1 POST /register (200)
+2023-05-22T15:32:27.857Z ::1 POST /api/v1/auth/register
+2023-05-22T15:32:28.033Z ::1 POST /register (200)
+2023-05-22T15:33:10.459Z ::1 POST /api/v1/auth/register
+2023-05-22T15:33:10.523Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:33:38.552Z ::1 POST /api/v1/auth/register
+2023-05-22T15:33:38.586Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:34:56.621Z ::1 POST /api/v1/auth/register
+2023-05-22T15:34:56.801Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:35:37.290Z ::1 POST /api/v1/auth/register
+2023-05-22T15:35:37.500Z ::1 POST /register (200)
+2023-05-22T15:36:12.841Z ::1 POST /api/v1/auth/register
+2023-05-22T15:36:12.968Z ::1 POST /register (200)
+2023-05-22T15:36:46.739Z ::1 POST /api/v1/auth/register
+2023-05-22T15:36:46.760Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:39:13.285Z ::1 POST /api/v1/auth/register
+2023-05-22T15:39:13.333Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:42:01.429Z ::1 POST /api/v1/auth/register
+2023-05-22T15:42:01.538Z ::1 POST /register (200)
+2023-05-22T15:46:00.887Z ::1 POST /api/v1/auth/register
+2023-05-22T15:46:00.917Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:46:11.117Z ::1 POST /api/v1/auth/register
+2023-05-22T15:46:11.138Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:46:33.916Z ::1 POST /api/v1/auth/register
+2023-05-22T15:46:33.929Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:47:03.437Z ::1 POST /api/v1/auth/register
+2023-05-22T15:47:03.455Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:47:51.440Z ::1 POST /api/v1/auth/register
+2023-05-22T15:47:51.568Z ::1 POST /register (200)
+2023-05-22T15:51:32.318Z ::1 POST /api/v1/auth/register
+2023-05-22T15:51:32.404Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:51:59.353Z ::1 POST /api/v1/auth/register
+2023-05-22T15:51:59.410Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:53:20.230Z ::1 POST /api/v1/auth/register
+2023-05-22T15:53:20.369Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:53:29.750Z ::1 POST /api/v1/auth/register
+2023-05-22T15:53:29.908Z ::1 POST /register (200)
+2023-05-22T15:53:39.513Z ::1 POST /api/v1/auth/register
+2023-05-22T15:53:39.545Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:57:06.038Z ::1 POST /api/v1/auth/register
+2023-05-22T15:57:06.204Z ::1 POST /register (200)
+2023-05-22T15:58:58.995Z ::1 POST /api/v1/auth/register
+2023-05-22T15:58:59.022Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T15:59:05.194Z ::1 POST /api/v1/auth/register
+2023-05-22T15:59:05.240Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T16:00:46.142Z ::1 POST /api/v1/auth/register
+2023-05-22T16:00:46.161Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T16:01:11.505Z ::1 POST /api/v1/auth/register
+2023-05-22T16:01:11.536Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T16:01:34.587Z ::1 POST /api/v1/auth/register
+2023-05-22T16:01:34.620Z ::1 POST /api/v1/auth/register (500)
+2023-05-22T16:02:28.540Z ::1 POST /api/v1/auth/register
+2023-05-22T16:02:28.604Z ::1 POST /register (400)
+2023-05-22T16:02:47.183Z ::1 GET /api/v1/account
+2023-05-22T16:02:47.194Z ::1 GET /api/v1/account (401)
+2023-05-22T16:02:52.258Z ::1 POST /api/v1/auth/login
+2023-05-22T16:02:52.280Z ::1 POST /api/v1/auth/login (404)
+2023-05-22T16:03:05.741Z ::1 POST /api/v1/auth/register
+2023-05-22T16:03:05.869Z ::1 POST /register (200)
+2023-05-22T16:03:11.078Z ::1 POST /api/v1/auth/login
+2023-05-22T16:03:11.181Z ::1 POST /api/v1/auth/login (404)
+2023-05-22T16:03:46.611Z ::1 POST /api/v1/auth/login
+2023-05-22T16:03:46.722Z ::1 POST /login (200)
+2023-05-22T16:03:55.212Z ::1 GET /api/v1/account
+2023-05-22T16:03:55.241Z ::1 GET / (200)
+2023-05-22T16:06:00.265Z ::1 PATCH /api/v1/account/
+2023-05-22T16:06:00.295Z ::1 PATCH / (200)
+2023-05-22T16:06:53.476Z ::1 PATCH /api/v1/account/
+2023-05-22T16:06:53.559Z ::1 PATCH / (200)
+2023-05-22T16:07:28.564Z ::1 PATCH /api/v1/account/change-password
+2023-05-22T16:07:28.688Z ::1 PATCH /api/v1/account/change-password (401)
+2023-05-22T16:07:35.048Z ::1 PATCH /api/v1/account/change-password
+2023-05-22T16:07:35.160Z ::1 PATCH /api/v1/account/change-password (400)
+2023-05-22T16:08:09.656Z ::1 PATCH /api/v1/account/change-password
+2023-05-22T16:08:09.900Z ::1 PATCH /change-password (200)
+2023-05-22T16:08:20.952Z ::1 PATCH /api/v1/account/change-password
+2023-05-22T16:08:21.073Z ::1 PATCH /api/v1/account/change-password (400)
+2023-05-22T16:08:51.513Z ::1 PATCH /api/v1/account/change-password
+2023-05-22T16:08:51.760Z ::1 PATCH /change-password (200)
+2023-05-22T16:09:04.265Z ::1 GET /api/v1/account/addresses
+2023-05-22T16:09:04.282Z ::1 GET /api/v1/account/addresses (401)
+2023-05-22T16:09:12.526Z ::1 GET /api/v1/account/addresses
+2023-05-22T16:09:12.560Z ::1 GET /addresses (200)
+2023-05-22T16:09:23.253Z ::1 POST /api/v1/account/addresses
+2023-05-22T16:09:23.323Z ::1 POST /addresses (200)
+2023-05-22T16:09:38.164Z ::1 GET /api/v1/account/addresses
+2023-05-22T16:09:38.187Z ::1 GET /addresses (200)
+2023-05-22T16:09:44.862Z ::1 PATCH /api/v1/account/addresses/123123
+2023-05-22T16:09:44.903Z ::1 PATCH /api/v1/account/addresses/123123 (404)
+2023-05-22T16:09:57.439Z ::1 PATCH /api/v1/account/addresses/646b93b3230eac0b85e7b63f
+2023-05-22T16:09:57.470Z ::1 PATCH /addresses/646b93b3230eac0b85e7b63f (200)
+2023-05-22T16:10:08.651Z ::1 DELETE /api/v1/account/addresses/646b93b3230eac0b85e7b63f
+2023-05-22T16:10:08.682Z ::1 DELETE /addresses/646b93b3230eac0b85e7b63f (200)
+2023-05-22T16:10:14.168Z ::1 GET /api/v1/account/addresses
+2023-05-22T16:10:14.186Z ::1 GET /addresses (200)
+2023-05-22T16:10:36.213Z ::1 POST /api/v1/brands
+2023-05-22T16:10:36.219Z ::1 POST /api/v1/brands (401)
+2023-05-22T16:10:52.448Z ::1 POST /api/v1/brands
+2023-05-22T16:10:52.460Z ::1 POST /api/v1/brands (401)
+2023-05-22T16:11:11.361Z ::1 POST /api/v1/brands
+2023-05-22T16:11:11.415Z ::1 POST / (200)
+2023-05-22T16:11:32.003Z ::1 PATCH /api/v1/brands/646b941f230eac0b85e7b654
+2023-05-22T16:11:32.059Z ::1 PATCH /646b941f230eac0b85e7b654 (200)
+2023-05-22T16:11:40.851Z ::1 DELETE /api/v1/brands/646b941f230eac0b85e7b654
+2023-05-22T16:11:40.882Z ::1 DELETE /646b941f230eac0b85e7b654 (200)
+2023-05-22T16:13:25.776Z ::1 GET /api/v1/brands
+2023-05-22T16:13:25.806Z ::1 GET / (200)
+2023-05-22T16:13:35.902Z ::1 POST /api/v1/brands
+2023-05-22T16:13:35.994Z ::1 POST / (200)
+2023-05-22T16:13:39.269Z ::1 GET /api/v1/brands
+2023-05-22T16:13:39.283Z ::1 GET / (200)
+2023-05-22T16:14:27.391Z ::1 GET /api/v1/brands/646b94af9a4f26fab884b4e3
+2023-05-22T16:14:27.403Z ::1 GET /646b94af9a4f26fab884b4e3 (200)
+2023-05-22T16:14:44.916Z ::1 PATCH /api/v1/brands/646b94af9a4f26fab884b4e3
+2023-05-22T16:14:44.970Z ::1 PATCH /646b94af9a4f26fab884b4e3 (200)
+2023-05-22T16:15:50.225Z ::1 GET /api/v1/categories
+2023-05-22T16:15:50.238Z ::1 GET / (200)
+2023-05-22T16:16:31.855Z ::1 POST /api/v1/categories
+2023-05-22T16:16:31.865Z ::1 POST /api/v1/categories (401)
+2023-05-22T16:16:40.768Z ::1 POST /api/v1/categories
+2023-05-22T16:16:40.801Z ::1 POST / (200)
+2023-05-22T16:16:45.242Z ::1 GET /api/v1/categories
+2023-05-22T16:16:45.265Z ::1 GET / (200)
+2023-05-22T16:16:50.290Z ::1 GET /api/v1/categories/646b95689a4f26fab884b4f0
+2023-05-22T16:16:50.319Z ::1 GET /646b95689a4f26fab884b4f0 (200)
+2023-05-22T16:17:04.128Z ::1 PATCH /api/v1/categories/646b95689a4f26fab884b4f0
+2023-05-22T16:17:04.173Z ::1 PATCH /646b95689a4f26fab884b4f0 (200)
+2023-05-22T16:17:09.231Z ::1 DELETE /api/v1/categories/646b95689a4f26fab884b4f0
+2023-05-22T16:17:09.238Z ::1 DELETE /api/v1/categories/646b95689a4f26fab884b4f0 (401)
+2023-05-22T16:17:14.749Z ::1 DELETE /api/v1/categories/646b95689a4f26fab884b4f0
+2023-05-22T16:17:14.775Z ::1 DELETE /646b95689a4f26fab884b4f0 (200)
+2023-05-22T16:18:34.287Z ::1 PATCH /api/v1/brands/646b94af9a4f26fab884b4e3/hide
+2023-05-22T16:18:34.313Z ::1 PATCH /646b94af9a4f26fab884b4e3/hide (200)
+2023-05-22T16:19:00.198Z ::1 PATCH /api/v1/brands/646b94af9a4f26fab884b4e3/hide
+2023-05-22T16:19:00.216Z ::1 PATCH /646b94af9a4f26fab884b4e3/hide (200)
+2023-05-22T16:19:05.967Z ::1 PATCH /api/v1/brands/646b94af9a4f26fab884b4e3/hide
+2023-05-22T16:19:05.983Z ::1 PATCH /646b94af9a4f26fab884b4e3/hide (200)
+2023-05-22T16:19:46.130Z ::1 PATCH /api/v1/brands/646b94af9a4f26fab884b4e3/hide
+2023-05-22T16:19:46.189Z ::1 PATCH /646b94af9a4f26fab884b4e3/hide (200)
+2023-05-22T16:20:00.606Z ::1 PATCH /api/v1/brands/646b94af9a4f26fab884b4e3/hide
+2023-05-22T16:20:00.633Z ::1 PATCH /646b94af9a4f26fab884b4e3/hide (200)
+2023-05-22T16:20:41.602Z ::1 GET /api/v1/categories
+2023-05-22T16:20:41.615Z ::1 GET / (200)
+2023-05-22T16:20:44.797Z ::1 POST /api/v1/categories
+2023-05-22T16:20:44.870Z ::1 POST / (200)
+2023-05-22T16:20:52.673Z ::1 PATCH /api/v1/categories/646b965cd1c19553b2087c04/hide
+2023-05-22T16:20:52.707Z ::1 PATCH /646b965cd1c19553b2087c04/hide (200)
+2023-05-22T16:22:06.169Z ::ffff:127.0.0.1 POST /api/v1/products
+2023-05-22T16:22:06.205Z ::ffff:127.0.0.1 POST /api/v1/products (500)
+2023-05-22T16:22:19.231Z ::ffff:127.0.0.1 POST /api/v1/products
+2023-05-22T16:22:19.242Z ::ffff:127.0.0.1 POST /api/v1/products (500)
+2023-05-22T16:22:36.243Z ::ffff:127.0.0.1 POST /api/v1/auth/login
+2023-05-22T16:22:36.354Z ::ffff:127.0.0.1 POST /api/v1/auth/login (401)
+2023-05-22T16:22:39.572Z ::ffff:127.0.0.1 POST /api/v1/auth/login
+2023-05-22T16:22:39.678Z ::ffff:127.0.0.1 POST /login (200)
+2023-05-22T16:22:51.333Z ::ffff:127.0.0.1 POST /api/v1/products
+2023-05-22T16:22:51.348Z ::ffff:127.0.0.1 POST /api/v1/products (404)
+2023-05-22T16:23:28.341Z ::ffff:127.0.0.1 POST /api/v1/products
+2023-05-22T16:23:28.447Z ::ffff:127.0.0.1 POST / (200)

@@ -1,0 +1,393 @@
+
+2023-05-29T06:24:10.286Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:24:10.298Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:24:10.302Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-29T06:24:10.323Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-29T06:24:10.340Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-29T06:24:10.358Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-29T06:24:10.364Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:24:10.415Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:24:10.656Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-05-29T06:24:10.698Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-05-29T06:26:24.386Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:26:24.393Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:26:24.398Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-29T06:26:24.404Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-29T06:26:24.408Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-29T06:26:24.421Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:26:24.442Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:26:24.454Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-29T06:26:24.875Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-05-29T06:26:24.926Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-05-29T06:26:57.103Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:26:57.109Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:26:57.112Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-29T06:26:57.122Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:26:57.174Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-29T06:26:57.180Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-29T06:26:57.187Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:26:57.190Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-29T06:26:57.559Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-05-29T06:26:57.629Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-05-29T06:27:25.920Z ::1 GET /api/v1/products/search/suggest?keyword=q
+2023-05-29T06:27:25.924Z ::1 GET /api/v1/products/search/suggest?keyword=q (404)
+2023-05-29T06:27:25.946Z ::1 GET /api/v1/products/search/suggest?keyword=qw
+2023-05-29T06:27:25.950Z ::1 GET /api/v1/products/search/suggest?keyword=qw (404)
+2023-05-29T06:27:26.003Z ::1 GET /api/v1/products/search/suggest?keyword=qwe
+2023-05-29T06:27:26.008Z ::1 GET /api/v1/products/search/suggest?keyword=qwe (404)
+2023-05-29T06:27:26.972Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-29T06:27:26.976Z ::1 GET /api/v1/products?search=qwe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:27:26.984Z ::1 GET /?fields=_id%20name%20slug (200)
+2023-05-29T06:27:27.024Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-29T06:27:27.034Z ::1 GET /?fields=_id%20name%20slug (200)
+2023-05-29T06:27:27.064Z ::1 GET /?search=qwe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:27:27.170Z ::1 GET /api/v1/products?search=qwe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:27:27.195Z ::1 GET /?search=qwe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:27:41.263Z ::1 GET /api/v1/products?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:27:41.319Z ::1 GET /?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:27:41.532Z ::1 GET /api/v1/products?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:27:41.622Z ::1 GET /?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:27:49.951Z ::1 GET /api/v1/products/search/suggest?keyword=qwee
+2023-05-29T06:27:49.958Z ::1 GET /api/v1/products/search/suggest?keyword=qwee (404)
+2023-05-29T06:27:50.072Z ::1 GET /api/v1/products/search/suggest?keyword=qweeq
+2023-05-29T06:27:50.077Z ::1 GET /api/v1/products/search/suggest?keyword=qweeq (404)
+2023-05-29T06:27:50.105Z ::1 GET /api/v1/products/search/suggest?keyword=qweeqw
+2023-05-29T06:27:50.110Z ::1 GET /api/v1/products/search/suggest?keyword=qweeqw (404)
+2023-05-29T06:27:50.131Z ::1 GET /api/v1/products/search/suggest?keyword=qweeqwe
+2023-05-29T06:27:50.135Z ::1 GET /api/v1/products/search/suggest?keyword=qweeqwe (404)
+2023-05-29T06:27:51.638Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-05-29T06:27:51.723Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-05-29T06:29:49.470Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:29:49.485Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:29:49.489Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-29T06:29:49.493Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-29T06:29:49.496Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-29T06:29:49.504Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:29:49.508Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:29:49.511Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-29T06:29:50.015Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-05-29T06:29:50.056Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-05-29T06:30:10.518Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-29T06:30:10.525Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:30:10.529Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:30:10.585Z ::1 GET /?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:30:10.597Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-29T06:30:10.604Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:30:11.067Z ::1 GET /api/v1/products?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:30:11.114Z ::1 GET /?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:31:31.662Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:31:31.665Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:31:31.667Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-29T06:31:31.677Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:31:31.705Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-29T06:31:31.711Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:31:31.759Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-29T06:31:31.763Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-29T06:31:32.338Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-29T06:31:32.341Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:31:32.348Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:31:32.384Z ::1 GET /?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:31:32.411Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-29T06:31:32.416Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:31:32.914Z ::1 GET /api/v1/products?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:31:32.958Z ::1 GET /?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:32:47.088Z ::1 GET /api/v1/products/search/suggest?keyword=d
+2023-05-29T06:32:47.093Z ::1 GET /api/v1/products/search/suggest?keyword=d (404)
+2023-05-29T06:32:47.135Z ::1 GET /api/v1/products/search/suggest?keyword=da
+2023-05-29T06:32:47.143Z ::1 GET /api/v1/products/search/suggest?keyword=da (404)
+2023-05-29T06:32:47.176Z ::1 GET /api/v1/products/search/suggest?keyword=das
+2023-05-29T06:32:47.180Z ::1 GET /api/v1/products/search/suggest?keyword=das (404)
+2023-05-29T06:32:49.891Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:32:49.895Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:33:19.763Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:33:19.767Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:33:19.772Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-29T06:33:19.775Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-29T06:33:19.784Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:33:19.792Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:33:19.800Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-29T06:33:19.811Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-29T06:33:20.399Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-29T06:33:20.403Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:33:20.411Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:33:20.491Z ::1 GET /?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:33:20.565Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-29T06:33:20.571Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:33:20.973Z ::1 GET /api/v1/products?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:33:21.022Z ::1 GET /?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:33:22.265Z ::1 GET /api/v1/products/search/suggest?keyword=d
+2023-05-29T06:33:22.270Z ::1 GET /api/v1/products/search/suggest?keyword=d (404)
+2023-05-29T06:33:22.354Z ::1 GET /api/v1/products/search/suggest?keyword=da
+2023-05-29T06:33:22.358Z ::1 GET /api/v1/products/search/suggest?keyword=da (404)
+2023-05-29T06:33:22.403Z ::1 GET /api/v1/products/search/suggest?keyword=das
+2023-05-29T06:33:22.407Z ::1 GET /api/v1/products/search/suggest?keyword=das (404)
+2023-05-29T06:33:25.212Z ::1 GET /api/v1/products/search/suggest?keyword=q
+2023-05-29T06:33:25.218Z ::1 GET /api/v1/products/search/suggest?keyword=q (404)
+2023-05-29T06:33:28.556Z ::1 GET /api/v1/products/search/suggest?keyword=v
+2023-05-29T06:33:28.562Z ::1 GET /api/v1/products/search/suggest?keyword=v (404)
+2023-05-29T06:33:34.221Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:33:34.263Z ::1 GET /?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:33:37.795Z ::1 GET /api/v1/products/search/suggest?keyword=1
+2023-05-29T06:33:37.802Z ::1 GET /api/v1/products/search/suggest?keyword=1 (404)
+2023-05-29T06:33:38.706Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:33:38.747Z ::1 GET /?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:33:53.514Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:33:53.558Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:33:53.566Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:33:53.588Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:33:56.042Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:33:56.082Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:33:58.010Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:33:58.031Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:33:58.069Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:33:58.102Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:34:02.163Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:34:02.188Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:34:08.016Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:34:08.041Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:34:08.080Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:34:08.103Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:34:25.753Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:34:25.785Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:34:50.316Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:34:50.321Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:34:50.326Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-29T06:34:50.330Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-29T06:34:50.340Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:34:50.343Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:34:50.345Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-29T06:34:50.350Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-29T06:34:51.177Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-29T06:34:51.185Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:34:51.189Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:34:51.209Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:34:51.235Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-29T06:34:51.243Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:34:51.499Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:34:51.520Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:11.369Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:11.421Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:11.460Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:11.492Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:30.779Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:35:30.785Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:35:30.792Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-29T06:35:30.796Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-29T06:35:30.804Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:35:30.806Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-29T06:35:30.812Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:35:30.823Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-29T06:35:31.415Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-29T06:35:31.420Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:31.426Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:35:31.456Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:31.546Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-29T06:35:31.554Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:35:31.909Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:31.970Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:32.207Z ::1 GET /api/v1/products/search/suggest?keyword=q
+2023-05-29T06:35:32.212Z ::1 GET /api/v1/products/search/suggest?keyword=q (404)
+2023-05-29T06:35:32.252Z ::1 GET /api/v1/products/search/suggest?keyword=qw
+2023-05-29T06:35:32.255Z ::1 GET /api/v1/products/search/suggest?keyword=qw (404)
+2023-05-29T06:35:32.444Z ::1 GET /api/v1/products/search/suggest?keyword=qwe
+2023-05-29T06:35:32.450Z ::1 GET /api/v1/products/search/suggest?keyword=qwe (404)
+2023-05-29T06:35:33.043Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:33.071Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:34.982Z ::1 GET /api/v1/products/search/suggest?keyword=1
+2023-05-29T06:35:34.986Z ::1 GET /api/v1/products/search/suggest?keyword=1 (404)
+2023-05-29T06:35:35.033Z ::1 GET /api/v1/products/search/suggest?keyword=12
+2023-05-29T06:35:35.037Z ::1 GET /api/v1/products/search/suggest?keyword=12 (404)
+2023-05-29T06:35:35.158Z ::1 GET /api/v1/products/search/suggest?keyword=123
+2023-05-29T06:35:35.162Z ::1 GET /api/v1/products/search/suggest?keyword=123 (404)
+2023-05-29T06:35:35.710Z ::1 GET /api/v1/products?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:35.732Z ::1 GET /?search=1&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:37.442Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:35:37.447Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:35:38.238Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-05-29T06:35:38.267Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-05-29T06:35:39.542Z ::1 GET /api/v1/products/search/suggest?keyword=q
+2023-05-29T06:35:39.547Z ::1 GET /api/v1/products/search/suggest?keyword=q (404)
+2023-05-29T06:35:39.570Z ::1 GET /api/v1/products/search/suggest?keyword=qw
+2023-05-29T06:35:39.574Z ::1 GET /api/v1/products/search/suggest?keyword=qw (404)
+2023-05-29T06:35:39.633Z ::1 GET /api/v1/products/search/suggest?keyword=qwe
+2023-05-29T06:35:39.637Z ::1 GET /api/v1/products/search/suggest?keyword=qwe (404)
+2023-05-29T06:35:40.414Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-29T06:35:40.422Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:35:40.424Z ::1 GET /api/v1/products?search=qwe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:40.467Z ::1 GET /?search=qwe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:40.504Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-29T06:35:40.510Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:35:44.083Z ::1 GET /api/v1/products?search=312&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:44.108Z ::1 GET /?search=312&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:35:44.143Z ::1 GET /api/v1/products?search=312&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:44.175Z ::1 GET /?search=312&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:47.040Z ::1 GET /api/v1/products?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:47.075Z ::1 GET /?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:35:47.117Z ::1 GET /api/v1/products?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:47.263Z ::1 GET /?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:50.034Z ::1 GET /api/v1/products?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:50.066Z ::1 GET /?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:51.829Z ::1 GET /api/v1/products?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:51.849Z ::1 GET /?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:57.229Z ::1 GET /api/v1/products?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:35:57.251Z ::1 GET /?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:35:57.798Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-05-29T06:35:57.852Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-05-29T06:36:02.300Z ::1 GET /api/v1/products/vsmart-cshape-9-0?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-05-29T06:36:02.383Z ::1 GET /vsmart-cshape-9-0?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-05-29T06:36:04.516Z ::1 GET /api/v1/products/search/suggest?keyword=v
+2023-05-29T06:36:04.523Z ::1 GET /api/v1/products/search/suggest?keyword=v (404)
+2023-05-29T06:36:04.539Z ::1 GET /api/v1/products/search/suggest?keyword=vs
+2023-05-29T06:36:04.543Z ::1 GET /api/v1/products/search/suggest?keyword=vs (404)
+2023-05-29T06:36:06.025Z ::1 GET /api/v1/products?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:36:06.033Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-29T06:36:06.041Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:36:06.153Z ::1 GET /?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:36:06.190Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-29T06:36:06.197Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:36:34.697Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:36:34.702Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:36:34.703Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-29T06:36:34.706Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-29T06:36:34.709Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-29T06:36:34.715Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:36:34.719Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:36:34.722Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-29T06:36:35.187Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-29T06:36:35.194Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:36:35.199Z ::1 GET /api/v1/products?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:36:35.225Z ::1 GET /?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:36:35.320Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-29T06:36:35.327Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:36:35.650Z ::1 GET /api/v1/products?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:36:35.678Z ::1 GET /?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:36:41.907Z ::1 GET /api/v1/products?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:36:41.928Z ::1 GET /?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:36:41.997Z ::1 GET /api/v1/products?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:36:42.030Z ::1 GET /?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:36:45.926Z ::1 GET /api/v1/products?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:36:45.950Z ::1 GET /?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:36:52.562Z ::1 GET /api/v1/products?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:36:52.606Z ::1 GET /?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:36:52.645Z ::1 GET /api/v1/products?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:36:52.673Z ::1 GET /?search=v&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:36:59.008Z ::1 GET /api/v1/products?search=v&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:36:59.040Z ::1 GET /?search=v&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:36:59.103Z ::1 GET /api/v1/products?search=v&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:36:59.131Z ::1 GET /?search=v&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:37:02.584Z ::1 GET /api/v1/products?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:37:02.621Z ::1 GET /?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:37:02.691Z ::1 GET /api/v1/products?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:37:02.734Z ::1 GET /?search=&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:37:10.733Z ::1 GET /api/v1/products?search=vsmart&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:37:10.807Z ::1 GET /?search=vsmart&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:37:10.823Z ::1 GET /api/v1/products?search=vsmart&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:37:10.861Z ::1 GET /?search=vsmart&c=646b965cd1c19553b2087c04&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:37:13.532Z ::1 GET /api/v1/products?search=vsmart&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:37:13.602Z ::1 GET /?search=vsmart&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:37:13.612Z ::1 GET /api/v1/products?search=vsmart&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:37:13.675Z ::1 GET /?search=vsmart&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:37:22.925Z ::1 GET /api/v1/products?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:37:23.010Z ::1 GET /?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:37:23.021Z ::1 GET /api/v1/products?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:37:23.069Z ::1 GET /?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:38:06.696Z ::1 GET /api/v1/products?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:38:06.723Z ::1 GET /?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:39:52.256Z ::1 GET /api/v1/products?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:39:52.273Z ::1 GET /?search=vs&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:40:01.700Z ::1 GET /api/v1/products?search=vsmart&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:40:01.780Z ::1 GET /?search=vsmart&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:40:01.852Z ::1 GET /api/v1/products?search=vsmart&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:40:01.905Z ::1 GET /?search=vsmart&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:40:39.131Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:40:39.185Z ::1 GET /?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:40:39.203Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:40:39.275Z ::1 GET /?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:40:44.054Z ::1 GET /api/v1/products/search/suggest?keyword=1
+2023-05-29T06:40:44.058Z ::1 GET /api/v1/products/search/suggest?keyword=1 (404)
+2023-05-29T06:40:44.125Z ::1 GET /api/v1/products/search/suggest?keyword=12
+2023-05-29T06:40:44.128Z ::1 GET /api/v1/products/search/suggest?keyword=12 (404)
+2023-05-29T06:40:44.205Z ::1 GET /api/v1/products/search/suggest?keyword=123
+2023-05-29T06:40:44.210Z ::1 GET /api/v1/products/search/suggest?keyword=123 (404)
+2023-05-29T06:40:46.173Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:40:46.241Z ::1 GET /?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:40:58.018Z ::1 GET /api/v1/products/search/suggest?keyword=123a
+2023-05-29T06:40:58.022Z ::1 GET /api/v1/products/search/suggest?keyword=123a (404)
+2023-05-29T06:40:58.130Z ::1 GET /api/v1/products/search/suggest?keyword=123as
+2023-05-29T06:40:58.134Z ::1 GET /api/v1/products/search/suggest?keyword=123as (404)
+2023-05-29T06:40:58.183Z ::1 GET /api/v1/products/search/suggest?keyword=123asd
+2023-05-29T06:40:58.187Z ::1 GET /api/v1/products/search/suggest?keyword=123asd (404)
+2023-05-29T06:41:01.297Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:41:01.370Z ::1 GET /?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:41:34.335Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:41:34.341Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:41:34.343Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-05-29T06:41:34.347Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-05-29T06:41:34.350Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-05-29T06:41:34.359Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:41:34.363Z ::1 GET /?fields=name%20slug%20image (304)
+2023-05-29T06:41:34.365Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-05-29T06:41:34.909Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-05-29T06:41:34.917Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:41:34.928Z ::1 GET /api/v1/products?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:41:34.987Z ::1 GET /?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:41:35.106Z ::1 GET /api/v1/brands?fields=_id%20name%20slug
+2023-05-29T06:41:35.115Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-05-29T06:41:35.488Z ::1 GET /api/v1/products?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:41:35.522Z ::1 GET /?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:41:46.490Z ::1 GET /api/v1/products/search/suggest?keyword=z
+2023-05-29T06:41:46.494Z ::1 GET /api/v1/products/search/suggest?keyword=z (404)
+2023-05-29T06:41:46.569Z ::1 GET /api/v1/products/search/suggest?keyword=zx
+2023-05-29T06:41:46.573Z ::1 GET /api/v1/products/search/suggest?keyword=zx (404)
+2023-05-29T06:41:46.656Z ::1 GET /api/v1/products/search/suggest?keyword=zxc
+2023-05-29T06:41:46.660Z ::1 GET /api/v1/products/search/suggest?keyword=zxc (404)
+2023-05-29T06:41:46.906Z ::1 GET /api/v1/products/search/suggest?keyword=zxcv
+2023-05-29T06:41:46.911Z ::1 GET /api/v1/products/search/suggest?keyword=zxcv (404)
+2023-05-29T06:41:48.067Z ::1 GET /api/v1/products?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:41:48.118Z ::1 GET /?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:42:00.008Z ::1 GET /api/v1/products/search/suggest?keyword=zxcvz
+2023-05-29T06:42:00.012Z ::1 GET /api/v1/products/search/suggest?keyword=zxcvz (404)
+2023-05-29T06:42:00.067Z ::1 GET /api/v1/products/search/suggest?keyword=zxcvzx
+2023-05-29T06:42:00.073Z ::1 GET /api/v1/products/search/suggest?keyword=zxcvzx (404)
+2023-05-29T06:42:00.206Z ::1 GET /api/v1/products/search/suggest?keyword=zxcvzxc
+2023-05-29T06:42:00.211Z ::1 GET /api/v1/products/search/suggest?keyword=zxcvzxc (404)
+2023-05-29T06:42:01.365Z ::1 GET /api/v1/products?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:42:01.393Z ::1 GET /?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:42:12.592Z ::1 GET /api/v1/products?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:42:12.671Z ::1 GET /?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:42:12.777Z ::1 GET /api/v1/products?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:42:12.816Z ::1 GET /?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:42:19.998Z ::1 GET /api/v1/products?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:42:20.041Z ::1 GET /?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:42:26.286Z ::1 GET /api/v1/products?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:42:26.330Z ::1 GET /?search=123asd&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:42:30.148Z ::1 GET /api/v1/products/search/suggest?keyword=a
+2023-05-29T06:42:30.152Z ::1 GET /api/v1/products/search/suggest?keyword=a (404)
+2023-05-29T06:42:30.234Z ::1 GET /api/v1/products/search/suggest?keyword=as
+2023-05-29T06:42:30.238Z ::1 GET /api/v1/products/search/suggest?keyword=as (404)
+2023-05-29T06:42:30.332Z ::1 GET /api/v1/products/search/suggest?keyword=asd
+2023-05-29T06:42:30.336Z ::1 GET /api/v1/products/search/suggest?keyword=asd (404)
+2023-05-29T06:42:30.873Z ::1 GET /api/v1/products/search/suggest?keyword=asda
+2023-05-29T06:42:30.878Z ::1 GET /api/v1/products/search/suggest?keyword=asda (404)
+2023-05-29T06:42:30.919Z ::1 GET /api/v1/products/search/suggest?keyword=asdas
+2023-05-29T06:42:30.924Z ::1 GET /api/v1/products/search/suggest?keyword=asdas (404)
+2023-05-29T06:42:30.981Z ::1 GET /api/v1/products/search/suggest?keyword=asdasd
+2023-05-29T06:42:30.987Z ::1 GET /api/v1/products/search/suggest?keyword=asdasd (404)
+2023-05-29T06:42:32.561Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:42:32.615Z ::1 GET /?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:46:14.206Z ::1 GET /api/v1/products/search/suggest?keyword=asdas
+2023-05-29T06:46:14.221Z ::1 GET /api/v1/products/search/suggest?keyword=asdas (404)
+2023-05-29T06:46:14.285Z ::1 GET /api/v1/products/search/suggest?keyword=asdas1
+2023-05-29T06:46:14.290Z ::1 GET /api/v1/products/search/suggest?keyword=asdas1 (404)
+2023-05-29T06:46:16.198Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:46:16.290Z ::1 GET /?search=&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:46:36.266Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-05-29T06:46:36.271Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-05-29T06:46:43.389Z ::1 GET /api/v1/products?search=qwewe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:46:43.452Z ::1 GET /?search=qwewe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-05-29T06:46:43.461Z ::1 GET /api/v1/products?search=qwewe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:46:43.515Z ::1 GET /?search=qwewe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:49:21.248Z ::1 GET /api/v1/products?search=qwewe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:49:21.319Z ::1 GET /?search=qwewe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)
+2023-05-29T06:50:30.743Z ::1 GET /api/v1/products?search=qwewe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-05-29T06:50:30.857Z ::1 GET /?search=qwewe&c=&b=&page=1&limit=10&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (304)

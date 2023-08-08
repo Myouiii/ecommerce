@@ -1,0 +1,15 @@
+@BASE_URL = http://localhost:3001/api/v1
+@RESOURCE = orders
+
+
+GET {{BASE_URL}}/{{RESOURCE}}
+Content-Type: application/json
+
+
+### CREATE ORDER
+POST {{BASE_URL}}/{{RESOURCE}}
+Content-Type: application/json
+
+{
+    
+}

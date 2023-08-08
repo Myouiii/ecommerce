@@ -1,0 +1,96 @@
+
+2023-07-26T03:25:03.527Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-26T03:25:06.370Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-26T03:26:06.617Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690341906095&requestId=MOMOBKUN201805291690341906095&amount=0&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64c0920f6447ff9a177afafd&orderType=momo_wallet&transId=1690341966859&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690341966870&extraData=&signature=24f5094aa8f345778e2c186519be4ee76d2e390584fe059ea7f5306665279cbd
+2023-07-26T03:26:06.632Z ::1 GET /momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690341906095&requestId=MOMOBKUN201805291690341906095&amount=0&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64c0920f6447ff9a177afafd&orderType=momo_wallet&transId=1690341966859&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690341966870&extraData=&signature=24f5094aa8f345778e2c186519be4ee76d2e390584fe059ea7f5306665279cbd (200)
+2023-07-26T03:28:05.295Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-26T03:28:08.352Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-26T03:28:51.528Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690342088075&requestId=MOMOBKUN201805291690342088075&amount=0&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64c092c5ae800591f2758f59&orderType=momo_wallet&transId=1690342132165&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690342132177&extraData=&signature=2ab5aa63db5b019e8634e51095acacc8087a9883dac2a714c33518c3e6d1cbd1
+2023-07-26T03:28:51.548Z ::1 GET /momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690342088075&requestId=MOMOBKUN201805291690342088075&amount=0&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64c092c5ae800591f2758f59&orderType=momo_wallet&transId=1690342132165&resultCode=1006&message=Giao+d%E1%BB%8Bch+b%E1%BB%8B+t%E1%BB%AB+ch%E1%BB%91i+b%E1%BB%9Fi+ng%C6%B0%E1%BB%9Di+d%C3%B9ng.&payType=&responseTime=1690342132177&extraData=&signature=2ab5aa63db5b019e8634e51095acacc8087a9883dac2a714c33518c3e6d1cbd1 (200)
+2023-07-26T03:31:59.011Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-26T03:35:16.110Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-26T03:39:53.678Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-26T03:42:27.111Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-26T03:42:29.181Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-26T03:43:07.693Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-26T03:43:09.817Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-26T03:44:13.953Z ::ffff:127.0.0.1 POST /api/v1/payment/momo
+2023-07-26T03:44:16.142Z ::ffff:127.0.0.1 POST /momo (200)
+2023-07-26T03:46:57.478Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690343055920&requestId=MOMOBKUN201805291690343055920&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64c0968d465b52478b0ec987&orderType=momo_wallet&transId=3056506618&resultCode=0&message=Th%C3%A0nh+c%C3%B4ng.&payType=credit&responseTime=1690343218050&extraData=&signature=f4fec7f794089ae9db63f6da9924817863e7e5f636d7944a3ad3142d4f1ae62d
+2023-07-26T03:46:58.332Z ::1 GET /momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690343055920&requestId=MOMOBKUN201805291690343055920&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3001%26orderId%3D64c0968d465b52478b0ec987&orderType=momo_wallet&transId=3056506618&resultCode=0&message=Th%C3%A0nh+c%C3%B4ng.&payType=credit&responseTime=1690343218050&extraData=&signature=f4fec7f794089ae9db63f6da9924817863e7e5f636d7944a3ad3142d4f1ae62d (200)
+2023-07-26T03:47:00.535Z ::1 GET /order/64c0968d465b52478b0ec987
+2023-07-26T03:47:00.543Z ::1 GET /order/64c0968d465b52478b0ec987 (404)
+2023-07-26T11:40:16.164Z ::1 GET /api/v1/account
+2023-07-26T11:40:17.019Z ::1 GET /api/v1/account (401)
+2023-07-26T11:40:17.042Z ::1 POST /api/v1/auth/refresh-token
+2023-07-26T11:40:17.339Z ::1 POST /api/v1/auth/refresh-token (404)
+2023-07-26T11:40:17.792Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-26T11:40:17.802Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-26T11:40:17.809Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-26T11:40:17.815Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-26T11:40:18.046Z ::1 GET /search/suggest?keyword= (200)
+2023-07-26T11:40:18.048Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-26T11:40:18.054Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-26T11:40:18.096Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (200)
+2023-07-26T11:40:18.102Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (200)
+2023-07-26T11:40:18.306Z ::1 GET /search/suggest?keyword= (304)
+2023-07-26T11:40:18.887Z ::1 GET /?fields=name%20slug%20image (200)
+2023-07-26T11:40:21.529Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-07-26T11:40:45.998Z ::1 GET /api/v1/account
+2023-07-26T11:40:46.256Z ::1 GET /api/v1/account (401)
+2023-07-26T11:40:46.272Z ::1 POST /api/v1/auth/refresh-token
+2023-07-26T11:40:46.534Z ::1 POST /api/v1/auth/refresh-token (404)
+2023-07-26T11:40:46.770Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-26T11:40:46.780Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-26T11:40:46.785Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-26T11:40:46.792Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-26T11:40:46.968Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-26T11:40:47.020Z ::1 GET /search/suggest?keyword= (304)
+2023-07-26T11:40:47.026Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-26T11:40:47.038Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-26T11:40:47.046Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-26T11:40:47.279Z ::1 GET /search/suggest?keyword= (304)
+2023-07-26T11:40:47.857Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-26T11:40:48.280Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-07-26T11:41:08.727Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-07-26T11:41:08.734Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-07-26T11:41:10.488Z ::1 GET /?fields=_id%20name%20slug (200)
+2023-07-26T11:41:10.504Z ::1 GET /api/v1/brands?fields=_id%20name%20slug&isHidden=undefined
+2023-07-26T11:41:10.763Z ::1 GET /?fields=_id%20name%20slug&isHidden=undefined (200)
+2023-07-26T11:41:10.984Z ::1 GET /api/v1/products?search=&c=c00000000000000000000006&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-07-26T11:41:11.871Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-07-26T11:41:13.330Z ::1 GET /?search=&c=c00000000000000000000006&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-07-26T11:41:31.613Z ::1 GET /api/v1/products/op-lung-oppo-a15-a15s-nhua-deo-nake-slim-jm?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-07-26T11:41:32.167Z ::1 GET /op-lung-oppo-a15-a15s-nhua-deo-nake-slim-jm?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-07-26T11:41:32.308Z ::1 GET /api/v1/products?search=&page=0&limit=5&b=&c=c00000000000000000000006
+2023-07-26T11:41:33.601Z ::1 GET /?search=&page=0&limit=5&b=&c=c00000000000000000000006 (200)
+2023-07-26T11:42:39.609Z ::1 GET /api/v1/account/addresses
+2023-07-26T11:42:39.871Z ::1 GET /api/v1/account/addresses (404)
+2023-07-26T11:42:58.867Z ::1 POST /api/v1/orders
+2023-07-26T11:43:00.575Z ::1 POST /api/v1/orders (500)
+2023-07-26T11:48:18.198Z ::1 GET /api/v1/payment/momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690371780257&requestId=MOMOBKUN201805291690371780257&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3000%26orderId%3D64c106c27dd5b6247975b509&orderType=momo_wallet&transId=3056894475&resultCode=0&message=Th%C3%A0nh+c%C3%B4ng.&payType=qr&responseTime=1690372097592&extraData=&signature=dee5aec066064071b8ea8910c0e7c410f4ad29b9fbe353efbcb28e23984e83c3
+2023-07-26T11:48:19.050Z ::1 GET /momo?partnerCode=MOMOBKUN20180529&orderId=MOMOBKUN201805291690371780257&requestId=MOMOBKUN201805291690371780257&amount=10000&orderInfo=clientUrl%3Dhttp%3A%2F%2Flocalhost%3A3000%26orderId%3D64c106c27dd5b6247975b509&orderType=momo_wallet&transId=3056894475&resultCode=0&message=Th%C3%A0nh+c%C3%B4ng.&payType=qr&responseTime=1690372097592&extraData=&signature=dee5aec066064071b8ea8910c0e7c410f4ad29b9fbe353efbcb28e23984e83c3 (200)
+2023-07-26T11:48:23.144Z ::1 GET /api/v1/account
+2023-07-26T11:48:23.413Z ::1 GET /api/v1/account (401)
+2023-07-26T11:48:23.430Z ::1 POST /api/v1/auth/refresh-token
+2023-07-26T11:48:23.715Z ::1 POST /api/v1/auth/refresh-token (404)
+2023-07-26T11:48:24.003Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-26T11:48:24.017Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-26T11:48:24.024Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-26T11:48:24.030Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-26T11:48:24.191Z ::1 GET /api/v1/orders/64c106c27dd5b6247975b509
+2023-07-26T11:48:24.259Z ::1 GET /search/suggest?keyword= (304)
+2023-07-26T11:48:24.264Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-26T11:48:24.290Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-26T11:48:24.295Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-26T11:48:24.448Z ::1 GET /64c106c27dd5b6247975b509 (200)
+2023-07-26T11:48:24.515Z ::1 GET /search/suggest?keyword= (304)
+2023-07-26T11:48:25.056Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-26T11:49:51.525Z ::1 GET /api/v1/categories?fields=_id%20name%20slug
+2023-07-26T11:49:51.541Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-07-26T11:49:52.549Z ::1 GET /?fields=_id%20name%20slug (304)
+2023-07-26T11:49:52.563Z ::1 GET /api/v1/brands?fields=_id%20name%20slug&isHidden=undefined
+2023-07-26T11:49:52.817Z ::1 GET /?fields=_id%20name%20slug&isHidden=undefined (304)
+2023-07-26T11:49:52.984Z ::1 GET /api/v1/products?search=&c=c00000000000000000000001&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1
+2023-07-26T11:49:53.831Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)
+2023-07-26T11:49:55.782Z ::1 GET /?search=&c=c00000000000000000000001&b=&page=1&limit=10&sort=asc&sortBy=default&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0&fullTextSearch=1 (200)

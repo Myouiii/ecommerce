@@ -1,0 +1,681 @@
+
+2023-06-21T04:15:28.974Z ::1 GET /api/v1/account
+2023-06-21T04:15:29.171Z ::1 GET / (304)
+2023-06-21T04:15:31.051Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-21T04:15:31.063Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-21T04:15:31.088Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-21T04:15:31.095Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-21T04:15:31.147Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-21T04:15:31.171Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-06-21T04:15:31.180Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-21T04:15:31.266Z ::1 GET /?fields=name%20slug%20image (200)
+2023-06-21T04:15:31.268Z ::1 POST /api/v1/cart
+2023-06-21T04:15:31.381Z ::1 GET /?fields=name%20slug%20image (200)
+2023-06-21T04:15:31.385Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (200)
+2023-06-21T04:15:31.672Z ::1 POST / (200)
+2023-06-21T04:15:36.366Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-06-21T04:15:36.523Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-06-21T04:16:37.548Z ::1 GET /api/v1/account
+2023-06-21T04:16:37.576Z ::1 GET / (304)
+2023-06-21T04:16:38.207Z ::1 POST /api/v1/cart
+2023-06-21T04:16:38.277Z ::1 POST / (200)
+2023-06-21T04:16:48.983Z ::1 GET /api/v1/categories
+2023-06-21T04:16:49.058Z ::1 GET / (304)
+2023-06-21T04:17:49.342Z ::1 GET /api/v1/brands
+2023-06-21T04:17:49.426Z ::1 GET / (200)
+2023-06-21T04:18:01.014Z ::1 GET /api/v1/categories
+2023-06-21T04:18:01.064Z ::1 GET / (304)
+2023-06-21T04:19:24.232Z ::1 GET /api/v1/account
+2023-06-21T04:19:24.265Z ::1 GET / (304)
+2023-06-21T04:19:25.361Z ::1 POST /api/v1/cart
+2023-06-21T04:19:25.385Z ::1 POST / (200)
+2023-06-21T04:19:27.597Z ::1 GET /api/v1/categories
+2023-06-21T04:19:27.639Z ::1 GET / (304)
+2023-06-21T04:19:54.714Z ::1 DELETE /api/v1/categories/6482ba75e5302aece9f4d20c
+2023-06-21T04:19:54.813Z ::1 DELETE /api/v1/categories/6482ba75e5302aece9f4d20c (400)
+2023-06-21T04:20:04.901Z ::1 DELETE /api/v1/categories/6482ba75e5302aece9f4d20c
+2023-06-21T04:20:04.956Z ::1 DELETE /api/v1/categories/6482ba75e5302aece9f4d20c (400)
+2023-06-21T04:24:10.051Z ::1 GET /api/v1/brands
+2023-06-21T04:24:10.104Z ::1 GET / (304)
+2023-06-21T04:24:19.652Z ::1 GET /api/v1/categories
+2023-06-21T04:24:19.700Z ::1 GET / (304)
+2023-06-21T04:24:24.070Z ::1 GET /api/v1/brands
+2023-06-21T04:24:24.108Z ::1 GET / (304)
+2023-06-21T04:24:26.651Z ::1 GET /api/v1/categories
+2023-06-21T04:24:26.693Z ::1 GET / (304)
+2023-06-21T04:24:33.163Z ::1 GET /api/v1/brands
+2023-06-21T04:24:33.207Z ::1 GET / (304)
+2023-06-21T04:25:02.853Z ::1 GET /api/v1/account
+2023-06-21T04:25:02.879Z ::1 GET / (304)
+2023-06-21T04:25:04.050Z ::1 POST /api/v1/cart
+2023-06-21T04:25:04.096Z ::1 POST / (200)
+2023-06-21T04:25:04.645Z ::1 GET /api/v1/brands
+2023-06-21T04:25:04.697Z ::1 GET / (304)
+2023-06-21T04:28:29.703Z ::1 GET /api/v1/account
+2023-06-21T04:28:29.781Z ::1 GET / (304)
+2023-06-21T04:28:32.095Z ::1 POST /api/v1/cart
+2023-06-21T04:28:32.188Z ::1 POST / (200)
+2023-06-21T04:28:32.941Z ::1 GET /api/v1/brands
+2023-06-21T04:28:33.096Z ::1 GET / (304)
+2023-06-21T04:29:52.426Z ::1 GET /api/v1/account
+2023-06-21T04:29:52.452Z ::1 GET / (304)
+2023-06-21T04:29:54.538Z ::1 POST /api/v1/cart
+2023-06-21T04:29:54.559Z ::1 POST / (200)
+2023-06-21T04:30:01.634Z ::1 GET /api/v1/brands
+2023-06-21T04:30:01.668Z ::1 GET / (304)
+2023-06-21T04:31:01.834Z ::1 PATCH /api/v1/brands/6482c01fe5302aece9f4d327
+2023-06-21T04:31:02.325Z ::1 PATCH /6482c01fe5302aece9f4d327 (200)
+2023-06-21T04:34:32.858Z ::1 GET /api/v1/account
+2023-06-21T04:34:33.830Z ::1 GET / (304)
+2023-06-21T04:34:36.786Z ::1 POST /api/v1/cart
+2023-06-21T04:34:37.068Z ::1 POST / (200)
+2023-06-21T04:34:39.127Z ::1 GET /api/v1/brands
+2023-06-21T04:34:39.233Z ::1 GET / (200)
+2023-06-21T04:35:20.545Z ::1 POST /api/v1/brands
+2023-06-21T04:35:21.030Z ::1 POST / (200)
+2023-06-21T04:35:40.074Z ::1 PATCH /api/v1/brands/64927e08f1ae9a949a1fc488
+2023-06-21T04:35:40.243Z ::1 PATCH /64927e08f1ae9a949a1fc488 (200)
+2023-06-21T04:36:29.044Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T04:36:29.522Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T04:36:31.131Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=1
+2023-06-21T04:36:31.274Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=1 (200)
+2023-06-21T04:36:32.827Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T04:36:33.013Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T04:36:58.766Z ::1 GET /api/v1/brands
+2023-06-21T04:36:58.779Z ::1 GET /api/v1/categories
+2023-06-21T04:36:58.821Z ::1 GET / (200)
+2023-06-21T04:36:58.853Z ::1 GET / (304)
+2023-06-21T04:47:09.557Z ::1 POST /api/v1/products
+2023-06-21T04:47:09.745Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T04:47:10.130Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T04:47:10.274Z ::1 POST / (200)
+2023-06-21T04:47:15.793Z ::1 POST /api/v1/products
+2023-06-21T04:47:15.959Z ::1 POST / (200)
+2023-06-21T04:47:18.364Z ::1 GET /api/v1/account
+2023-06-21T04:47:18.394Z ::1 GET / (304)
+2023-06-21T04:47:18.887Z ::1 POST /api/v1/cart
+2023-06-21T04:47:19.003Z ::1 POST / (200)
+2023-06-21T04:47:21.312Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T04:47:21.689Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T04:47:29.816Z ::1 GET /api/v1/account
+2023-06-21T04:47:29.841Z ::1 GET / (304)
+2023-06-21T04:47:30.251Z ::1 POST /api/v1/cart
+2023-06-21T04:47:30.282Z ::1 POST / (200)
+2023-06-21T04:47:31.218Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T04:47:31.553Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T04:48:00.913Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T04:48:01.031Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T04:49:57.592Z ::1 GET /api/v1/account
+2023-06-21T04:49:57.661Z ::1 GET / (304)
+2023-06-21T04:49:58.405Z ::1 POST /api/v1/cart
+2023-06-21T04:49:58.466Z ::1 POST / (200)
+2023-06-21T04:50:00.200Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T04:50:00.659Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T04:50:05.751Z ::1 DELETE /api/v1/products/649280d3f1ae9a949a1fc4c4
+2023-06-21T04:50:05.928Z ::1 DELETE /649280d3f1ae9a949a1fc4c4 (200)
+2023-06-21T04:51:04.740Z ::1 GET /api/v1/categories
+2023-06-21T04:51:04.961Z ::1 GET / (200)
+2023-06-21T04:51:09.478Z ::1 GET /api/v1/brands
+2023-06-21T04:51:09.566Z ::1 GET / (200)
+2023-06-21T04:51:18.736Z ::1 DELETE /api/v1/brands/64927e08f1ae9a949a1fc488
+2023-06-21T04:51:18.870Z ::1 DELETE /64927e08f1ae9a949a1fc488 (200)
+2023-06-21T04:53:59.199Z ::1 GET /api/v1/account
+2023-06-21T04:53:59.378Z ::1 GET / (304)
+2023-06-21T04:54:01.705Z ::1 POST /api/v1/cart
+2023-06-21T04:54:02.093Z ::1 POST / (200)
+2023-06-21T04:54:02.908Z ::1 GET /api/v1/brands
+2023-06-21T04:54:03.774Z ::1 GET / (200)
+2023-06-21T04:54:12.780Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T04:54:13.159Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T04:54:20.540Z ::1 GET /api/v1/brands
+2023-06-21T04:54:20.543Z ::1 GET /api/v1/categories
+2023-06-21T04:54:20.653Z ::1 GET / (304)
+2023-06-21T04:54:20.688Z ::1 GET / (304)
+2023-06-21T04:55:11.619Z ::1 POST /api/v1/products
+2023-06-21T04:55:11.632Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T04:55:12.092Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T04:55:12.314Z ::1 POST / (200)
+2023-06-21T04:55:17.899Z ::1 POST /api/v1/products
+2023-06-21T04:55:18.160Z ::1 POST / (200)
+2023-06-21T04:56:47.606Z ::1 GET /api/v1/account
+2023-06-21T04:56:47.685Z ::1 GET / (304)
+2023-06-21T04:56:50.501Z ::1 POST /api/v1/cart
+2023-06-21T04:56:50.603Z ::1 POST / (200)
+2023-06-21T04:56:52.937Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T04:56:53.405Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T04:57:03.855Z ::1 DELETE /api/v1/products/649282b5f1ae9a949a1fc531
+2023-06-21T04:57:04.053Z ::1 DELETE /649282b5f1ae9a949a1fc531 (200)
+2023-06-21T04:58:31.361Z ::1 GET /api/v1/account
+2023-06-21T04:58:31.468Z ::1 GET / (304)
+2023-06-21T04:58:33.661Z ::1 POST /api/v1/cart
+2023-06-21T04:58:33.746Z ::1 POST / (200)
+2023-06-21T04:58:35.928Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T04:58:36.715Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T04:58:43.894Z ::1 PATCH /api/v1/products/649282aff1ae9a949a1fc51f/toggleHide
+2023-06-21T04:58:44.011Z ::1 PATCH /649282aff1ae9a949a1fc51f/toggleHide (200)
+2023-06-21T04:58:46.631Z ::1 PATCH /api/v1/products/649282aff1ae9a949a1fc51f/toggleHide
+2023-06-21T04:58:46.730Z ::1 PATCH /649282aff1ae9a949a1fc51f/toggleHide (200)
+2023-06-21T04:58:54.488Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T04:58:55.360Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T05:01:16.740Z ::1 GET /api/v1/account
+2023-06-21T05:01:16.972Z ::1 GET / (304)
+2023-06-21T05:01:18.447Z ::1 POST /api/v1/cart
+2023-06-21T05:01:18.574Z ::1 POST / (200)
+2023-06-21T05:01:20.527Z ::1 GET /api/v1/categories
+2023-06-21T05:01:20.543Z ::1 GET /api/v1/brands
+2023-06-21T05:01:20.695Z ::1 GET / (200)
+2023-06-21T05:01:20.738Z ::1 GET / (200)
+2023-06-21T05:02:43.119Z ::1 POST /api/v1/products
+2023-06-21T05:02:44.104Z ::1 POST / (200)
+2023-06-21T05:02:45.964Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T05:02:46.457Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T05:02:50.166Z ::1 POST /api/v1/products
+2023-06-21T05:02:50.652Z ::1 POST / (200)
+2023-06-21T05:06:59.044Z ::1 GET /api/v1/categories
+2023-06-21T05:06:59.199Z ::1 GET /api/v1/brands
+2023-06-21T05:06:59.571Z ::1 GET / (200)
+2023-06-21T05:06:59.613Z ::1 GET / (200)
+2023-06-21T05:07:05.031Z ::1 GET /api/v1/account
+2023-06-21T05:07:05.082Z ::1 GET / (304)
+2023-06-21T05:07:06.788Z ::1 POST /api/v1/cart
+2023-06-21T05:07:06.892Z ::1 POST / (200)
+2023-06-21T05:07:10.545Z ::1 GET /api/v1/categories
+2023-06-21T05:07:10.554Z ::1 GET /api/v1/brands
+2023-06-21T05:07:10.645Z ::1 GET / (304)
+2023-06-21T05:07:10.749Z ::1 GET / (304)
+2023-06-21T05:07:55.042Z ::1 POST /api/v1/products
+2023-06-21T05:07:55.313Z ::1 POST /api/v1/products (500)
+2023-06-21T05:07:57.348Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T05:07:57.766Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T05:08:47.825Z ::1 GET /api/v1/brands
+2023-06-21T05:08:47.833Z ::1 GET /api/v1/categories
+2023-06-21T05:08:48.025Z ::1 GET / (200)
+2023-06-21T05:08:48.059Z ::1 GET / (200)
+2023-06-21T15:44:49.817Z ::1 GET /api/v1/account
+2023-06-21T15:44:50.092Z ::1 GET / (304)
+2023-06-21T15:44:57.653Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-21T15:44:57.674Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-21T15:44:57.703Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-21T15:44:57.712Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-21T15:44:57.786Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-21T15:44:57.912Z ::1 GET /?fields=name%20slug%20image (200)
+2023-06-21T15:44:58.218Z ::1 GET /api/v1/brands?fields=name%20slug%20image
+2023-06-21T15:44:58.287Z ::1 GET /?fields=name%20slug%20image (200)
+2023-06-21T15:44:59.050Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-21T15:44:59.085Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (200)
+2023-06-21T15:44:59.101Z ::1 POST /api/v1/cart
+2023-06-21T15:44:59.260Z ::1 POST / (200)
+2023-06-21T15:45:04.813Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-06-21T15:45:04.995Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-06-21T15:45:31.837Z ::1 GET /api/v1/account
+2023-06-21T15:45:31.863Z ::1 GET / (304)
+2023-06-21T15:45:32.341Z ::1 POST /api/v1/cart
+2023-06-21T15:45:32.364Z ::1 POST / (200)
+2023-06-21T15:45:50.065Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T15:45:52.207Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T15:46:09.520Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T15:46:09.762Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T15:46:15.362Z ::1 DELETE /api/v1/products/6492847acfa8545822960270
+2023-06-21T15:46:15.555Z ::1 DELETE /6492847acfa8545822960270 (200)
+2023-06-21T15:50:22.924Z ::1 DELETE /api/v1/products/6492847acfa8545822960270
+2023-06-21T15:50:23.391Z ::1 DELETE /api/v1/products/6492847acfa8545822960270 (404)
+2023-06-21T15:55:12.315Z ::1 GET /api/v1/account
+2023-06-21T15:55:12.476Z ::1 GET / (304)
+2023-06-21T15:55:14.844Z ::1 POST /api/v1/cart
+2023-06-21T15:55:14.949Z ::1 POST / (200)
+2023-06-21T15:55:17.373Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T15:55:17.605Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T15:56:05.231Z ::1 DELETE /api/v1/products/649282aff1ae9a949a1fc51f
+2023-06-21T15:56:05.627Z ::1 DELETE /649282aff1ae9a949a1fc51f (200)
+2023-06-21T16:01:34.276Z ::1 GET /api/v1/account
+2023-06-21T16:01:34.833Z ::1 GET / (304)
+2023-06-21T16:01:36.284Z ::1 POST /api/v1/cart
+2023-06-21T16:01:36.642Z ::1 POST / (200)
+2023-06-21T16:01:42.474Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:01:43.059Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:01:47.846Z ::1 GET /api/v1/categories
+2023-06-21T16:01:47.856Z ::1 GET /api/v1/brands
+2023-06-21T16:01:47.943Z ::1 GET / (304)
+2023-06-21T16:01:48.223Z ::1 GET / (304)
+2023-06-21T16:04:06.355Z ::1 GET /api/v1/account
+2023-06-21T16:04:06.593Z ::1 GET / (304)
+2023-06-21T16:04:13.565Z ::1 POST /api/v1/cart
+2023-06-21T16:04:13.637Z ::1 POST / (200)
+2023-06-21T16:04:16.424Z ::1 GET /api/v1/brands
+2023-06-21T16:04:16.488Z ::1 GET / (304)
+2023-06-21T16:04:16.494Z ::1 GET /api/v1/categories
+2023-06-21T16:04:16.567Z ::1 GET / (304)
+2023-06-21T16:05:16.783Z ::1 POST /api/v1/products
+2023-06-21T16:05:17.582Z ::1 POST / (200)
+2023-06-21T16:05:19.019Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:05:19.372Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:05:35.284Z ::1 GET /api/v1/account
+2023-06-21T16:05:35.321Z ::1 GET / (304)
+2023-06-21T16:05:36.503Z ::1 POST /api/v1/cart
+2023-06-21T16:05:36.653Z ::1 POST / (200)
+2023-06-21T16:05:37.823Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:05:38.267Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:05:46.073Z ::1 DELETE /api/v1/products/64931fbd49ce3b2b19226a7b
+2023-06-21T16:05:46.216Z ::1 DELETE /64931fbd49ce3b2b19226a7b (200)
+2023-06-21T16:10:30.036Z ::1 GET /api/v1/account
+2023-06-21T16:10:30.266Z ::1 GET / (304)
+2023-06-21T16:10:33.055Z ::1 POST /api/v1/cart
+2023-06-21T16:10:33.152Z ::1 POST / (200)
+2023-06-21T16:10:35.749Z ::1 POST /api/v1/products
+2023-06-21T16:10:35.871Z ::1 POST /api/v1/products (500)
+2023-06-21T16:10:38.853Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:10:39.134Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:10:44.674Z ::1 POST /api/v1/auth/login
+2023-06-21T16:10:44.984Z ::1 POST /login (200)
+2023-06-21T16:10:55.710Z ::1 POST /api/v1/products
+2023-06-21T16:10:56.033Z ::1 POST / (200)
+2023-06-21T16:11:02.995Z ::1 GET /api/v1/account
+2023-06-21T16:11:03.086Z ::1 GET / (304)
+2023-06-21T16:11:05.569Z ::1 POST /api/v1/cart
+2023-06-21T16:11:05.605Z ::1 POST / (200)
+2023-06-21T16:11:07.601Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:11:08.051Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:11:31.327Z ::1 DELETE /api/v1/products/6493210f49ce3b2b19226ab2
+2023-06-21T16:11:31.422Z ::1 DELETE /6493210f49ce3b2b19226ab2 (200)
+2023-06-21T16:13:41.625Z ::1 GET /api/v1/account
+2023-06-21T16:13:41.834Z ::1 GET / (304)
+2023-06-21T16:13:47.015Z ::1 POST /api/v1/cart
+2023-06-21T16:13:47.121Z ::1 POST / (200)
+2023-06-21T16:13:51.538Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:13:51.795Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:15:16.303Z ::1 POST /api/v1/products
+2023-06-21T16:15:17.347Z ::1 POST / (200)
+2023-06-21T16:15:23.892Z ::1 GET /api/v1/account
+2023-06-21T16:15:23.971Z ::1 GET / (304)
+2023-06-21T16:15:25.551Z ::1 POST /api/v1/cart
+2023-06-21T16:15:26.021Z ::1 POST / (200)
+2023-06-21T16:15:27.440Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:15:27.672Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:15:34.640Z ::1 DELETE /api/v1/products/6493221449ce3b2b19226ade
+2023-06-21T16:15:34.819Z ::1 DELETE /6493221449ce3b2b19226ade (200)
+2023-06-21T16:18:09.591Z ::1 GET /api/v1/account
+2023-06-21T16:18:09.973Z ::1 GET / (304)
+2023-06-21T16:18:35.213Z ::1 POST /api/v1/cart
+2023-06-21T16:18:35.642Z ::1 POST / (200)
+2023-06-21T16:19:17.227Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:19:18.765Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:19:49.795Z ::1 GET /api/v1/account
+2023-06-21T16:19:50.013Z ::1 GET / (304)
+2023-06-21T16:19:55.593Z ::1 POST /api/v1/cart
+2023-06-21T16:19:56.123Z ::1 POST / (200)
+2023-06-21T16:19:59.863Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:20:00.533Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:20:30.175Z ::1 POST /api/v1/products
+2023-06-21T16:20:30.758Z ::1 POST / (200)
+2023-06-21T16:20:48.636Z ::1 GET /api/v1/account
+2023-06-21T16:20:48.669Z ::1 GET / (304)
+2023-06-21T16:20:51.711Z ::1 POST /api/v1/cart
+2023-06-21T16:20:51.792Z ::1 POST / (200)
+2023-06-21T16:21:03.952Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:21:05.064Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:21:25.497Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:21:25.698Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:22:53.396Z ::1 GET /api/v1/products?search=&c=&b=&page=2&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:22:53.642Z ::1 GET /?search=&c=&b=&page=2&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:23:14.424Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:23:14.607Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:23:21.613Z ::1 DELETE /api/v1/products/6493234e49ce3b2b19226b17
+2023-06-21T16:23:22.302Z ::1 DELETE /6493234e49ce3b2b19226b17 (200)
+2023-06-21T16:24:38.780Z ::1 GET /api/v1/account
+2023-06-21T16:24:41.656Z ::1 GET / (304)
+2023-06-21T16:24:43.811Z ::1 POST /api/v1/products
+2023-06-21T16:24:44.780Z ::1 POST / (200)
+2023-06-21T16:24:49.504Z ::1 POST /api/v1/cart
+2023-06-21T16:24:50.376Z ::1 POST / (200)
+2023-06-21T16:24:52.296Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:24:52.911Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:24:59.910Z ::1 DELETE /api/v1/products/6493244b49ce3b2b19226b52
+2023-06-21T16:25:00.481Z ::1 DELETE /6493244b49ce3b2b19226b52 (200)
+2023-06-21T16:25:32.202Z ::1 GET /api/v1/products?search=&c=&b=&page=2&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:25:32.278Z ::1 GET /?search=&c=&b=&page=2&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:25:34.556Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:25:34.740Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:25:46.204Z ::1 POST /api/v1/products
+2023-06-21T16:25:46.383Z ::1 POST / (200)
+2023-06-21T16:25:51.836Z ::1 GET /api/v1/account
+2023-06-21T16:25:51.921Z ::1 GET / (304)
+2023-06-21T16:25:53.033Z ::1 POST /api/v1/cart
+2023-06-21T16:25:53.213Z ::1 POST / (200)
+2023-06-21T16:25:54.558Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:25:54.910Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:26:44.812Z ::1 GET /api/v1/account
+2023-06-21T16:26:46.396Z ::1 GET / (304)
+2023-06-21T16:26:48.722Z ::1 POST /api/v1/cart
+2023-06-21T16:26:49.838Z ::1 POST / (200)
+2023-06-21T16:26:52.660Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:26:53.207Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:26:54.359Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:26:55.059Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:26:56.380Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:26:56.664Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:26:59.961Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:00.474Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:02.597Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:05.420Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:09.040Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:11.551Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:13.360Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:13.982Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:14.563Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:14.917Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:16.207Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:17.302Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:18.667Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:20.279Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:21.806Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:22.735Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:24.065Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:24.890Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:26.443Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:28.232Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:29.723Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:32.672Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:34.481Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:34.793Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:37.036Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:37.453Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:38.768Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:40.426Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:43.454Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:46.351Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:47.676Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:50.045Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:51.360Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:52.253Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:53.906Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:55.917Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:57.270Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:57.632Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:27:58.536Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:27:59.448Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:28:00.801Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:28:05.515Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:28:07.742Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:28:09.698Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:28:11.650Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:28:15.387Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:28:16.375Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:28:16.678Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:28:18.387Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:28:18.896Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:28:20.475Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:28:21.001Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:28:22.091Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:28:24.656Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:28:26.810Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:28:27.609Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:28:28.563Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:28:30.690Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:28:34.428Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:28:40.710Z ::1 GET /api/v1/account
+2023-06-21T16:28:41.142Z ::1 GET / (304)
+2023-06-21T16:28:46.668Z ::1 POST /api/v1/cart
+2023-06-21T16:28:46.970Z ::1 POST / (200)
+2023-06-21T16:28:52.247Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:28:53.364Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:29:23.723Z ::1 DELETE /api/v1/products/6493248a49ce3b2b19226b7e
+2023-06-21T16:29:23.934Z ::1 DELETE /6493248a49ce3b2b19226b7e (200)
+2023-06-21T16:30:05.387Z ::1 GET /api/v1/account
+2023-06-21T16:30:05.432Z ::1 GET / (304)
+2023-06-21T16:30:06.646Z ::1 POST /api/v1/cart
+2023-06-21T16:30:06.691Z ::1 POST / (200)
+2023-06-21T16:30:09.500Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:30:09.721Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:32:02.957Z ::1 GET /api/v1/account
+2023-06-21T16:32:03.310Z ::1 GET / (304)
+2023-06-21T16:32:05.560Z ::1 POST /api/v1/cart
+2023-06-21T16:32:06.025Z ::1 POST / (200)
+2023-06-21T16:32:10.340Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:32:11.602Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:34:22.477Z ::1 POST /api/v1/products
+2023-06-21T16:34:23.261Z ::1 POST / (200)
+2023-06-21T16:34:41.369Z ::1 GET /api/v1/account
+2023-06-21T16:34:41.433Z ::1 GET / (304)
+2023-06-21T16:34:44.035Z ::1 POST /api/v1/cart
+2023-06-21T16:34:44.198Z ::1 POST / (200)
+2023-06-21T16:34:47.062Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:34:47.428Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:34:54.736Z ::1 DELETE /api/v1/products/6493268e49ce3b2b19226cf1
+2023-06-21T16:34:54.853Z ::1 DELETE /6493268e49ce3b2b19226cf1 (200)
+2023-06-21T16:36:37.348Z ::1 POST /api/v1/products
+2023-06-21T16:36:37.914Z ::1 POST / (200)
+2023-06-21T16:36:58.715Z ::1 GET /api/v1/account
+2023-06-21T16:36:58.824Z ::1 GET / (304)
+2023-06-21T16:37:03.864Z ::1 POST /api/v1/cart
+2023-06-21T16:37:04.407Z ::1 POST / (200)
+2023-06-21T16:37:08.080Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:37:10.020Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:37:15.852Z ::1 PATCH /api/v1/products/6493271549ce3b2b19226d10/toggleHide
+2023-06-21T16:37:16.013Z ::1 PATCH /6493271549ce3b2b19226d10/toggleHide (200)
+2023-06-21T16:40:05.895Z ::1 GET /api/v1/account
+2023-06-21T16:40:06.158Z ::1 GET / (304)
+2023-06-21T16:40:08.404Z ::1 POST /api/v1/cart
+2023-06-21T16:40:08.686Z ::1 POST / (200)
+2023-06-21T16:40:11.641Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:40:12.360Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:40:43.558Z ::1 GET /api/v1/products?search=&c=createdAt&b=&page=1&limit=10&sort=false&sortBy=desc&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:40:43.714Z ::1 GET /api/v1/products?search=&c=createdAt&b=&page=1&limit=10&sort=false&sortBy=desc&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (500)
+2023-06-21T16:41:08.719Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=false&sortBy=desc&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:41:08.906Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=false&sortBy=desc&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:41:32.076Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=1
+2023-06-21T16:41:32.256Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=1 (200)
+2023-06-21T16:41:34.562Z ::1 PATCH /api/v1/products/6493271549ce3b2b19226d10/toggleHide
+2023-06-21T16:41:34.717Z ::1 PATCH /6493271549ce3b2b19226d10/toggleHide (200)
+2023-06-21T16:41:37.765Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:41:37.960Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:44:26.651Z ::1 GET /api/v1/account
+2023-06-21T16:44:26.874Z ::1 GET / (304)
+2023-06-21T16:44:29.707Z ::1 POST /api/v1/cart
+2023-06-21T16:44:29.796Z ::1 POST / (200)
+2023-06-21T16:44:32.649Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:44:32.907Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:46:21.601Z ::1 GET /api/v1/account
+2023-06-21T16:46:21.807Z ::1 GET / (304)
+2023-06-21T16:46:23.467Z ::1 POST /api/v1/cart
+2023-06-21T16:46:24.037Z ::1 POST / (200)
+2023-06-21T16:46:26.068Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:46:26.372Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:47:36.538Z ::1 GET /api/v1/account
+2023-06-21T16:47:36.828Z ::1 GET / (304)
+2023-06-21T16:47:38.861Z ::1 POST /api/v1/cart
+2023-06-21T16:47:38.981Z ::1 POST / (200)
+2023-06-21T16:47:41.281Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:47:41.519Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T16:48:45.814Z ::1 DELETE /api/v1/products/6493271549ce3b2b19226d10
+2023-06-21T16:48:46.304Z ::1 DELETE /6493271549ce3b2b19226d10 (200)
+2023-06-21T16:51:29.312Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=10&sort=false&sortBy=desc&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:51:29.814Z ::1 GET /?search=&c=&b=&page=1&limit=10&sort=false&sortBy=desc&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:51:39.137Z ::1 POST /api/v1/products
+2023-06-21T16:51:39.635Z ::1 POST / (200)
+2023-06-21T16:51:53.418Z ::1 GET /api/v1/account
+2023-06-21T16:51:53.517Z ::1 GET / (304)
+2023-06-21T16:51:55.089Z ::1 POST /api/v1/cart
+2023-06-21T16:51:55.920Z ::1 POST / (200)
+2023-06-21T16:51:57.800Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:51:58.164Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:52:09.977Z ::1 DELETE /api/v1/products/64932a9b49ce3b2b19226d8d
+2023-06-21T16:52:10.384Z ::1 DELETE /64932a9b49ce3b2b19226d8d (200)
+2023-06-21T16:54:37.920Z ::1 POST /api/v1/products
+2023-06-21T16:54:38.426Z ::1 POST / (200)
+2023-06-21T16:54:49.652Z ::1 GET /api/v1/account
+2023-06-21T16:54:49.687Z ::1 GET / (304)
+2023-06-21T16:54:50.830Z ::1 POST /api/v1/cart
+2023-06-21T16:54:50.985Z ::1 POST / (200)
+2023-06-21T16:55:01.987Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:55:02.508Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:55:16.208Z ::1 DELETE /api/v1/products/64932b4e49ce3b2b19226dac
+2023-06-21T16:55:16.350Z ::1 DELETE /64932b4e49ce3b2b19226dac (200)
+2023-06-21T16:57:10.762Z ::1 GET /api/v1/categories
+2023-06-21T16:57:10.870Z ::1 GET / (200)
+2023-06-21T16:57:28.346Z ::1 POST /api/v1/categories
+2023-06-21T16:57:28.517Z ::1 POST / (200)
+2023-06-21T16:57:36.944Z ::1 GET /api/v1/account
+2023-06-21T16:57:36.987Z ::1 GET / (304)
+2023-06-21T16:57:38.140Z ::1 POST /api/v1/cart
+2023-06-21T16:57:38.213Z ::1 POST / (200)
+2023-06-21T16:57:39.218Z ::1 GET /api/v1/categories
+2023-06-21T16:57:39.291Z ::1 GET / (200)
+2023-06-21T16:57:46.986Z ::1 DELETE /api/v1/categories/64932bf849ce3b2b19226dcb
+2023-06-21T16:57:47.060Z ::1 DELETE /64932bf849ce3b2b19226dcb (200)
+2023-06-21T16:58:29.052Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T16:58:29.510Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T16:58:30.659Z ::1 POST /api/v1/products
+2023-06-21T16:58:31.521Z ::1 POST / (200)
+2023-06-21T17:02:10.589Z ::1 POST /api/v1/products
+2023-06-21T17:02:11.804Z ::1 POST / (200)
+2023-06-21T17:02:30.999Z ::1 GET /api/v1/account
+2023-06-21T17:02:31.114Z ::1 GET / (304)
+2023-06-21T17:02:33.368Z ::1 POST /api/v1/cart
+2023-06-21T17:02:33.432Z ::1 POST / (200)
+2023-06-21T17:02:36.101Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:02:36.276Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T17:02:51.140Z ::1 DELETE /api/v1/products/64932d1249ce3b2b19226def
+2023-06-21T17:02:51.392Z ::1 DELETE /64932d1249ce3b2b19226def (200)
+2023-06-21T17:03:03.075Z ::1 GET /api/v1/products?search=&c=&b=&page=2&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:03:03.247Z ::1 GET /?search=&c=&b=&page=2&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T17:03:04.836Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:03:05.040Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T17:03:12.456Z ::1 GET /api/v1/account
+2023-06-21T17:03:12.484Z ::1 GET / (304)
+2023-06-21T17:03:14.395Z ::1 POST /api/v1/cart
+2023-06-21T17:03:14.501Z ::1 POST / (200)
+2023-06-21T17:03:16.151Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:03:16.337Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:03:31.755Z ::1 GET /api/v1/products?search=&c=&b=&page=2&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:03:31.917Z ::1 GET /?search=&c=&b=&page=2&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:03:33.810Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:03:34.058Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:03:40.887Z ::1 GET /api/v1/account
+2023-06-21T17:03:40.944Z ::1 GET / (304)
+2023-06-21T17:03:42.302Z ::1 POST /api/v1/cart
+2023-06-21T17:03:42.383Z ::1 POST / (200)
+2023-06-21T17:03:43.849Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:03:44.067Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:04:26.723Z ::1 DELETE /api/v1/products/64932c3649ce3b2b19226de3
+2023-06-21T17:04:27.141Z ::1 DELETE /64932c3649ce3b2b19226de3 (200)
+2023-06-21T17:04:55.942Z ::1 GET /api/v1/account
+2023-06-21T17:04:55.991Z ::1 GET / (304)
+2023-06-21T17:04:57.511Z ::1 POST /api/v1/cart
+2023-06-21T17:04:57.594Z ::1 POST / (200)
+2023-06-21T17:04:59.374Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:05:00.141Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T17:05:56.311Z ::1 POST /api/v1/products
+2023-06-21T17:05:57.611Z ::1 POST / (200)
+2023-06-21T17:06:04.352Z ::1 GET /api/v1/account
+2023-06-21T17:06:04.402Z ::1 GET / (304)
+2023-06-21T17:06:11.096Z ::1 POST /api/v1/cart
+2023-06-21T17:06:13.388Z ::1 POST / (200)
+2023-06-21T17:06:17.760Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:06:18.831Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T17:06:18.855Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:06:19.126Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:06:19.911Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:06:20.793Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:06:20.949Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:06:21.421Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:06:21.916Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:06:22.524Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:06:22.592Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:06:22.792Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:06:23.362Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:06:23.580Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:06:23.742Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:06:24.220Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:06:29.575Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:06:29.754Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:06:29.759Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:06:29.924Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:06:30.401Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:06:30.543Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:06:30.935Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:06:31.063Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:07:25.379Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:07:25.736Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:07:25.750Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:07:25.911Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:07:28.050Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:07:28.220Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:07:31.914Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:07:32.109Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:07:35.226Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:07:35.409Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:07:40.373Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:07:40.768Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:07:52.958Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:07:53.229Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:07:53.413Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:07:53.584Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:07:54.781Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:07:54.999Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:07:55.741Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:07:55.924Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:07:57.726Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:07:57.947Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:07:59.682Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:07:59.874Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:03.957Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:04.262Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:09.098Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:09.304Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:11.857Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:12.025Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:12.559Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:12.721Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:14.238Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:14.438Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:14.560Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:14.730Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:15.590Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:15.789Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:15.854Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:16.042Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:17.478Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:17.755Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:18.152Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:18.287Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:20.255Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:21.600Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:21.695Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:22.255Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:22.333Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:22.778Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (304)
+2023-06-21T17:08:22.840Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:30.162Z ::1 GET /api/v1/account
+2023-06-21T17:08:30.349Z ::1 GET / (304)
+2023-06-21T17:08:35.340Z ::1 POST /api/v1/cart
+2023-06-21T17:08:35.759Z ::1 POST / (200)
+2023-06-21T17:08:39.410Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:08:41.055Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T17:09:26.354Z ::1 DELETE /api/v1/products/64932df449ce3b2b19226e5f
+2023-06-21T17:09:27.312Z ::1 DELETE /64932df449ce3b2b19226e5f (200)
+2023-06-21T17:10:35.132Z ::1 GET /api/v1/categories
+2023-06-21T17:10:36.202Z ::1 GET / (200)
+2023-06-21T17:10:44.173Z ::1 POST /api/v1/categories
+2023-06-21T17:10:44.331Z ::1 POST / (200)
+2023-06-21T17:10:48.918Z ::1 GET /api/v1/account
+2023-06-21T17:10:48.952Z ::1 GET / (304)
+2023-06-21T17:10:50.111Z ::1 POST /api/v1/cart
+2023-06-21T17:10:50.167Z ::1 POST / (200)
+2023-06-21T17:10:51.021Z ::1 GET /api/v1/categories
+2023-06-21T17:10:51.101Z ::1 GET / (200)
+2023-06-21T17:10:56.593Z ::1 DELETE /api/v1/categories/64932f1449ce3b2b19226fd7
+2023-06-21T17:10:56.703Z ::1 DELETE /64932f1449ce3b2b19226fd7 (200)
+2023-06-21T17:11:11.988Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:11:12.208Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T17:14:13.278Z ::1 POST /api/v1/products
+2023-06-21T17:14:39.930Z ::1 POST / (200)
+2023-06-21T17:15:18.004Z ::1 GET /api/v1/account
+2023-06-21T17:15:18.124Z ::1 GET / (304)
+2023-06-21T17:15:20.802Z ::1 POST /api/v1/cart
+2023-06-21T17:15:20.933Z ::1 POST / (200)
+2023-06-21T17:15:24.466Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:15:25.130Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)
+2023-06-21T17:15:34.387Z ::1 DELETE /api/v1/products/64932fed49ce3b2b19226fef
+2023-06-21T17:15:34.674Z ::1 DELETE /64932fed49ce3b2b19226fef (200)
+2023-06-21T17:15:35.633Z ::1 GET /api/v1/products?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0
+2023-06-21T17:15:35.903Z ::1 GET /?search=&c=&b=&page=1&limit=5&sort=desc&sortBy=createdAt&getBrandFilter=1&getCategoryFilter=1&isShowHidden=0 (200)

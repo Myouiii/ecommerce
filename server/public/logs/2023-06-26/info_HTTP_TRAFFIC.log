@@ -1,0 +1,377 @@
+
+2023-06-26T02:25:05.153Z ::1 GET /api/v1/account
+2023-06-26T02:25:05.782Z ::1 GET / (304)
+2023-06-26T02:25:06.399Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T02:25:06.411Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T02:25:06.413Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T02:25:06.444Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T02:25:06.476Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T02:25:06.500Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T02:25:06.531Z ::1 POST /api/v1/cart
+2023-06-26T02:25:06.710Z ::1 GET /?fields=name%20slug%20image (200)
+2023-06-26T02:25:06.732Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (200)
+2023-06-26T02:25:06.736Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T02:25:06.758Z ::1 POST / (200)
+2023-06-26T02:25:06.792Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (200)
+2023-06-26T02:25:07.776Z ::1 GET /api/v1/account
+2023-06-26T02:25:07.999Z ::1 GET / (304)
+2023-06-26T02:25:08.428Z ::1 POST /api/v1/cart
+2023-06-26T02:25:08.445Z ::1 POST / (200)
+2023-06-26T02:25:09.514Z ::1 GET /api/v1/users/customer
+2023-06-26T02:25:09.547Z ::1 GET /customer (200)
+2023-06-26T02:25:09.791Z ::1 GET /public/uploads/users/1687707072147_download.jpg
+2023-06-26T02:25:09.796Z ::1 GET /public/uploads/users/1687707072147_download.jpg (404)
+2023-06-26T02:27:52.393Z ::1 GET /api/v1/account
+2023-06-26T02:27:52.911Z ::1 GET / (304)
+2023-06-26T02:27:53.575Z ::1 POST /api/v1/cart
+2023-06-26T02:27:53.611Z ::1 POST / (200)
+2023-06-26T02:27:55.305Z ::1 GET /api/v1/users/customer
+2023-06-26T02:27:55.324Z ::1 GET /customer (200)
+2023-06-26T02:27:59.614Z ::1 GET /api/v1/users/64737901abe90914be3adec1
+2023-06-26T02:27:59.899Z ::1 GET /64737901abe90914be3adec1 (304)
+2023-06-26T02:28:03.896Z ::1 GET /api/v1/users/customer
+2023-06-26T02:28:03.922Z ::1 GET /customer (304)
+2023-06-26T02:30:16.018Z ::1 PATCH /api/v1/users/649727962a05a096774cc4cb/toggleHide
+2023-06-26T02:30:16.348Z ::1 PATCH /649727962a05a096774cc4cb/toggleHide (200)
+2023-06-26T02:30:20.436Z ::1 GET /api/v1/users/649727962a05a096774cc4cb
+2023-06-26T02:30:20.731Z ::1 GET /649727962a05a096774cc4cb (200)
+2023-06-26T02:32:32.611Z ::1 POST /api/v1/users/customer
+2023-06-26T02:32:32.866Z ::1 POST /customer (200)
+2023-06-26T02:42:21.337Z ::1 GET /api/v1/account
+2023-06-26T02:42:21.787Z ::1 GET / (304)
+2023-06-26T02:42:23.251Z ::1 POST /api/v1/cart
+2023-06-26T02:42:23.479Z ::1 POST / (200)
+2023-06-26T02:44:22.345Z ::1 GET /api/v1/account
+2023-06-26T02:44:23.398Z ::1 GET / (304)
+2023-06-26T02:44:25.306Z ::1 POST /api/v1/cart
+2023-06-26T02:44:25.438Z ::1 POST / (200)
+2023-06-26T02:44:40.395Z ::1 POST /api/v1/users/customer
+2023-06-26T02:44:40.739Z ::1 POST /customer (200)
+2023-06-26T02:47:27.029Z ::1 GET /api/v1/account
+2023-06-26T02:47:27.679Z ::1 GET / (304)
+2023-06-26T02:47:29.861Z ::1 POST /api/v1/cart
+2023-06-26T02:47:29.943Z ::1 POST / (200)
+2023-06-26T02:47:42.329Z ::1 POST /api/v1/users/customer
+2023-06-26T02:47:42.969Z ::1 POST /api/v1/users/customer (500)
+2023-06-26T02:49:59.707Z ::1 GET /api/v1/account
+2023-06-26T02:50:02.523Z ::1 GET / (304)
+2023-06-26T02:50:07.140Z ::1 POST /api/v1/cart
+2023-06-26T02:50:08.687Z ::1 POST / (200)
+2023-06-26T02:51:00.800Z ::1 GET /api/v1/account
+2023-06-26T02:51:01.358Z ::1 GET / (304)
+2023-06-26T02:51:03.239Z ::1 POST /api/v1/cart
+2023-06-26T02:51:03.317Z ::1 POST / (200)
+2023-06-26T02:51:16.041Z ::1 POST /api/v1/users/customer
+2023-06-26T02:51:17.073Z ::1 POST /api/v1/users/customer (500)
+2023-06-26T02:51:37.710Z ::1 POST /api/v1/users/customer
+2023-06-26T02:51:38.146Z ::1 POST /api/v1/users/customer (500)
+2023-06-26T02:52:39.084Z ::1 GET /api/v1/account
+2023-06-26T02:52:39.536Z ::1 GET / (304)
+2023-06-26T02:52:42.243Z ::1 POST /api/v1/cart
+2023-06-26T02:52:42.278Z ::1 POST / (200)
+2023-06-26T02:53:38.417Z ::1 POST /api/v1/users/customer
+2023-06-26T02:53:39.416Z ::1 POST /customer (200)
+2023-06-26T02:56:28.711Z ::1 GET /api/v1/account
+2023-06-26T02:56:29.477Z ::1 GET / (304)
+2023-06-26T02:56:32.322Z ::1 POST /api/v1/cart
+2023-06-26T02:56:32.489Z ::1 POST / (200)
+2023-06-26T02:57:11.563Z ::1 GET /api/v1/account
+2023-06-26T02:57:11.962Z ::1 GET / (304)
+2023-06-26T02:57:16.065Z ::1 POST /api/v1/cart
+2023-06-26T02:57:16.102Z ::1 POST / (200)
+2023-06-26T03:00:30.530Z ::1 GET /api/v1/account
+2023-06-26T03:00:32.148Z ::1 GET / (304)
+2023-06-26T03:00:33.488Z ::1 POST /api/v1/cart
+2023-06-26T03:00:33.831Z ::1 POST / (200)
+2023-06-26T03:02:49.148Z ::1 GET /api/v1/account
+2023-06-26T03:02:49.497Z ::1 GET / (304)
+2023-06-26T03:02:50.429Z ::1 POST /api/v1/cart
+2023-06-26T03:02:50.518Z ::1 POST / (200)
+2023-06-26T03:04:00.056Z ::1 GET /api/v1/account
+2023-06-26T03:04:00.805Z ::1 GET / (304)
+2023-06-26T03:04:02.806Z ::1 POST /api/v1/cart
+2023-06-26T03:04:02.884Z ::1 POST / (200)
+2023-06-26T03:05:04.906Z ::1 GET /api/v1/account
+2023-06-26T03:05:05.491Z ::1 GET / (304)
+2023-06-26T03:05:08.285Z ::1 POST /api/v1/cart
+2023-06-26T03:05:08.405Z ::1 POST / (200)
+2023-06-26T03:07:05.464Z ::1 GET /api/v1/account
+2023-06-26T03:07:06.429Z ::1 GET / (304)
+2023-06-26T03:07:10.784Z ::1 POST /api/v1/cart
+2023-06-26T03:07:10.839Z ::1 POST / (200)
+2023-06-26T03:08:09.143Z ::1 POST /api/v1/users/customer
+2023-06-26T03:08:09.714Z ::1 POST /api/v1/users/customer (500)
+2023-06-26T03:09:27.697Z ::1 GET /api/v1/account
+2023-06-26T03:09:28.098Z ::1 GET / (304)
+2023-06-26T03:09:30.668Z ::1 POST /api/v1/cart
+2023-06-26T03:09:30.810Z ::1 POST / (200)
+2023-06-26T03:09:52.616Z ::1 POST /api/v1/users/customer
+2023-06-26T03:09:53.072Z ::1 POST /customer (200)
+2023-06-26T03:11:53.836Z ::1 GET /api/v1/account
+2023-06-26T03:11:54.395Z ::1 GET / (304)
+2023-06-26T03:11:59.019Z ::1 POST /api/v1/cart
+2023-06-26T03:11:59.821Z ::1 POST / (200)
+2023-06-26T03:12:41.190Z ::1 GET /api/v1/account
+2023-06-26T03:12:42.497Z ::1 GET / (304)
+2023-06-26T03:12:48.777Z ::1 POST /api/v1/cart
+2023-06-26T03:12:49.322Z ::1 POST / (200)
+2023-06-26T03:13:02.738Z ::1 POST /api/v1/users/staff
+2023-06-26T03:13:03.307Z ::1 POST /api/v1/users/staff (500)
+2023-06-26T03:16:31.379Z ::1 GET /api/v1/account
+2023-06-26T03:16:32.165Z ::1 GET / (304)
+2023-06-26T03:16:42.282Z ::1 POST /api/v1/cart
+2023-06-26T03:16:42.647Z ::1 POST / (200)
+2023-06-26T03:17:25.296Z ::1 GET /api/v1/account
+2023-06-26T03:17:26.519Z ::1 GET / (304)
+2023-06-26T03:17:28.655Z ::1 POST /api/v1/cart
+2023-06-26T03:17:28.793Z ::1 POST / (200)
+2023-06-26T03:17:39.065Z ::1 POST /api/v1/users/customer
+2023-06-26T03:17:39.432Z ::1 POST /api/v1/users/customer (500)
+2023-06-26T03:19:27.321Z ::1 POST /api/v1/users/staff
+2023-06-26T03:19:27.906Z ::1 POST /staff (200)
+2023-06-26T03:22:03.709Z ::1 POST /api/v1/users/staff
+2023-06-26T03:22:04.291Z ::1 POST /staff (200)
+2023-06-26T03:25:07.763Z ::1 GET /api/v1/account
+2023-06-26T03:25:08.276Z ::1 GET / (304)
+2023-06-26T03:25:09.869Z ::1 POST /api/v1/cart
+2023-06-26T03:25:09.948Z ::1 POST / (200)
+2023-06-26T03:25:46.535Z ::1 POST /api/v1/users/staff
+2023-06-26T03:25:46.946Z ::1 POST /staff (200)
+2023-06-26T03:27:15.116Z ::1 GET /api/v1/users/staff
+2023-06-26T03:27:18.814Z ::1 GET /api/v1/account
+2023-06-26T03:27:19.041Z ::1 GET / (304)
+2023-06-26T03:27:20.053Z ::1 POST /api/v1/cart
+2023-06-26T03:27:20.181Z ::1 POST / (200)
+2023-06-26T03:27:22.015Z ::1 GET /api/v1/users/staff
+2023-06-26T03:27:22.234Z ::1 GET /staff (200)
+2023-06-26T03:27:32.128Z ::1 GET /api/v1/users/64722bbb1e0b79597169e874
+2023-06-26T03:27:32.438Z ::1 GET /64722bbb1e0b79597169e874 (200)
+2023-06-26T03:30:14.019Z ::1 GET /api/v1/account
+2023-06-26T03:30:16.581Z ::1 GET / (304)
+2023-06-26T03:30:19.179Z ::1 POST /api/v1/cart
+2023-06-26T03:30:20.543Z ::1 POST / (200)
+2023-06-26T03:30:20.888Z ::1 GET /api/v1/users/64722bbb1e0b79597169e874
+2023-06-26T03:30:22.149Z ::1 GET /64722bbb1e0b79597169e874 (304)
+2023-06-26T15:27:57.049Z ::1 GET /api/v1/account
+2023-06-26T15:27:57.495Z ::1 GET / (200)
+2023-06-26T15:27:58.455Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T15:27:58.466Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T15:27:58.477Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T15:27:58.495Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T15:27:58.502Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T15:27:58.512Z ::1 POST /api/v1/cart
+2023-06-26T15:27:58.617Z ::1 GET /?fields=name%20slug%20image (200)
+2023-06-26T15:27:58.653Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (200)
+2023-06-26T15:27:58.673Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (200)
+2023-06-26T15:27:58.679Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T15:27:58.706Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T15:27:58.726Z ::1 POST / (200)
+2023-06-26T15:28:00.215Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-06-26T15:28:00.644Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-06-26T16:37:50.475Z ::1 GET /api/v1/account
+2023-06-26T16:37:50.938Z ::1 GET /api/v1/account (401)
+2023-06-26T16:37:51.631Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T16:37:51.654Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T16:37:51.666Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:37:51.676Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:37:51.679Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T16:37:51.700Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:37:51.707Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:37:51.761Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-06-26T16:37:51.798Z ::1 GET /?fields=name%20slug%20image (200)
+2023-06-26T16:37:51.855Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (200)
+2023-06-26T16:37:52.629Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-06-26T16:37:52.945Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-06-26T16:37:54.682Z ::1 GET /api/v1/account
+2023-06-26T16:37:54.931Z ::1 GET /api/v1/account (401)
+2023-06-26T16:37:58.987Z ::1 POST /api/v1/auth/login
+2023-06-26T16:37:59.218Z ::1 POST /api/v1/auth/login (401)
+2023-06-26T16:38:01.790Z ::1 POST /api/v1/auth/login
+2023-06-26T16:38:01.912Z ::1 POST /api/v1/auth/login (401)
+2023-06-26T16:38:05.704Z ::1 POST /api/v1/auth/login
+2023-06-26T16:38:05.840Z ::1 POST /api/v1/auth/login (401)
+2023-06-26T16:38:07.628Z ::1 POST /api/v1/auth/login
+2023-06-26T16:38:07.901Z ::1 POST /login (200)
+2023-06-26T16:38:08.417Z ::1 POST /api/v1/cart
+2023-06-26T16:38:08.471Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:38:08.492Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:38:08.494Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T16:38:08.504Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T16:38:08.508Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T16:38:08.518Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:38:08.596Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:38:08.655Z ::1 GET /?fields=name%20slug%20image (304)
+2023-06-26T16:38:08.708Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-06-26T16:38:08.726Z ::1 POST / (200)
+2023-06-26T16:38:08.735Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-06-26T16:38:08.945Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-06-26T16:38:09.197Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-06-26T16:38:16.572Z ::1 GET /api/v1/products/iphone-11-quoc-te-like-new-99?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-06-26T16:38:16.779Z ::1 GET /iphone-11-quoc-te-like-new-99?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-06-26T16:38:18.755Z ::1 POST /api/v1/cart/add
+2023-06-26T16:38:19.122Z ::1 POST /add (200)
+2023-06-26T16:38:23.002Z ::1 GET /api/v1/account
+2023-06-26T16:38:23.292Z ::1 GET / (200)
+2023-06-26T16:38:23.633Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:38:23.639Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:38:23.643Z ::1 POST /api/v1/cart
+2023-06-26T16:38:23.655Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T16:38:23.663Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T16:38:23.671Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T16:38:23.677Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:38:23.688Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:38:23.718Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-06-26T16:38:23.727Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-06-26T16:38:23.747Z ::1 GET /?fields=name%20slug%20image (304)
+2023-06-26T16:38:23.775Z ::1 POST / (200)
+2023-06-26T16:38:26.270Z ::1 POST /api/v1/cart
+2023-06-26T16:38:26.302Z ::1 POST / (200)
+2023-06-26T16:39:02.759Z ::1 GET /api/v1/account/addresses
+2023-06-26T16:39:03.049Z ::1 GET /addresses (200)
+2023-06-26T16:39:56.398Z ::1 GET /api/v1/orders?page=1&status=&paymentStatus=&limit=1000000000
+2023-06-26T16:39:56.421Z ::1 GET /?page=1&status=&paymentStatus=&limit=1000000000 (200)
+2023-06-26T16:40:00.312Z ::1 GET /api/v1/account
+2023-06-26T16:40:00.607Z ::1 GET / (304)
+2023-06-26T16:42:56.421Z ::1 GET /api/v1/orders?page=1&status=&paymentStatus=&limit=1000000000
+2023-06-26T16:42:56.485Z ::1 GET /?page=1&status=&paymentStatus=&limit=1000000000 (304)
+2023-06-26T16:43:17.919Z ::1 GET /api/v1/account
+2023-06-26T16:43:18.408Z ::1 GET / (304)
+2023-06-26T16:43:23.772Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:43:23.777Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:43:23.787Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T16:43:23.797Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T16:43:23.807Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T16:43:23.840Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:43:24.077Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:43:24.174Z ::1 POST /api/v1/cart
+2023-06-26T16:43:24.572Z ::1 GET /?fields=name%20slug%20image (304)
+2023-06-26T16:43:24.618Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-06-26T16:43:24.708Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-06-26T16:43:24.733Z ::1 POST / (200)
+2023-06-26T16:43:25.707Z ::1 POST /api/v1/cart
+2023-06-26T16:43:25.738Z ::1 POST / (200)
+2023-06-26T16:43:28.892Z ::1 GET /api/v1/account/addresses
+2023-06-26T16:43:29.352Z ::1 GET /addresses (304)
+2023-06-26T16:43:32.647Z ::1 POST /api/v1/orders
+2023-06-26T16:43:32.972Z ::1 POST / (200)
+2023-06-26T16:43:33.199Z ::1 DELETE /api/v1/cart/6482c4843ff75c40e0fb9265/0000000000297
+2023-06-26T16:43:33.914Z ::1 DELETE /6482c4843ff75c40e0fb9265/0000000000297 (200)
+2023-06-26T16:43:38.905Z ::1 GET /api/v1/account
+2023-06-26T16:43:39.242Z ::1 GET / (304)
+2023-06-26T16:43:41.522Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:43:41.529Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:43:41.533Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T16:43:41.540Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T16:43:41.558Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:43:41.570Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:43:41.641Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-06-26T16:43:41.720Z ::1 GET /?fields=name%20slug%20image (304)
+2023-06-26T16:43:41.757Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T16:43:41.792Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-06-26T16:43:41.870Z ::1 POST /api/v1/cart
+2023-06-26T16:43:41.899Z ::1 POST / (200)
+2023-06-26T16:43:47.285Z ::1 GET /api/v1/orders/6499c03486c1b13ba067cb62
+2023-06-26T16:43:47.329Z ::1 GET /6499c03486c1b13ba067cb62 (200)
+2023-06-26T16:44:14.495Z ::1 GET /api/v1/orders?page=1&status=&paymentStatus=&limit=1000000000
+2023-06-26T16:44:14.534Z ::1 GET /?page=1&status=&paymentStatus=&limit=1000000000 (200)
+2023-06-26T16:50:24.629Z ::1 GET /api/v1/account
+2023-06-26T16:50:25.070Z ::1 GET / (304)
+2023-06-26T16:50:28.576Z ::1 POST /api/v1/cart
+2023-06-26T16:50:28.610Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T16:50:28.622Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:50:28.633Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:50:28.636Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T16:50:28.658Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T16:50:28.687Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:50:28.714Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:50:28.732Z ::1 POST / (200)
+2023-06-26T16:50:28.770Z ::1 GET /?fields=name%20slug%20image (304)
+2023-06-26T16:50:28.788Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-06-26T16:50:28.797Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-06-26T16:50:30.685Z ::1 GET /api/v1/orders?page=1&status=&paymentStatus=&limit=1000000000
+2023-06-26T16:50:30.741Z ::1 GET /?page=1&status=&paymentStatus=&limit=1000000000 (304)
+2023-06-26T16:51:47.183Z ::1 GET /api/v1/account
+2023-06-26T16:51:47.774Z ::1 GET / (304)
+2023-06-26T16:51:50.245Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:51:50.255Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:51:50.274Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:51:50.278Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:51:50.395Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T16:51:50.405Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T16:51:50.455Z ::1 GET /?fields=name%20slug%20image (304)
+2023-06-26T16:51:50.484Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-06-26T16:51:50.528Z ::1 POST /api/v1/cart
+2023-06-26T16:51:50.542Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T16:51:50.553Z ::1 POST / (200)
+2023-06-26T16:51:50.561Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-06-26T16:51:52.877Z ::1 GET /api/v1/products/6482c4843ff75c40e0fb9265?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt
+2023-06-26T16:51:53.286Z ::1 GET /6482c4843ff75c40e0fb9265?fields=_id%20name%20slug%20desc%20video%20overSpecs%20policies%20detailSpecs%20origin%20category%20brand%20tags%20views%20rate%20variants%20quantity%20warrantyPeriod%20isHide%20createdAt%20updatedAt (200)
+2023-06-26T16:51:57.742Z ::1 POST /api/v1/cart/add
+2023-06-26T16:51:58.094Z ::1 POST /add (200)
+2023-06-26T16:52:00.216Z ::1 GET /api/v1/account
+2023-06-26T16:52:00.571Z ::1 GET / (304)
+2023-06-26T16:52:01.016Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:52:01.021Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:52:01.025Z ::1 POST /api/v1/cart
+2023-06-26T16:52:01.035Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T16:52:01.040Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T16:52:01.044Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T16:52:01.050Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:52:01.066Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:52:01.092Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-06-26T16:52:01.116Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-06-26T16:52:01.201Z ::1 GET /?fields=name%20slug%20image (304)
+2023-06-26T16:52:01.218Z ::1 POST / (200)
+2023-06-26T16:52:01.835Z ::1 POST /api/v1/cart
+2023-06-26T16:52:01.867Z ::1 POST / (200)
+2023-06-26T16:52:03.150Z ::1 GET /api/v1/account/addresses
+2023-06-26T16:52:03.350Z ::1 GET /addresses (304)
+2023-06-26T16:52:12.899Z ::1 POST /api/v1/orders
+2023-06-26T16:52:13.032Z ::1 POST / (200)
+2023-06-26T16:52:13.168Z ::1 DELETE /api/v1/cart/6482c4843ff75c40e0fb9265/0000000000298
+2023-06-26T16:52:13.680Z ::1 GET /api/v1/account
+2023-06-26T16:52:13.902Z ::1 GET / (304)
+2023-06-26T16:52:14.248Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:52:14.253Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:52:14.258Z ::1 POST /api/v1/cart
+2023-06-26T16:52:14.268Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T16:52:14.275Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T16:52:14.283Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T16:52:14.287Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:52:14.293Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:52:14.414Z ::1 GET /?fields=name%20slug%20image (304)
+2023-06-26T16:52:14.429Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-06-26T16:52:14.432Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-06-26T16:52:14.435Z ::1 POST / (200)
+2023-06-26T16:52:15.434Z ::1 GET /api/v1/orders/6499c23c86c1b13ba067cb9d
+2023-06-26T16:52:15.549Z ::1 GET /6499c23c86c1b13ba067cb9d (200)
+2023-06-26T16:52:22.646Z ::1 GET /api/v1/account
+2023-06-26T16:52:22.856Z ::1 GET / (304)
+2023-06-26T16:52:25.025Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:52:25.032Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:52:25.107Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:52:25.116Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:52:25.121Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T16:52:25.135Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T16:52:25.170Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-06-26T16:52:25.217Z ::1 GET /?fields=name%20slug%20image (304)
+2023-06-26T16:52:25.284Z ::1 POST /api/v1/cart
+2023-06-26T16:52:25.290Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T16:52:25.316Z ::1 POST / (200)
+2023-06-26T16:52:25.319Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-06-26T16:52:27.822Z ::1 GET /api/v1/orders?page=1&status=&paymentStatus=&limit=1000000000
+2023-06-26T16:52:27.876Z ::1 GET /?page=1&status=&paymentStatus=&limit=1000000000 (200)
+2023-06-26T16:55:11.730Z ::1 GET /api/v1/account
+2023-06-26T16:55:11.908Z ::1 GET / (304)
+2023-06-26T16:55:13.630Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:55:13.639Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:55:13.643Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-06-26T16:55:13.648Z ::1 POST /api/v1/cart
+2023-06-26T16:55:13.666Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-06-26T16:55:13.679Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-06-26T16:55:13.691Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-06-26T16:55:13.696Z ::1 GET /api/v1/products/search/suggest?keyword= (404)
+2023-06-26T16:55:13.740Z ::1 GET /?fields=name%20slug%20image (304)
+2023-06-26T16:55:13.742Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-06-26T16:55:13.745Z ::1 POST / (200)
+2023-06-26T16:55:13.762Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)

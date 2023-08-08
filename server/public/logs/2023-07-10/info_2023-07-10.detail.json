@@ -1,0 +1,2 @@
+
+{"message":"connect ECONNREFUSED 172.30.128.1:27018","reason":{"type":"ReplicaSetNoPrimary","servers":{},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"mongoRepSet","maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}}

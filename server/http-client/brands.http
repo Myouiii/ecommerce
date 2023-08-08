@@ -1,0 +1,19 @@
+@BASE_URL = http://localhost:3001/api/v1
+@RESOURCE = brands
+
+GET {{BASE_URL}}/{{RESOURCE}}
+
+###
+@TOKEN = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJhMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEiLCJpYXQiOjE2ODQ3MzM3MDksImV4cCI6MTY4NTMzODUwOX0.NIwXo1flEUvZiO9zxeJ2fBHvis0X4oqPCukVbnVffX0
+
+
+### ADD BRAND
+POST {{BASE_URL}}/{{RESOURCE}}
+authorization: Bearer {{TOKEN}}
+content-type: application/json
+
+{
+   "name": "Brand test1",
+   "desc": "test12345",
+   "image": "http://localhost:3001/public/uploads/categories/old/others.svg"
+}

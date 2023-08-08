@@ -1,0 +1,59 @@
+
+2023-07-12T02:13:01.353Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-12T02:13:01.388Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-12T02:13:01.445Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-12T02:13:01.513Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-12T02:13:01.694Z ::1 GET /search/suggest?keyword= (304)
+2023-07-12T02:13:01.708Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-12T02:13:02.237Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-12T02:13:02.331Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-12T02:13:02.482Z ::1 GET /search/suggest?keyword= (304)
+2023-07-12T02:13:04.329Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-12T02:13:44.523Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-12T02:13:51.541Z ::1 GET /?search=&page=1&limit=20&b=&c= (200)
+2023-07-12T02:14:00.288Z ::1 POST /api/v1/auth/login
+2023-07-12T02:14:01.940Z ::1 POST /login (200)
+2023-07-12T02:14:10.351Z ::1 POST /api/v1/cart
+2023-07-12T02:14:10.635Z ::1 POST / (200)
+2023-07-12T02:14:16.804Z ::1 GET /api/v1/statistic/products
+2023-07-12T02:14:16.817Z ::1 GET /api/v1/brands
+2023-07-12T02:14:16.825Z ::1 GET /api/v1/categories
+2023-07-12T02:14:16.837Z ::1 GET /api/v1/users/customer
+2023-07-12T02:14:16.848Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-12T02:14:17.102Z ::1 GET /customer (200)
+2023-07-12T02:14:18.307Z ::1 GET / (304)
+2023-07-12T02:14:18.616Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (200)
+2023-07-12T02:14:18.639Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-12T02:14:20.038Z ::1 GET / (304)
+2023-07-12T02:14:20.592Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (304)
+2023-07-12T02:14:21.064Z ::1 GET /products (200)
+2023-07-12T02:14:21.085Z ::1 GET /api/v1/statistic/products
+2023-07-12T02:14:21.513Z ::1 GET /api/v1/account
+2023-07-12T02:14:22.089Z ::1 GET / (200)
+2023-07-12T02:14:22.732Z ::1 GET /products (304)
+2023-07-12T02:14:23.468Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-12T02:14:23.479Z ::1 GET /api/v1/categories?fields=name%20slug%20image
+2023-07-12T02:14:23.490Z ::1 GET /api/v1/brands?fields=name%20slug%20image&isHidden=0
+2023-07-12T02:14:23.498Z ::1 GET /api/v1/discounts?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image
+2023-07-12T02:14:23.517Z ::1 POST /api/v1/cart
+2023-07-12T02:14:23.741Z ::1 GET /search/suggest?keyword= (304)
+2023-07-12T02:14:23.746Z ::1 GET /api/v1/products/search/suggest?keyword=
+2023-07-12T02:14:23.772Z ::1 GET /?fields=name,desc,code,beginDate,endDate,quantity,unlimitedQty,discount,discountType,minimumTotal,maximumApplied,image (304)
+2023-07-12T02:14:24.480Z ::1 GET /?fields=name%20slug%20image&isHidden=0 (304)
+2023-07-12T02:14:24.501Z ::1 POST / (200)
+2023-07-12T02:14:24.540Z ::1 GET /search/suggest?keyword= (304)
+2023-07-12T02:14:25.705Z ::1 GET /?fields=name%20slug%20image (304)
+2023-07-12T02:14:32.091Z ::1 GET /api/v1/products?search=&page=1&limit=20&b=&c=
+2023-07-12T02:14:37.532Z ::1 GET /?search=&page=1&limit=20&b=&c= (304)
+2023-07-12T02:14:58.982Z ::1 GET /api/v1/account
+2023-07-12T02:14:59.531Z ::1 GET / (304)
+2023-07-12T02:14:59.973Z ::1 POST /api/v1/cart
+2023-07-12T02:15:00.250Z ::1 POST / (200)
+2023-07-12T02:15:00.978Z ::1 GET /api/v1/orders/manager/?search=&status=&paymentStatus=&page=1&limit=100000
+2023-07-12T02:15:01.844Z ::1 GET /manager/?search=&status=&paymentStatus=&page=1&limit=100000 (304)
+2023-07-12T02:19:25.818Z ::1 PATCH /api/v1/orders/manager/64acb1abd27cdc21ce2ce842
+2023-07-12T02:19:29.971Z ::1 PATCH /manager/64acb1abd27cdc21ce2ce842 (200)
+2023-07-12T02:19:55.658Z ::1 PATCH /api/v1/orders/manager/64acb1abd27cdc21ce2ce842
+2023-07-12T02:19:57.029Z ::1 PATCH /manager/64acb1abd27cdc21ce2ce842 (200)
+2023-07-12T02:21:14.635Z ::1 PATCH /api/v1/orders/manager/64acb1abd27cdc21ce2ce842
+2023-07-12T02:21:16.576Z ::1 PATCH /manager/64acb1abd27cdc21ce2ce842 (200)

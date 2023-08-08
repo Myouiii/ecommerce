@@ -1,0 +1,73 @@
+@BASE_URL = http://localhost:3001/api/v1
+@RESOURCE = payment
+
+
+POST {{BASE_URL}}/{{RESOURCE}}/momo
+Content-Type: application/json
+
+{
+"paymentMethod": "momo",
+  "name": "Tinh Bui",
+  "phone": "0921849782",
+  "receiveMethod": "store",
+  "isReceiveAtStore": true,
+  "isAuthenticated": false,
+  "street": "09 218 49 782",
+  "ward": "Phường Tân Định",
+  "district": "Quận 1",
+  "province": "Thành phố Hồ Chí Minh",
+  "note": "Alo mua 123123",
+  "userAddressId": "646b0fe6f20bada255955ea5",
+  "customerInfo": { "name": "Tinh Bui", "phone": "0921849782" },
+  "address": {
+    "street": "09 218 49 782",
+    "ward": "Phường Tân Định",
+    "district": "Quận 1",
+    "province": "Thành phố Hồ Chí Minh",
+    "name": "Tinh Bui",
+    "phone": "0921849782"
+  },
+  "items": [
+    {
+      "productId": "d00000000000000000000001",
+      "sku": "0000000000298",
+      "qty": 1
+    }
+  ]
+}
+
+###
+POST {{BASE_URL}}/{{RESOURCE}}/vnpay
+Content-Type: application/json
+
+{
+  "paymentMethod": "vnpay",
+  "name": "Tinh Bui",
+  "phone": "0921849782",
+  "receiveMethod": "store",
+  "isReceiveAtStore": true,
+  "isAuthenticated": false,
+  "street": "09 218 49 782",
+  "ward": "Phường Tân Định",
+  "district": "Quận 1",
+  "province": "Thành phố Hồ Chí Minh",
+  "note": "Alo mua 123123",
+  "userAddressId": "646b0fe6f20bada255955ea5",
+  "customerInfo": { "name": "Tinh Bui", "phone": "0921849782" },
+  "address": {
+    "street": "09 218 49 782",
+    "ward": "Phường Tân Định",
+    "district": "Quận 1",
+    "province": "Thành phố Hồ Chí Minh",
+    "name": "Tinh Bui",
+    "phone": "0921849782"
+  },
+  "items": [
+    {
+      "productId": "d00000000000000000000001",
+      "sku": "0000000000298",
+      "qty": 1
+    }
+  ]
+}
+
