@@ -5,6 +5,10 @@
   |----------------|--------|------------------------------|-------------------------------------|
   |PORT            | ❌     | Port to running server       | 3001                                |
   |MONGO_URI       | ✔      | Connect string to MongoDb    |                                     |
+  |MONGO_URI_ONLINE  | ❌     | Port to running server       | 3001                                |
+  |JWT_SECRET       | ✔      | Connect string to MongoDb    |                                     |
+  |JWT_EXPIRES_IN            | ❌     | Port to running server       | 3001                                |
+  |JWT_REFRESH_EXPIRES_IN       | ✔      | Connect string to MongoDb    |                                     |
   |MONGO_URI_ONLINE| |mongodb+srv://abcdefghijklmnopqrstuvwxyz
   |JWT_SECRET| |S3cr3tK3y|
   |JWT_EXPIRES_IN| |1d|
