@@ -5,10 +5,10 @@
   |----------------|--------|------------------------------|-------------------------------------|
   |PORT            | ❌     | Port to running server       | 3001                                |
   |MONGO_URI       | ✔      | Connect string to MongoDb    |                                     |
-  |MONGO_URI_ONLINE|: |mongodb+srv://abcdefghijklmnopqrstuvwxyz
-  |JWT_SECRET|: |S3cr3tK3y|
-  |JWT_EXPIRES_IN|: |1d|
-  |JWT_REFRESH_EXPIRES_IN|: |30d|
+  |MONGO_URI_ONLINE| |mongodb+srv://abcdefghijklmnopqrstuvwxyz
+  |JWT_SECRET| |S3cr3tK3y|
+  |JWT_EXPIRES_IN| |1d|
+  |JWT_REFRESH_EXPIRES_IN| |||30d|
   
   |VNPAY_SECRET|: |AEYSBINOKBQOGOKLVHCSWPLDWWCVHOLZ|
   |VNPAY_TMN_CODE|: |ABCD|
